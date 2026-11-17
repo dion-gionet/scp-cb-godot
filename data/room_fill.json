@@ -1,0 +1,9028 @@
+{
+	"item_order": [
+		[
+			"Some SCP-420-J",
+			"420"
+		],
+		[
+			"Level 1 Key Card",
+			"key1"
+		],
+		[
+			"Level 2 Key Card",
+			"key2"
+		],
+		[
+			"Level 3 Key Card",
+			"key3"
+		],
+		[
+			"Level 4 Key Card",
+			"key4"
+		],
+		[
+			"Level 5 Key Card",
+			"key5"
+		],
+		[
+			"Playing Card",
+			"misc"
+		],
+		[
+			"Mastercard",
+			"misc"
+		],
+		[
+			"Key Card Omni",
+			"key6"
+		],
+		[
+			"SCP-860",
+			"scp860"
+		],
+		[
+			"Document SCP-079",
+			"paper"
+		],
+		[
+			"Document SCP-895",
+			"paper"
+		],
+		[
+			"Document SCP-860",
+			"paper"
+		],
+		[
+			"Document SCP-860-1",
+			"paper"
+		],
+		[
+			"SCP-093 Recovered Materials",
+			"paper"
+		],
+		[
+			"Document SCP-106",
+			"paper"
+		],
+		[
+			"Dr. Allok's Note",
+			"paper"
+		],
+		[
+			"Recall Protocol RP-106-N",
+			"paper"
+		],
+		[
+			"Document SCP-682",
+			"paper"
+		],
+		[
+			"Document SCP-173",
+			"paper"
+		],
+		[
+			"Document SCP-372",
+			"paper"
+		],
+		[
+			"Document SCP-049",
+			"paper"
+		],
+		[
+			"Document SCP-096",
+			"paper"
+		],
+		[
+			"Document SCP-008",
+			"paper"
+		],
+		[
+			"Document SCP-012",
+			"paper"
+		],
+		[
+			"Document SCP-500",
+			"paper"
+		],
+		[
+			"Document SCP-714",
+			"paper"
+		],
+		[
+			"Document SCP-513",
+			"paper"
+		],
+		[
+			"Document SCP-035",
+			"paper"
+		],
+		[
+			"SCP-035 Addendum",
+			"paper"
+		],
+		[
+			"Document SCP-939",
+			"paper"
+		],
+		[
+			"Document SCP-966",
+			"paper"
+		],
+		[
+			"Document SCP-970",
+			"paper"
+		],
+		[
+			"Document SCP-1048",
+			"paper"
+		],
+		[
+			"Document SCP-1123",
+			"paper"
+		],
+		[
+			"Document SCP-1162",
+			"paper"
+		],
+		[
+			"Document SCP-1499",
+			"paper"
+		],
+		[
+			"Incident Report SCP-1048-A",
+			"paper"
+		],
+		[
+			"Drawing",
+			"paper"
+		],
+		[
+			"Leaflet",
+			"paper"
+		],
+		[
+			"Dr. L's Note",
+			"paper"
+		],
+		[
+			"Dr L's Note",
+			"paper"
+		],
+		[
+			"Blood-stained Note",
+			"paper"
+		],
+		[
+			"Dr. L's Burnt Note",
+			"paper"
+		],
+		[
+			"Dr L's Burnt Note",
+			"paper"
+		],
+		[
+			"Scorched Note",
+			"paper"
+		],
+		[
+			"Journal Page",
+			"paper"
+		],
+		[
+			"Log #1",
+			"paper"
+		],
+		[
+			"Log #2",
+			"paper"
+		],
+		[
+			"Log #3",
+			"paper"
+		],
+		[
+			"Strange Note",
+			"paper"
+		],
+		[
+			"Nuclear Device Document",
+			"paper"
+		],
+		[
+			"Class D Orientation Leaflet",
+			"paper"
+		],
+		[
+			"Note from Daniel",
+			"paper"
+		],
+		[
+			"Burnt Note",
+			"paper"
+		],
+		[
+			"Mysterious Note",
+			"paper"
+		],
+		[
+			"Mobile Task Forces",
+			"paper"
+		],
+		[
+			"Security Clearance Levels",
+			"paper"
+		],
+		[
+			"Object Classes",
+			"paper"
+		],
+		[
+			"Document",
+			"paper"
+		],
+		[
+			"Addendum: 5/14 Test Log",
+			"paper"
+		],
+		[
+			"Notification",
+			"paper"
+		],
+		[
+			"Incident Report SCP-106-0204",
+			"paper"
+		],
+		[
+			"Ballistic Vest",
+			"vest"
+		],
+		[
+			"Heavy Ballistic Vest",
+			"finevest"
+		],
+		[
+			"Bulky Ballistic Vest",
+			"veryfinevest"
+		],
+		[
+			"Hazmat Suit",
+			"hazmatsuit"
+		],
+		[
+			"Hazmat Suit",
+			"hazmatsuit2"
+		],
+		[
+			"Heavy Hazmat Suit",
+			"hazmatsuit3"
+		],
+		[
+			"cup",
+			"cup"
+		],
+		[
+			"Empty Cup",
+			"emptycup"
+		],
+		[
+			"SCP-500-01",
+			"scp500"
+		],
+		[
+			"First Aid Kit",
+			"firstaid"
+		],
+		[
+			"Small First Aid Kit",
+			"finefirstaid"
+		],
+		[
+			"Blue First Aid Kit",
+			"firstaid2"
+		],
+		[
+			"Strange Bottle",
+			"veryfinefirstaid"
+		],
+		[
+			"Gas Mask",
+			"gasmask"
+		],
+		[
+			"Gas Mask",
+			"supergasmask"
+		],
+		[
+			"Heavy Gas Mask",
+			"gasmask3"
+		],
+		[
+			"Origami",
+			"misc"
+		],
+		[
+			"Electronical components",
+			"misc"
+		],
+		[
+			"Metal Panel",
+			"scp148"
+		],
+		[
+			"SCP-148 Ingot",
+			"scp148ingot"
+		],
+		[
+			"S-NAV 300 Navigator",
+			"nav"
+		],
+		[
+			"S-NAV Navigator",
+			"nav"
+		],
+		[
+			"S-NAV Navigator Ultimate",
+			"nav"
+		],
+		[
+			"S-NAV 310 Navigator",
+			"nav"
+		],
+		[
+			"Radio Transceiver",
+			"radio"
+		],
+		[
+			"Radio Transceiver",
+			"fineradio"
+		],
+		[
+			"Radio Transceiver",
+			"veryfineradio"
+		],
+		[
+			"Radio Transceiver",
+			"18vradio"
+		],
+		[
+			"Cigarette",
+			"cigarette"
+		],
+		[
+			"Joint",
+			"420s"
+		],
+		[
+			"Smelly Joint",
+			"420s"
+		],
+		[
+			"Severed Hand",
+			"hand"
+		],
+		[
+			"Black Severed Hand",
+			"hand2"
+		],
+		[
+			"9V Battery",
+			"bat"
+		],
+		[
+			"18V Battery",
+			"18vbat"
+		],
+		[
+			"Strange Battery",
+			"killbat"
+		],
+		[
+			"Eyedrops",
+			"fineeyedrops"
+		],
+		[
+			"Eyedrops",
+			"supereyedrops"
+		],
+		[
+			"ReVision Eyedrops",
+			"eyedrops"
+		],
+		[
+			"RedVision Eyedrops",
+			"eyedrops"
+		],
+		[
+			"SCP-714",
+			"scp714"
+		],
+		[
+			"SCP-1025",
+			"scp1025"
+		],
+		[
+			"SCP-513",
+			"scp513"
+		],
+		[
+			"Clipboard",
+			"clipboard"
+		],
+		[
+			"SCP-1123",
+			"1123"
+		],
+		[
+			"Night Vision Goggles",
+			"supernv"
+		],
+		[
+			"Night Vision Goggles",
+			"nvgoggles"
+		],
+		[
+			"Night Vision Goggles",
+			"finenvgoggles"
+		],
+		[
+			"Syringe",
+			"syringe"
+		],
+		[
+			"Syringe",
+			"finesyringe"
+		],
+		[
+			"Syringe",
+			"veryfinesyringe"
+		],
+		[
+			"SCP-1499",
+			"scp1499"
+		],
+		[
+			"SCP-1499",
+			"super1499"
+		],
+		[
+			"Emily Ross' Badge",
+			"badge"
+		],
+		[
+			"Lost Key",
+			"key"
+		],
+		[
+			"Disciplinary Hearing DH-S-4137-17092",
+			"oldpaper"
+		],
+		[
+			"Coin",
+			"coin"
+		],
+		[
+			"Movie Ticket",
+			"ticket"
+		],
+		[
+			"Old Badge",
+			"badge"
+		],
+		[
+			"Quarter",
+			"25ct"
+		],
+		[
+			"Wallet",
+			"wallet"
+		],
+		[
+			"SCP-427",
+			"scp427"
+		],
+		[
+			"Upgraded pill",
+			"scp500death"
+		],
+		[
+			"Pill",
+			"pill"
+		],
+		[
+			"Sticky Note",
+			"paper"
+		],
+		[
+			"The Modular Site Project",
+			"paper"
+		],
+		[
+			"Research Sector-02 Scheme",
+			"paper"
+		],
+		[
+			"Document SCP-427",
+			"paper"
+		]
+	],
+	"item_templates": {
+		"18V Battery": {
+			"icon": "GFX/items/Battery/INVbattery18v.jpg",
+			"image": "",
+			"model": "GFX/items/Battery/Battery.x",
+			"scale": 0.01,
+			"sound": 0,
+			"tempname": "18vbat",
+			"texture": "GFX/items/Battery/Battery 18V.jpg"
+		},
+		"9V Battery": {
+			"icon": "GFX/items/Battery/INVbattery9v.jpg",
+			"image": "",
+			"model": "GFX/items/Battery/Battery.x",
+			"scale": 0.008,
+			"sound": 0,
+			"tempname": "bat",
+			"texture": ""
+		},
+		"Addendum: 5/14 Test Log": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docRAND2.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Ballistic Vest": {
+			"icon": "GFX/items/INVvest.jpg",
+			"image": "",
+			"model": "GFX/items/vest.x",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "vest",
+			"texture": "GFX/items/Vest.png"
+		},
+		"Black Severed Hand": {
+			"icon": "GFX/items/INVhand2.jpg",
+			"image": "",
+			"model": "GFX/items/severedhand.b3d",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "hand2",
+			"texture": "GFX/items/shand2.png"
+		},
+		"Blood-stained Note": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docL3.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Blue First Aid Kit": {
+			"icon": "GFX/items/INVfirstaid2.jpg",
+			"image": "",
+			"model": "GFX/items/firstaid.x",
+			"scale": 0.03,
+			"sound": 0,
+			"tempname": "firstaid2",
+			"texture": "GFX/items/firstaidkit2.jpg"
+		},
+		"Bulky Ballistic Vest": {
+			"icon": "GFX/items/INVvest.jpg",
+			"image": "",
+			"model": "GFX/items/vest.x",
+			"scale": 0.025,
+			"sound": 2,
+			"tempname": "veryfinevest",
+			"texture": "GFX/items/Vest.png"
+		},
+		"Burnt Note": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/bn.it",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Cigarette": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0004,
+			"sound": 2,
+			"tempname": "cigarette",
+			"texture": ""
+		},
+		"Class D Orientation Leaflet": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docORI.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Clipboard": {
+			"icon": "GFX/items/INVclipboard.jpg",
+			"image": "",
+			"model": "GFX/items/clipboard.b3d",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "clipboard",
+			"texture": ""
+		},
+		"Coin": {
+			"icon": "GFX/items/INVcoin.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.0005,
+			"sound": 3,
+			"tempname": "coin",
+			"texture": "GFX/items/coin.png"
+		},
+		"Disciplinary Hearing DH-S-4137-17092": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/dh.s",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "oldpaper",
+			"texture": ""
+		},
+		"Document": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docRAND3.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-008": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc008.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-012": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc012.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-035": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc035.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-049": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc049.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-079": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc079.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-096": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc096.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1048": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1048.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-106": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc106.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1123": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1123.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1162": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1162.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1499": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1499.png",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-173": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc173.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-372": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc372.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-427": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc427.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-500": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc500.png",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-513": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc513.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-682": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc682.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-714": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc714.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-860": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc860.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-860-1": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc8601.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-895": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc895.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-939": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc939.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-966": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc966.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-970": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc970.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Dr L's Burnt Note": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/docL5.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Dr L's Note": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docL2.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Dr. Allok's Note": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc106_2.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Dr. L's Burnt Note": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/docL4.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Dr. L's Note": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docL1.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Drawing": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1048.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Electronical components": {
+			"icon": "GFX/items/INVelectronics.jpg",
+			"image": "",
+			"model": "GFX/items/electronics.x",
+			"scale": 0.0011,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": ""
+		},
+		"Emily Ross' Badge": {
+			"icon": "GFX/items/INVbadge.jpg",
+			"image": "GFX/items/badge1.jpg",
+			"model": "GFX/items/badge.x",
+			"scale": 0.0001,
+			"sound": 3,
+			"tempname": "badge",
+			"texture": "GFX/items/badge1_tex.jpg"
+		},
+		"Empty Cup": {
+			"icon": "GFX/items/INVcup.jpg",
+			"image": "",
+			"model": "GFX/items/cup.x",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "emptycup",
+			"texture": ""
+		},
+		"Eyedrops": {
+			"icon": "GFX/items/INVeyedrops.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "supereyedrops",
+			"texture": "GFX/items/eyedrops.jpg"
+		},
+		"First Aid Kit": {
+			"icon": "GFX/items/INVfirstaid.jpg",
+			"image": "",
+			"model": "GFX/items/firstaid.x",
+			"scale": 0.05,
+			"sound": 0,
+			"tempname": "firstaid",
+			"texture": ""
+		},
+		"Gas Mask": {
+			"icon": "GFX/items/INVgasmask.jpg",
+			"image": "",
+			"model": "GFX/items/gasmask.b3d",
+			"scale": 0.021,
+			"sound": 2,
+			"tempname": "supergasmask",
+			"texture": ""
+		},
+		"Hazmat Suit": {
+			"icon": "GFX/items/INVhazmat.jpg",
+			"image": "",
+			"model": "GFX/items/hazmat.b3d",
+			"scale": 0.013,
+			"sound": 2,
+			"tempname": "hazmatsuit2",
+			"texture": ""
+		},
+		"Heavy Ballistic Vest": {
+			"icon": "GFX/items/INVvest.jpg",
+			"image": "",
+			"model": "GFX/items/vest.x",
+			"scale": 0.022,
+			"sound": 2,
+			"tempname": "finevest",
+			"texture": "GFX/items/Vest.png"
+		},
+		"Heavy Gas Mask": {
+			"icon": "GFX/items/INVgasmask.jpg",
+			"image": "",
+			"model": "GFX/items/gasmask.b3d",
+			"scale": 0.021,
+			"sound": 2,
+			"tempname": "gasmask3",
+			"texture": ""
+		},
+		"Heavy Hazmat Suit": {
+			"icon": "GFX/items/INVhazmat.jpg",
+			"image": "",
+			"model": "GFX/items/hazmat.b3d",
+			"scale": 0.013,
+			"sound": 2,
+			"tempname": "hazmatsuit3",
+			"texture": ""
+		},
+		"Incident Report SCP-1048-A": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1048a.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Incident Report SCP-106-0204": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docIR106.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Joint": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0004,
+			"sound": 2,
+			"tempname": "420s",
+			"texture": ""
+		},
+		"Journal Page": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docGonzales.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Key Card Omni": {
+			"icon": "GFX/items/INVkeyomni.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key6",
+			"texture": "GFX/items/keycardomni.jpg"
+		},
+		"Leaflet": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/leaflet.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Level 1 Key Card": {
+			"icon": "GFX/items/INVkey1.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key1",
+			"texture": "GFX/items/keycard1.jpg"
+		},
+		"Level 2 Key Card": {
+			"icon": "GFX/items/INVkey2.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key2",
+			"texture": "GFX/items/keycard2.jpg"
+		},
+		"Level 3 Key Card": {
+			"icon": "GFX/items/INVkey3.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key3",
+			"texture": "GFX/items/keycard3.jpg"
+		},
+		"Level 4 Key Card": {
+			"icon": "GFX/items/INVkey4.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key4",
+			"texture": "GFX/items/keycard4.jpg"
+		},
+		"Level 5 Key Card": {
+			"icon": "GFX/items/INVkey5.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key5",
+			"texture": "GFX/items/keycard5.jpg"
+		},
+		"Log #1": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/f4.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.004,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/f4.jpg"
+		},
+		"Log #2": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/f5.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.004,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/f4.jpg"
+		},
+		"Log #3": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/f6.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.004,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/f4.jpg"
+		},
+		"Lost Key": {
+			"icon": "GFX/items/INV1162_1.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.001,
+			"sound": 3,
+			"tempname": "key",
+			"texture": "GFX/items/key2.png"
+		},
+		"Mastercard": {
+			"icon": "GFX/items/INVmastercard.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": "GFX/items/mastercard.jpg"
+		},
+		"Metal Panel": {
+			"icon": "GFX/items/INVmetalpanel.jpg",
+			"image": "",
+			"model": "GFX/items/metalpanel.x",
+			"scale": 0.00390625,
+			"sound": 2,
+			"tempname": "scp148",
+			"texture": ""
+		},
+		"Mobile Task Forces": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docMTF.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Movie Ticket": {
+			"icon": "GFX/items/INVticket.jpg",
+			"image": "GFX/items/ticket.png",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.002,
+			"sound": 0,
+			"tempname": "ticket",
+			"texture": "GFX/items/tickettexture.png"
+		},
+		"Mysterious Note": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/sn.it",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Night Vision Goggles": {
+			"icon": "GFX/items/INVveryfinenightvision.jpg",
+			"image": "",
+			"model": "GFX/items/NVG.b3d",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "finenvgoggles",
+			"texture": ""
+		},
+		"Note from Daniel": {
+			"icon": "GFX/items/INVnote2.jpg",
+			"image": "GFX/items/docdan.jpg",
+			"model": "GFX/items/note.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Notification": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docRAND1.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Nuclear Device Document": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docNDP.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Object Classes": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docOBJC.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Old Badge": {
+			"icon": "GFX/items/INVoldbadge.jpg",
+			"image": "GFX/items/badge2.png",
+			"model": "GFX/items/badge.x",
+			"scale": 0.0001,
+			"sound": 0,
+			"tempname": "badge",
+			"texture": "GFX/items/badge2_tex.png"
+		},
+		"Origami": {
+			"icon": "GFX/items/INVorigami.jpg",
+			"image": "",
+			"model": "GFX/items/origami.b3d",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": ""
+		},
+		"Pill": {
+			"icon": "GFX/items/INVpillwhite.jpg",
+			"image": "",
+			"model": "GFX/items/pill.b3d",
+			"scale": 0.0001,
+			"sound": 2,
+			"tempname": "pill",
+			"texture": ""
+		},
+		"Playing Card": {
+			"icon": "GFX/items/INVcard.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": "GFX/items/card.jpg"
+		},
+		"Quarter": {
+			"icon": "GFX/items/INVcoin.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.0005,
+			"sound": 3,
+			"tempname": "25ct",
+			"texture": "GFX/items/coin.png"
+		},
+		"Radio Transceiver": {
+			"icon": "GFX/items/INVradio.jpg",
+			"image": "GFX/items/radioHUD.png",
+			"model": "GFX/items/radio.x",
+			"scale": 1.02,
+			"sound": 0,
+			"tempname": "18vradio",
+			"texture": ""
+		},
+		"ReVision Eyedrops": {
+			"icon": "GFX/items/INVeyedrops.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "eyedrops",
+			"texture": "GFX/items/eyedrops.jpg"
+		},
+		"Recall Protocol RP-106-N": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docRP.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"RedVision Eyedrops": {
+			"icon": "GFX/items/INVeyedropsred.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "eyedrops",
+			"texture": "GFX/items/eyedropsred.jpg"
+		},
+		"Research Sector-02 Scheme": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docmap.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"S-NAV 300 Navigator": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"S-NAV 310 Navigator": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"S-NAV Navigator": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"S-NAV Navigator Ultimate": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"SCP-035 Addendum": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc035ad.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"SCP-093 Recovered Materials": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc093rm.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"SCP-1025": {
+			"icon": "GFX/items/INV1025.jpg",
+			"image": "",
+			"model": "GFX/items/scp1025.b3d",
+			"scale": 0.1,
+			"sound": 0,
+			"tempname": "scp1025",
+			"texture": ""
+		},
+		"SCP-1123": {
+			"icon": "GFX/items/inv1123.jpg",
+			"image": "",
+			"model": "GFX/items/HGIB_Skull1.b3d",
+			"scale": 0.015,
+			"sound": 2,
+			"tempname": "1123",
+			"texture": ""
+		},
+		"SCP-148 Ingot": {
+			"icon": "GFX/items/INVscp148.jpg",
+			"image": "",
+			"model": "GFX/items/scp148.x",
+			"scale": 0.00390625,
+			"sound": 2,
+			"tempname": "scp148ingot",
+			"texture": ""
+		},
+		"SCP-1499": {
+			"icon": "GFX/items/INVscp1499.jpg",
+			"image": "",
+			"model": "GFX/items/SCP-1499.b3d",
+			"scale": 0.023,
+			"sound": 2,
+			"tempname": "super1499",
+			"texture": ""
+		},
+		"SCP-427": {
+			"icon": "GFX/items/INVscp427.jpg",
+			"image": "",
+			"model": "GFX/items/427.b3d",
+			"scale": 0.001,
+			"sound": 2,
+			"tempname": "scp427",
+			"texture": ""
+		},
+		"SCP-500-01": {
+			"icon": "GFX/items/INVpill.jpg",
+			"image": "",
+			"model": "GFX/items/pill.b3d",
+			"scale": 0.0001,
+			"sound": 2,
+			"tempname": "scp500",
+			"texture": ""
+		},
+		"SCP-513": {
+			"icon": "GFX/items/INV513.jpg",
+			"image": "",
+			"model": "GFX/items/513.x",
+			"scale": 0.1,
+			"sound": 2,
+			"tempname": "scp513",
+			"texture": ""
+		},
+		"SCP-714": {
+			"icon": "GFX/items/INV714.jpg",
+			"image": "",
+			"model": "GFX/items/scp714.b3d",
+			"scale": 0.3,
+			"sound": 3,
+			"tempname": "scp714",
+			"texture": ""
+		},
+		"SCP-860": {
+			"icon": "GFX/items/INVkey.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.001,
+			"sound": 3,
+			"tempname": "scp860",
+			"texture": ""
+		},
+		"Scorched Note": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/docL6.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Security Clearance Levels": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docSC.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Severed Hand": {
+			"icon": "GFX/items/INVhand.jpg",
+			"image": "",
+			"model": "GFX/items/severedhand.b3d",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "hand",
+			"texture": ""
+		},
+		"Small First Aid Kit": {
+			"icon": "GFX/items/INVfirstaid.jpg",
+			"image": "",
+			"model": "GFX/items/firstaid.x",
+			"scale": 0.03,
+			"sound": 0,
+			"tempname": "finefirstaid",
+			"texture": ""
+		},
+		"Smelly Joint": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0004,
+			"sound": 2,
+			"tempname": "420s",
+			"texture": ""
+		},
+		"Some SCP-420-J": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0005,
+			"sound": 2,
+			"tempname": "420",
+			"texture": ""
+		},
+		"Sticky Note": {
+			"icon": "GFX/items/INVnote2.jpg",
+			"image": "GFX/items/note682.jpg",
+			"model": "GFX/items/note.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Strange Battery": {
+			"icon": "GFX/items/Battery/INVbattery22900.jpg",
+			"image": "",
+			"model": "GFX/items/Battery/Battery.x",
+			"scale": 0.01,
+			"sound": 0,
+			"tempname": "killbat",
+			"texture": "GFX/items/Battery/Strange Battery.jpg"
+		},
+		"Strange Bottle": {
+			"icon": "GFX/items/INVbottle.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.002,
+			"sound": 0,
+			"tempname": "veryfinefirstaid",
+			"texture": "GFX/items/bottle.jpg"
+		},
+		"Strange Note": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docStrange.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Syringe": {
+			"icon": "GFX/items/Syringe/inv.png",
+			"image": "",
+			"model": "GFX/items/Syringe/syringe.b3d",
+			"scale": 0.005,
+			"sound": 2,
+			"tempname": "veryfinesyringe",
+			"texture": ""
+		},
+		"The Modular Site Project": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docMSP.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Upgraded pill": {
+			"icon": "GFX/items/INVpill.jpg",
+			"image": "",
+			"model": "GFX/items/pill.b3d",
+			"scale": 0.0001,
+			"sound": 2,
+			"tempname": "scp500death",
+			"texture": ""
+		},
+		"Wallet": {
+			"icon": "GFX/items/INVwallet.jpg",
+			"image": "",
+			"model": "GFX/items/wallet.b3d",
+			"scale": 0.0005,
+			"sound": 2,
+			"tempname": "wallet",
+			"texture": ""
+		},
+		"cup": {
+			"icon": "GFX/items/INVcup.jpg",
+			"image": "",
+			"model": "GFX/items/cup.x",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "cup",
+			"texture": ""
+		}
+	},
+	"item_variants": {
+		"18V Battery|18vbat": {
+			"icon": "GFX/items/Battery/INVbattery18v.jpg",
+			"image": "",
+			"model": "GFX/items/Battery/Battery.x",
+			"scale": 0.01,
+			"sound": 0,
+			"tempname": "18vbat",
+			"texture": "GFX/items/Battery/Battery 18V.jpg"
+		},
+		"9V Battery|bat": {
+			"icon": "GFX/items/Battery/INVbattery9v.jpg",
+			"image": "",
+			"model": "GFX/items/Battery/Battery.x",
+			"scale": 0.008,
+			"sound": 0,
+			"tempname": "bat",
+			"texture": ""
+		},
+		"Addendum: 5/14 Test Log|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docRAND2.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Ballistic Vest|vest": {
+			"icon": "GFX/items/INVvest.jpg",
+			"image": "",
+			"model": "GFX/items/vest.x",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "vest",
+			"texture": "GFX/items/Vest.png"
+		},
+		"Black Severed Hand|hand2": {
+			"icon": "GFX/items/INVhand2.jpg",
+			"image": "",
+			"model": "GFX/items/severedhand.b3d",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "hand2",
+			"texture": "GFX/items/shand2.png"
+		},
+		"Blood-stained Note|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docL3.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Blue First Aid Kit|firstaid2": {
+			"icon": "GFX/items/INVfirstaid2.jpg",
+			"image": "",
+			"model": "GFX/items/firstaid.x",
+			"scale": 0.03,
+			"sound": 0,
+			"tempname": "firstaid2",
+			"texture": "GFX/items/firstaidkit2.jpg"
+		},
+		"Bulky Ballistic Vest|veryfinevest": {
+			"icon": "GFX/items/INVvest.jpg",
+			"image": "",
+			"model": "GFX/items/vest.x",
+			"scale": 0.025,
+			"sound": 2,
+			"tempname": "veryfinevest",
+			"texture": "GFX/items/Vest.png"
+		},
+		"Burnt Note|paper": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/bn.it",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Cigarette|cigarette": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0004,
+			"sound": 2,
+			"tempname": "cigarette",
+			"texture": ""
+		},
+		"Class D Orientation Leaflet|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docORI.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Clipboard|clipboard": {
+			"icon": "GFX/items/INVclipboard.jpg",
+			"image": "",
+			"model": "GFX/items/clipboard.b3d",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "clipboard",
+			"texture": ""
+		},
+		"Coin|coin": {
+			"icon": "GFX/items/INVcoin.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.0005,
+			"sound": 3,
+			"tempname": "coin",
+			"texture": "GFX/items/coin.png"
+		},
+		"Disciplinary Hearing DH-S-4137-17092|oldpaper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/dh.s",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "oldpaper",
+			"texture": ""
+		},
+		"Document SCP-008|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc008.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-012|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc012.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-035|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc035.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-049|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc049.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-079|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc079.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-096|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc096.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1048|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1048.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-106|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc106.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1123|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1123.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1162|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1162.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-1499|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1499.png",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-173|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc173.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-372|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc372.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-427|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc427.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-500|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc500.png",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-513|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc513.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-682|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc682.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-714|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc714.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-860-1|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc8601.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-860|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc860.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-895|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc895.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-939|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc939.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-966|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc966.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document SCP-970|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc970.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Document|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docRAND3.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Dr L's Burnt Note|paper": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/docL5.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Dr L's Note|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docL2.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Dr. Allok's Note|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc106_2.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Dr. L's Burnt Note|paper": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/docL4.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Dr. L's Note|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docL1.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Drawing|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1048.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Electronical components|misc": {
+			"icon": "GFX/items/INVelectronics.jpg",
+			"image": "",
+			"model": "GFX/items/electronics.x",
+			"scale": 0.0011,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": ""
+		},
+		"Emily Ross' Badge|badge": {
+			"icon": "GFX/items/INVbadge.jpg",
+			"image": "GFX/items/badge1.jpg",
+			"model": "GFX/items/badge.x",
+			"scale": 0.0001,
+			"sound": 3,
+			"tempname": "badge",
+			"texture": "GFX/items/badge1_tex.jpg"
+		},
+		"Empty Cup|emptycup": {
+			"icon": "GFX/items/INVcup.jpg",
+			"image": "",
+			"model": "GFX/items/cup.x",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "emptycup",
+			"texture": ""
+		},
+		"Eyedrops|fineeyedrops": {
+			"icon": "GFX/items/INVeyedrops.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "fineeyedrops",
+			"texture": "GFX/items/eyedrops.jpg"
+		},
+		"Eyedrops|supereyedrops": {
+			"icon": "GFX/items/INVeyedrops.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "supereyedrops",
+			"texture": "GFX/items/eyedrops.jpg"
+		},
+		"First Aid Kit|firstaid": {
+			"icon": "GFX/items/INVfirstaid.jpg",
+			"image": "",
+			"model": "GFX/items/firstaid.x",
+			"scale": 0.05,
+			"sound": 0,
+			"tempname": "firstaid",
+			"texture": ""
+		},
+		"Gas Mask|gasmask": {
+			"icon": "GFX/items/INVgasmask.jpg",
+			"image": "",
+			"model": "GFX/items/gasmask.b3d",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "gasmask",
+			"texture": ""
+		},
+		"Gas Mask|supergasmask": {
+			"icon": "GFX/items/INVgasmask.jpg",
+			"image": "",
+			"model": "GFX/items/gasmask.b3d",
+			"scale": 0.021,
+			"sound": 2,
+			"tempname": "supergasmask",
+			"texture": ""
+		},
+		"Hazmat Suit|hazmatsuit": {
+			"icon": "GFX/items/INVhazmat.jpg",
+			"image": "",
+			"model": "GFX/items/hazmat.b3d",
+			"scale": 0.013,
+			"sound": 2,
+			"tempname": "hazmatsuit",
+			"texture": ""
+		},
+		"Hazmat Suit|hazmatsuit2": {
+			"icon": "GFX/items/INVhazmat.jpg",
+			"image": "",
+			"model": "GFX/items/hazmat.b3d",
+			"scale": 0.013,
+			"sound": 2,
+			"tempname": "hazmatsuit2",
+			"texture": ""
+		},
+		"Heavy Ballistic Vest|finevest": {
+			"icon": "GFX/items/INVvest.jpg",
+			"image": "",
+			"model": "GFX/items/vest.x",
+			"scale": 0.022,
+			"sound": 2,
+			"tempname": "finevest",
+			"texture": "GFX/items/Vest.png"
+		},
+		"Heavy Gas Mask|gasmask3": {
+			"icon": "GFX/items/INVgasmask.jpg",
+			"image": "",
+			"model": "GFX/items/gasmask.b3d",
+			"scale": 0.021,
+			"sound": 2,
+			"tempname": "gasmask3",
+			"texture": ""
+		},
+		"Heavy Hazmat Suit|hazmatsuit3": {
+			"icon": "GFX/items/INVhazmat.jpg",
+			"image": "",
+			"model": "GFX/items/hazmat.b3d",
+			"scale": 0.013,
+			"sound": 2,
+			"tempname": "hazmatsuit3",
+			"texture": ""
+		},
+		"Incident Report SCP-1048-A|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc1048a.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Incident Report SCP-106-0204|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docIR106.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Joint|420s": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0004,
+			"sound": 2,
+			"tempname": "420s",
+			"texture": ""
+		},
+		"Journal Page|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docGonzales.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Key Card Omni|key6": {
+			"icon": "GFX/items/INVkeyomni.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key6",
+			"texture": "GFX/items/keycardomni.jpg"
+		},
+		"Leaflet|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/leaflet.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Level 1 Key Card|key1": {
+			"icon": "GFX/items/INVkey1.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key1",
+			"texture": "GFX/items/keycard1.jpg"
+		},
+		"Level 2 Key Card|key2": {
+			"icon": "GFX/items/INVkey2.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key2",
+			"texture": "GFX/items/keycard2.jpg"
+		},
+		"Level 3 Key Card|key3": {
+			"icon": "GFX/items/INVkey3.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key3",
+			"texture": "GFX/items/keycard3.jpg"
+		},
+		"Level 4 Key Card|key4": {
+			"icon": "GFX/items/INVkey4.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key4",
+			"texture": "GFX/items/keycard4.jpg"
+		},
+		"Level 5 Key Card|key5": {
+			"icon": "GFX/items/INVkey5.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "key5",
+			"texture": "GFX/items/keycard5.jpg"
+		},
+		"Log #1|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/f4.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.004,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/f4.jpg"
+		},
+		"Log #2|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/f5.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.004,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/f4.jpg"
+		},
+		"Log #3|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/f6.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.004,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/f4.jpg"
+		},
+		"Lost Key|key": {
+			"icon": "GFX/items/INV1162_1.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.001,
+			"sound": 3,
+			"tempname": "key",
+			"texture": "GFX/items/key2.png"
+		},
+		"Mastercard|misc": {
+			"icon": "GFX/items/INVmastercard.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": "GFX/items/mastercard.jpg"
+		},
+		"Metal Panel|scp148": {
+			"icon": "GFX/items/INVmetalpanel.jpg",
+			"image": "",
+			"model": "GFX/items/metalpanel.x",
+			"scale": 0.00390625,
+			"sound": 2,
+			"tempname": "scp148",
+			"texture": ""
+		},
+		"Mobile Task Forces|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docMTF.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Movie Ticket|ticket": {
+			"icon": "GFX/items/INVticket.jpg",
+			"image": "GFX/items/ticket.png",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.002,
+			"sound": 0,
+			"tempname": "ticket",
+			"texture": "GFX/items/tickettexture.png"
+		},
+		"Mysterious Note|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/sn.it",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Night Vision Goggles|finenvgoggles": {
+			"icon": "GFX/items/INVveryfinenightvision.jpg",
+			"image": "",
+			"model": "GFX/items/NVG.b3d",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "finenvgoggles",
+			"texture": ""
+		},
+		"Night Vision Goggles|nvgoggles": {
+			"icon": "GFX/items/INVnightvision.jpg",
+			"image": "",
+			"model": "GFX/items/NVG.b3d",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "nvgoggles",
+			"texture": ""
+		},
+		"Night Vision Goggles|supernv": {
+			"icon": "GFX/items/INVsupernightvision.jpg",
+			"image": "",
+			"model": "GFX/items/NVG.b3d",
+			"scale": 0.02,
+			"sound": 2,
+			"tempname": "supernv",
+			"texture": ""
+		},
+		"Note from Daniel|paper": {
+			"icon": "GFX/items/INVnote2.jpg",
+			"image": "GFX/items/docdan.jpg",
+			"model": "GFX/items/note.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Notification|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docRAND1.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Nuclear Device Document|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docNDP.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Object Classes|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docOBJC.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Old Badge|badge": {
+			"icon": "GFX/items/INVoldbadge.jpg",
+			"image": "GFX/items/badge2.png",
+			"model": "GFX/items/badge.x",
+			"scale": 0.0001,
+			"sound": 0,
+			"tempname": "badge",
+			"texture": "GFX/items/badge2_tex.png"
+		},
+		"Origami|misc": {
+			"icon": "GFX/items/INVorigami.jpg",
+			"image": "",
+			"model": "GFX/items/origami.b3d",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": ""
+		},
+		"Pill|pill": {
+			"icon": "GFX/items/INVpillwhite.jpg",
+			"image": "",
+			"model": "GFX/items/pill.b3d",
+			"scale": 0.0001,
+			"sound": 2,
+			"tempname": "pill",
+			"texture": ""
+		},
+		"Playing Card|misc": {
+			"icon": "GFX/items/INVcard.jpg",
+			"image": "",
+			"model": "GFX/items/keycard.x",
+			"scale": 0.0004,
+			"sound": 0,
+			"tempname": "misc",
+			"texture": "GFX/items/card.jpg"
+		},
+		"Quarter|25ct": {
+			"icon": "GFX/items/INVcoin.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.0005,
+			"sound": 3,
+			"tempname": "25ct",
+			"texture": "GFX/items/coin.png"
+		},
+		"Radio Transceiver|18vradio": {
+			"icon": "GFX/items/INVradio.jpg",
+			"image": "GFX/items/radioHUD.png",
+			"model": "GFX/items/radio.x",
+			"scale": 1.02,
+			"sound": 0,
+			"tempname": "18vradio",
+			"texture": ""
+		},
+		"Radio Transceiver|fineradio": {
+			"icon": "GFX/items/INVradio.jpg",
+			"image": "GFX/items/radioHUD.png",
+			"model": "GFX/items/radio.x",
+			"scale": 1.0,
+			"sound": 0,
+			"tempname": "fineradio",
+			"texture": ""
+		},
+		"Radio Transceiver|radio": {
+			"icon": "GFX/items/INVradio.jpg",
+			"image": "GFX/items/radioHUD.png",
+			"model": "GFX/items/radio.x",
+			"scale": 1.0,
+			"sound": 0,
+			"tempname": "radio",
+			"texture": ""
+		},
+		"Radio Transceiver|veryfineradio": {
+			"icon": "GFX/items/INVradio.jpg",
+			"image": "GFX/items/radioHUD.png",
+			"model": "GFX/items/radio.x",
+			"scale": 1.0,
+			"sound": 0,
+			"tempname": "veryfineradio",
+			"texture": ""
+		},
+		"ReVision Eyedrops|eyedrops": {
+			"icon": "GFX/items/INVeyedrops.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "eyedrops",
+			"texture": "GFX/items/eyedrops.jpg"
+		},
+		"Recall Protocol RP-106-N|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docRP.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"RedVision Eyedrops|eyedrops": {
+			"icon": "GFX/items/INVeyedropsred.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.0012,
+			"sound": 0,
+			"tempname": "eyedrops",
+			"texture": "GFX/items/eyedropsred.jpg"
+		},
+		"Research Sector-02 Scheme|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docmap.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"S-NAV 300 Navigator|nav": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"S-NAV 310 Navigator|nav": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"S-NAV Navigator Ultimate|nav": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"S-NAV Navigator|nav": {
+			"icon": "GFX/items/INVnavigator.jpg",
+			"image": "GFX/items/navigator.png",
+			"model": "GFX/items/navigator.x",
+			"scale": 0.0008,
+			"sound": 0,
+			"tempname": "nav",
+			"texture": ""
+		},
+		"SCP-035 Addendum|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc035ad.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"SCP-093 Recovered Materials|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/doc093rm.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"SCP-1025|scp1025": {
+			"icon": "GFX/items/INV1025.jpg",
+			"image": "",
+			"model": "GFX/items/scp1025.b3d",
+			"scale": 0.1,
+			"sound": 0,
+			"tempname": "scp1025",
+			"texture": ""
+		},
+		"SCP-1123|1123": {
+			"icon": "GFX/items/inv1123.jpg",
+			"image": "",
+			"model": "GFX/items/HGIB_Skull1.b3d",
+			"scale": 0.015,
+			"sound": 2,
+			"tempname": "1123",
+			"texture": ""
+		},
+		"SCP-148 Ingot|scp148ingot": {
+			"icon": "GFX/items/INVscp148.jpg",
+			"image": "",
+			"model": "GFX/items/scp148.x",
+			"scale": 0.00390625,
+			"sound": 2,
+			"tempname": "scp148ingot",
+			"texture": ""
+		},
+		"SCP-1499|scp1499": {
+			"icon": "GFX/items/INVscp1499.jpg",
+			"image": "",
+			"model": "GFX/items/SCP-1499.b3d",
+			"scale": 0.023,
+			"sound": 2,
+			"tempname": "scp1499",
+			"texture": ""
+		},
+		"SCP-1499|super1499": {
+			"icon": "GFX/items/INVscp1499.jpg",
+			"image": "",
+			"model": "GFX/items/SCP-1499.b3d",
+			"scale": 0.023,
+			"sound": 2,
+			"tempname": "super1499",
+			"texture": ""
+		},
+		"SCP-427|scp427": {
+			"icon": "GFX/items/INVscp427.jpg",
+			"image": "",
+			"model": "GFX/items/427.b3d",
+			"scale": 0.001,
+			"sound": 2,
+			"tempname": "scp427",
+			"texture": ""
+		},
+		"SCP-500-01|scp500": {
+			"icon": "GFX/items/INVpill.jpg",
+			"image": "",
+			"model": "GFX/items/pill.b3d",
+			"scale": 0.0001,
+			"sound": 2,
+			"tempname": "scp500",
+			"texture": ""
+		},
+		"SCP-513|scp513": {
+			"icon": "GFX/items/INV513.jpg",
+			"image": "",
+			"model": "GFX/items/513.x",
+			"scale": 0.1,
+			"sound": 2,
+			"tempname": "scp513",
+			"texture": ""
+		},
+		"SCP-714|scp714": {
+			"icon": "GFX/items/INV714.jpg",
+			"image": "",
+			"model": "GFX/items/scp714.b3d",
+			"scale": 0.3,
+			"sound": 3,
+			"tempname": "scp714",
+			"texture": ""
+		},
+		"SCP-860|scp860": {
+			"icon": "GFX/items/INVkey.jpg",
+			"image": "",
+			"model": "GFX/items/key.b3d",
+			"scale": 0.001,
+			"sound": 3,
+			"tempname": "scp860",
+			"texture": ""
+		},
+		"Scorched Note|paper": {
+			"icon": "GFX/items/INVbn.jpg",
+			"image": "GFX/items/docL6.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/BurntNoteTexture.jpg"
+		},
+		"Security Clearance Levels|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docSC.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Severed Hand|hand": {
+			"icon": "GFX/items/INVhand.jpg",
+			"image": "",
+			"model": "GFX/items/severedhand.b3d",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "hand",
+			"texture": ""
+		},
+		"Small First Aid Kit|finefirstaid": {
+			"icon": "GFX/items/INVfirstaid.jpg",
+			"image": "",
+			"model": "GFX/items/firstaid.x",
+			"scale": 0.03,
+			"sound": 0,
+			"tempname": "finefirstaid",
+			"texture": ""
+		},
+		"Smelly Joint|420s": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0004,
+			"sound": 2,
+			"tempname": "420s",
+			"texture": ""
+		},
+		"Some SCP-420-J|420": {
+			"icon": "GFX/items/INV420.jpg",
+			"image": "",
+			"model": "GFX/items/420.x",
+			"scale": 0.0005,
+			"sound": 2,
+			"tempname": "420",
+			"texture": ""
+		},
+		"Sticky Note|paper": {
+			"icon": "GFX/items/INVnote2.jpg",
+			"image": "GFX/items/note682.jpg",
+			"model": "GFX/items/note.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Strange Battery|killbat": {
+			"icon": "GFX/items/Battery/INVbattery22900.jpg",
+			"image": "",
+			"model": "GFX/items/Battery/Battery.x",
+			"scale": 0.01,
+			"sound": 0,
+			"tempname": "killbat",
+			"texture": "GFX/items/Battery/Strange Battery.jpg"
+		},
+		"Strange Bottle|veryfinefirstaid": {
+			"icon": "GFX/items/INVbottle.jpg",
+			"image": "",
+			"model": "GFX/items/eyedrops.b3d",
+			"scale": 0.002,
+			"sound": 0,
+			"tempname": "veryfinefirstaid",
+			"texture": "GFX/items/bottle.jpg"
+		},
+		"Strange Note|paper": {
+			"icon": "GFX/items/INVnote.jpg",
+			"image": "GFX/items/docStrange.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.0025,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": "GFX/items/notetexture.jpg"
+		},
+		"Syringe|finesyringe": {
+			"icon": "GFX/items/Syringe/inv.png",
+			"image": "",
+			"model": "GFX/items/Syringe/syringe.b3d",
+			"scale": 0.005,
+			"sound": 2,
+			"tempname": "finesyringe",
+			"texture": ""
+		},
+		"Syringe|syringe": {
+			"icon": "GFX/items/Syringe/inv.png",
+			"image": "",
+			"model": "GFX/items/Syringe/syringe.b3d",
+			"scale": 0.005,
+			"sound": 2,
+			"tempname": "syringe",
+			"texture": ""
+		},
+		"Syringe|veryfinesyringe": {
+			"icon": "GFX/items/Syringe/inv.png",
+			"image": "",
+			"model": "GFX/items/Syringe/syringe.b3d",
+			"scale": 0.005,
+			"sound": 2,
+			"tempname": "veryfinesyringe",
+			"texture": ""
+		},
+		"The Modular Site Project|paper": {
+			"icon": "GFX/items/INVpaper.jpg",
+			"image": "GFX/items/docMSP.jpg",
+			"model": "GFX/items/paper.x",
+			"scale": 0.003,
+			"sound": 0,
+			"tempname": "paper",
+			"texture": ""
+		},
+		"Upgraded pill|scp500death": {
+			"icon": "GFX/items/INVpill.jpg",
+			"image": "",
+			"model": "GFX/items/pill.b3d",
+			"scale": 0.0001,
+			"sound": 2,
+			"tempname": "scp500death",
+			"texture": ""
+		},
+		"Wallet|wallet": {
+			"icon": "GFX/items/INVwallet.jpg",
+			"image": "",
+			"model": "GFX/items/wallet.b3d",
+			"scale": 0.0005,
+			"sound": 2,
+			"tempname": "wallet",
+			"texture": ""
+		},
+		"cup|cup": {
+			"icon": "GFX/items/INVcup.jpg",
+			"image": "",
+			"model": "GFX/items/cup.x",
+			"scale": 0.04,
+			"sound": 2,
+			"tempname": "cup",
+			"texture": ""
+		}
+	},
+	"rooms": {
+		"008": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 135.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": 2.2615,
+					"y": 1.7381,
+					"z": 3.0156,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"1": {
+							"x": 0.6406
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						0
+					],
+					"keycard": 4,
+					"locked": false,
+					"open": true,
+					"single": true,
+					"slot": 0,
+					"x": 1.1563,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": -2.625
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 1.6875,
+							"yaw": -90.0,
+							"z": -1.875
+						},
+						"1": {
+							"x": 0.6406,
+							"z": -0.5
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": true,
+					"slot": 1,
+					"x": 1.1563,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -0.5625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 4,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": -1.5,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -2.625
+				}
+			],
+			"draws": 5,
+			"items": [
+				{
+					"draw": 3,
+					"name": "Hazmat Suit",
+					"tempname": "hazmatsuit",
+					"x": -0.2969,
+					"y": 0.5,
+					"yaw": 90.0,
+					"z": -1.5469
+				},
+				{
+					"draw": 4,
+					"name": "Document SCP-008",
+					"tempname": "paper",
+					"x": -0.957,
+					"y": 0.75,
+					"z": 1.4375
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 1.1406,
+					"y": 0.5078,
+					"z": 2.0156
+				},
+				"1": {
+					"x": 1.1406,
+					"y": 0.5898,
+					"z": 2.25
+				},
+				"2": {
+					"x": -0.6875,
+					"y": 0.875,
+					"z": 1.75
+				},
+				"3": {
+					"x": -1.7383,
+					"y": 0.4688,
+					"z": 2.125
+				},
+				"4": {
+					"x": 0.2617,
+					"y": 0.4688,
+					"z": 1.8125
+				},
+				"5": {
+					"x": -0.6172,
+					"y": 1.4375,
+					"z": 1.1641
+				},
+				"6": {
+					"x": 0.625,
+					"y": 2.625,
+					"z": -1.5
+				},
+				"7": {
+					"x": 0.0,
+					"y": 2.625,
+					"z": 1.375
+				}
+			}
+		},
+		"173": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 270.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": -8.8125,
+						"y": 0.875,
+						"z": -3.625
+					},
+					"screen_yaw": 90.0,
+					"turn": 45.0,
+					"x": -15.8125,
+					"y": -0.125,
+					"z": -4.8125,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"hit_mesh": true,
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": -3.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.6875
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 3,
+					"x": -9.0625,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -4.875
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 4,
+					"x": -17.0,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -4.875
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 7,
+					"x": -14.5,
+					"y": -1.5039,
+					"yaw": 0.0,
+					"z": -0.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -14.5,
+					"y": -1.5039,
+					"yaw": 0.0,
+					"z": -9.125
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": -26.8125,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -4.875
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -22.875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -5.875
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -10.125,
+							"z": -3.9687
+						},
+						"1": {
+							"x": -10.125,
+							"z": -3.8437
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -9.5,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -3.9062
+				}
+			],
+			"draws": -1,
+			"items": [
+				{
+					"draw": -1,
+					"name": "Class D Orientation Leaflet",
+					"tempname": "paper",
+					"x": -15.3828,
+					"y": 0.6641,
+					"z": 0.1563
+				}
+			],
+			"objects": {}
+		},
+		"914": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": -1.9375,
+							"y": 0.7,
+							"z": -1.0625
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 1,
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.4375
+				},
+				{
+					"big": 0,
+					"buttons": false,
+					"code": "",
+					"dir": 4,
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": true,
+					"slot": 0,
+					"x": -2.4375,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": 2.0625
+				},
+				{
+					"big": 0,
+					"buttons": false,
+					"code": "",
+					"dir": 4,
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": true,
+					"slot": 1,
+					"x": 3.1875,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": 2.0625
+				}
+			],
+			"draws": 6,
+			"items": [
+				{
+					"draw": 3,
+					"name": "Addendum: 5/14 Test Log",
+					"tempname": "paper",
+					"x": 3.7266,
+					"y": 0.8906,
+					"z": 0.4961
+				},
+				{
+					"draw": 4,
+					"name": "First Aid Kit",
+					"tempname": "firstaid",
+					"x": 3.75,
+					"y": 0.4375,
+					"yaw": 90.0,
+					"z": -0.1562
+				},
+				{
+					"draw": 5,
+					"name": "Dr. L's Note",
+					"tempname": "paper",
+					"x": -3.625,
+					"y": 0.625,
+					"z": -0.625
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 0.0,
+					"y": 0.7422,
+					"z": 1.4609
+				},
+				"1": {
+					"x": 0.0,
+					"y": 0.8984,
+					"z": 1.4609
+				},
+				"2": {
+					"x": -2.7812,
+					"y": 0.5,
+					"z": 2.5
+				},
+				"3": {
+					"x": 2.8438,
+					"y": 0.5,
+					"z": 2.5
+				}
+			}
+		},
+		"checkpoint1": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 45.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 0.0,
+					"x": 0.75,
+					"y": 2.75,
+					"z": -3.75,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -0.5937,
+							"z": -1.375
+						},
+						"1": {
+							"x": -0.5937,
+							"z": 0.375
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 0.1875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -0.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": -1.375,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -0.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "GEAR",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -4.0
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 2.8125,
+					"y": 0.4688,
+					"z": 1.3008
+				},
+				"2": {
+					"x": -0.5937,
+					"y": 1.5,
+					"z": 0.4844
+				},
+				"3": {
+					"x": -0.5937,
+					"y": 1.5,
+					"z": -1.4844
+				}
+			}
+		},
+		"checkpoint2": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.5938,
+							"z": -0.375
+						},
+						"1": {
+							"x": 0.5938,
+							"z": 1.375
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -0.1875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 1.375,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "GEAR",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -4.0
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -2.8125,
+					"y": 0.4688,
+					"z": 1.8125
+				},
+				"2": {
+					"x": 0.5938,
+					"y": 1.5,
+					"z": 1.4844
+				},
+				"3": {
+					"x": 0.5938,
+					"y": 1.5,
+					"z": -0.4844
+				}
+			}
+		},
+		"coffin": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 225.0,
+					"coffin": 1,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 120.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": -3.125,
+						"y": 1.125,
+						"z": -1.3281
+					},
+					"screen_yaw": 180.0,
+					"turn": 45.0,
+					"x": -1.25,
+					"y": 2.75,
+					"z": 1.125,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": -1.5,
+							"y": 0.7,
+							"z": -1.0937
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.75
+				}
+			],
+			"draws": 4,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Document SCP-895",
+					"tempname": "paper",
+					"x": -2.6875,
+					"y": 0.5195,
+					"z": -1.1875
+				},
+				{
+					"draw": 2,
+					"name": "Level 3 Key Card",
+					"tempname": "key3",
+					"x": 0.9375,
+					"y": -5.6875,
+					"z": 8.0625
+				},
+				{
+					"draw": 3,
+					"name": "Night Vision Goggles",
+					"state": 400.0,
+					"tempname": "nvgoggles",
+					"x": 1.0938,
+					"y": -5.6875,
+					"z": 8.4531
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 0.0,
+					"y": -5.1562,
+					"z": 9.0
+				},
+				"1": {
+					"x": 0.375,
+					"y": -5.9844,
+					"z": 7.875
+				}
+			}
+		},
+		"dimension1499": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {}
+		},
+		"endroom": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 1,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 6,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 4.4375
+				}
+			],
+			"draws": 1,
+			"items": [],
+			"objects": {}
+		},
+		"endroomc": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 2,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 4.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				}
+			],
+			"draws": 1,
+			"items": [],
+			"objects": {}
+		},
+		"exit1": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": 0.0,
+							"y": 7.0,
+							"z": 0.0
+						},
+						"1": {
+							"x": 1.375,
+							"y": 0.7,
+							"z": -2.0625
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 1,
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 4,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.25
+				},
+				{
+					"big": 3,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0859
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0859
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 2.8125,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 5.5938
+				},
+				{
+					"big": 3,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0859
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0859
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": -21.1875,
+					"y": 42.125,
+					"yaw": 0.0,
+					"z": -5.3906
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": 17.0,
+					"y": 42.125,
+					"yaw": 0.0,
+					"z": -1.9219
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": 17.0,
+					"y": 42.125,
+					"yaw": 0.0,
+					"z": 1.9531
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "ABCD",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 5,
+					"x": 12.6875,
+					"y": 38.5,
+					"yaw": 0.0,
+					"z": 25.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 12.0,
+					"y": 38.5,
+					"yaw": 90.0,
+					"z": 22.6563
+				}
+			],
+			"draws": 7,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 17.0156,
+					"y": 38.1523,
+					"z": 10.1094
+				},
+				"10": {
+					"x": 17.0,
+					"y": 42.1016,
+					"z": 5.25
+				},
+				"11": {
+					"x": 11.0,
+					"y": 43.0625,
+					"z": -11.0
+				},
+				"14": {
+					"x": 13.8125,
+					"y": 40.0625,
+					"z": 21.5313
+				},
+				"15": {
+					"x": 13.8125,
+					"y": 40.0625,
+					"z": 22.75
+				},
+				"16": {
+					"x": 15.0625,
+					"y": 40.0625,
+					"z": 21.5313
+				},
+				"17": {
+					"x": 15.0625,
+					"y": 40.0625,
+					"z": 22.75
+				},
+				"18": {
+					"x": 12.6953,
+					"y": 38.6563,
+					"z": 25.8711
+				},
+				"19": {
+					"x": 14.875,
+					"y": 48.125,
+					"z": -53.0
+				},
+				"3": {
+					"x": -30.0,
+					"y": 42.9375,
+					"z": -105.6562
+				},
+				"4": {
+					"x": 20.3256,
+					"y": 47.375,
+					"z": -6.7937
+				},
+				"5": {
+					"x": 17.043,
+					"y": 41.1563,
+					"z": 10.8053
+				},
+				"6": {
+					"x": 20.2813,
+					"y": 47.625,
+					"z": -6.875
+				},
+				"7": {
+					"x": 20.2813,
+					"y": 47.625,
+					"z": -17.0
+				},
+				"8": {
+					"x": 2.8125,
+					"y": 0.0,
+					"z": 6.8125
+				},
+				"9": {
+					"x": -21.1875,
+					"y": 42.125,
+					"z": -4.1719
+				}
+			}
+		},
+		"gatea": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": -15.875,
+					"y": -5.0,
+					"yaw": 0.0,
+					"z": 15.4375
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -4.0
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -5.1562,
+							"z": 8.9375
+						},
+						"1": {
+							"x": -6.1875,
+							"yaw": 90.0,
+							"z": 9.7188
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -5.625,
+					"y": -1.875,
+					"yaw": 0.0,
+					"z": 9.0938
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -5.1562,
+							"yaw": 180.0,
+							"z": 17.125
+						},
+						"1": {
+							"x": -6.1875,
+							"yaw": 90.0,
+							"z": 16.5313
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -5.625,
+					"y": -1.875,
+					"yaw": 0.0,
+					"z": 17.0
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 6.1875,
+							"z": 0.3125
+						},
+						"1": {
+							"x": 5.6875,
+							"z": -0.8125
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 6.0313,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -0.25
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {
+				"11": {
+					"x": -15.875,
+					"y": -4.875,
+					"z": -6.625
+				},
+				"13": {
+					"x": -16.8281,
+					"y": -4.082,
+					"z": 2.125
+				},
+				"14": {
+					"x": -14.9219,
+					"y": -4.082,
+					"z": 2.125
+				},
+				"15": {
+					"x": -13.9375,
+					"y": -4.2539,
+					"z": 19.3125
+				},
+				"3": {
+					"x": 4.75,
+					"y": 0.0,
+					"z": 8.25
+				},
+				"4": {
+					"x": 0.0,
+					"y": 0.375,
+					"z": 25.0
+				},
+				"5": {
+					"x": 6.9688,
+					"y": 8.2969,
+					"z": 17.625
+				},
+				"6": {
+					"x": -19.7187,
+					"y": 7.4688,
+					"z": 18.1875
+				},
+				"7": {
+					"x": 7.125,
+					"y": 0.875,
+					"z": 27.5625
+				},
+				"8": {
+					"x": -7.125,
+					"y": 0.875,
+					"z": 27.5625
+				},
+				"9": {
+					"x": 10.25,
+					"y": 3.875,
+					"z": 24.0508
+				}
+			}
+		},
+		"gateaentrance": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 3.0625,
+							"z": 2.5625
+						},
+						"1": {
+							"x": 2.6875,
+							"z": 1.4375
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 2.9063,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.0
+				},
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": 0.0,
+							"y": 20.0,
+							"z": 0.0
+						},
+						"1": {
+							"x": 1.625,
+							"z": -2.25
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 1,
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.4062
+				}
+			],
+			"draws": 2,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 4.0938,
+					"y": 0.0,
+					"z": 2.0
+				}
+			}
+		},
+		"lockroom": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 225.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 40.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": 2.6094,
+						"y": 1.1,
+						"z": -0.375
+					},
+					"screen_yaw": 90.0,
+					"turn": 45.0,
+					"x": -2.6875,
+					"y": 1.5,
+					"z": 2.6875,
+					"zoom": 0.8
+				},
+				{
+					"allow_saving": true,
+					"angle": 45.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 40.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": 0.375,
+						"y": 1.1,
+						"z": -2.6094
+					},
+					"turn": 45.0,
+					"x": -0.4375,
+					"y": 1.5,
+					"z": 0.4375,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -1.125,
+							"y": 0.7,
+							"z": -2.5
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -0.4062
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.5,
+							"y": 0.7,
+							"yaw": 90.0,
+							"z": 1.125
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.4063,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 2.875
+				}
+			],
+			"draws": 2,
+			"items": [],
+			"objects": {}
+		},
+		"lockroom2": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 135.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 40.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": 2.6094,
+						"y": 1.1,
+						"z": -0.375
+					},
+					"screen_yaw": 90.0,
+					"turn": 45.0,
+					"x": 2.0,
+					"y": 1.5,
+					"z": 1.5,
+					"zoom": 0.8
+				},
+				{
+					"allow_saving": true,
+					"angle": 315.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 40.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": 0.375,
+						"y": 1.1,
+						"z": -2.6094
+					},
+					"turn": 45.0,
+					"x": -1.5,
+					"y": 1.5,
+					"z": -2.0,
+					"zoom": 0.8
+				}
+			],
+			"doors": [],
+			"draws": -1,
+			"items": [],
+			"objects": {}
+		},
+		"lockroom3": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -1.125,
+							"y": 0.7,
+							"z": -2.5
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -0.4062
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.5,
+							"y": 0.7,
+							"yaw": 90.0,
+							"z": 1.125
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.4063,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 2.875
+				}
+			],
+			"draws": 2,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 2.6094,
+					"y": 1.1,
+					"z": -0.375
+				},
+				"1": {
+					"x": 0.375,
+					"y": 1.1,
+					"z": -2.6094
+				}
+			}
+		},
+		"medibay": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -1.0312,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.5
+				}
+			],
+			"draws": 4,
+			"items": [
+				{
+					"draw": 0,
+					"name": "First Aid Kit",
+					"tempname": "firstaid",
+					"x": -1.9766,
+					"y": 0.75,
+					"z": -1.2578
+				},
+				{
+					"draw": 1,
+					"name": "Syringe",
+					"tempname": "syringe",
+					"x": -1.3008,
+					"y": 0.3906,
+					"z": 0.3801
+				},
+				{
+					"draw": 2,
+					"name": "Syringe",
+					"tempname": "syringe",
+					"x": -1.3281,
+					"y": 0.3906,
+					"z": 0.2043
+				}
+			],
+			"objects": {
+				"1": {
+					"x": -2.9766,
+					"y": 0.0,
+					"z": -1.3516
+				},
+				"3": {
+					"x": -3.2031,
+					"y": 0.0,
+					"z": -1.2437
+				}
+			}
+		},
+		"pocketdimension": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 0.0,
+					"y": 8.0,
+					"yaw": 0.0,
+					"z": 28.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 0.0,
+					"y": 8.0,
+					"yaw": 180.0,
+					"z": 36.0
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {
+				"11": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 64.0
+				}
+			}
+		},
+		"room012": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.875,
+							"z": 2.1094
+						},
+						"1": {
+							"x": 1.1875,
+							"z": 3.2813
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.0313,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 2.625
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.6875,
+							"y": -2.0,
+							"z": -1.4219
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -2.0,
+					"y": -3.0,
+					"yaw": 0.0,
+					"z": -1.3125
+				}
+			],
+			"draws": 5,
+			"items": [
+				{
+					"draw": 2,
+					"name": "Document SCP-012",
+					"tempname": "paper",
+					"x": -0.2187,
+					"y": -2.25,
+					"z": -1.5937
+				},
+				{
+					"draw": 3,
+					"name": "Severed Hand",
+					"tempname": "hand",
+					"x": -3.0625,
+					"y": -1.95,
+					"z": 2.5
+				}
+			],
+			"objects": {
+				"2": {
+					"x": -1.4062,
+					"y": -0.5078,
+					"z": 1.7813
+				},
+				"3": {
+					"x": -0.1699,
+					"y": -2.2422,
+					"z": -1.4141
+				},
+				"4": {
+					"x": -1.4062,
+					"y": -0.5078,
+					"z": 1.7813
+				}
+			}
+		},
+		"room035": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"1": {
+							"x": -0.6406
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						0
+					],
+					"keycard": 5,
+					"locked": true,
+					"open": true,
+					"single": true,
+					"slot": 0,
+					"x": -1.1562,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": -2.625
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -1.6875,
+							"yaw": 90.0,
+							"z": -1.875
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": true,
+					"slot": 1,
+					"x": -1.1562,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -0.5625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": 1.5,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": -2.625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "5731",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": 3.0,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.0
+				}
+			],
+			"draws": 9,
+			"items": [
+				{
+					"draw": 4,
+					"name": "SCP-035 Addendum",
+					"tempname": "paper",
+					"x": 0.9688,
+					"y": 0.8594,
+					"z": 2.25
+				},
+				{
+					"draw": 5,
+					"name": "Radio Transceiver",
+					"tempname": "radio",
+					"x": -2.125,
+					"y": 0.5,
+					"z": 2.75
+				},
+				{
+					"draw": 6,
+					"name": "SCP-500-01",
+					"tempname": "scp500",
+					"x": 4.5625,
+					"y": 0.875,
+					"z": 2.25
+				},
+				{
+					"draw": 7,
+					"name": "Metal Panel",
+					"tempname": "scp148",
+					"x": -1.4062,
+					"y": 0.5,
+					"z": 2.5156
+				},
+				{
+					"draw": 8,
+					"name": "Document SCP-035",
+					"tempname": "paper",
+					"x": 4.5625,
+					"y": 0.4063,
+					"z": 2.375
+				}
+			],
+			"objects": {
+				"3": {
+					"x": 1.7813,
+					"y": 0.5,
+					"z": 1.5625
+				},
+				"4": {
+					"x": -2.25,
+					"y": 0.5,
+					"z": 2.5
+				},
+				"7": {
+					"x": -2.8125,
+					"y": 0.5,
+					"z": 3.4375
+				},
+				"8": {
+					"x": 0.6875,
+					"y": 0.5,
+					"z": -0.5625
+				}
+			}
+		},
+		"room049": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 1.4375,
+							"y": 0.7,
+							"z": 3.2813
+						},
+						"1": {
+							"x": 1.125,
+							"y": 0.7,
+							"z": 2.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 1.2891,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.5625
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 11.4688,
+							"z": 7.8477
+						},
+						"1": {
+							"x": 11.2539,
+							"z": 6.4961
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 11.3203,
+					"y": -13.75,
+					"yaw": 90.0,
+					"z": 7.125
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": -1.9023,
+							"y": 0.7,
+							"z": -1.7461
+						},
+						"1": {
+							"x": -3.3477,
+							"y": 0.7,
+							"z": -1.4414
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 2,
+					"x": -2.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.5937
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": -10.082,
+							"z": -6.3711
+						},
+						"1": {
+							"x": -11.5273,
+							"z": -6.0664
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": -10.8047,
+					"y": -13.75,
+					"yaw": 0.0,
+					"z": -6.2187
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 4,
+					"x": 1.0625,
+					"y": -13.875,
+					"yaw": 90.0,
+					"z": 0.4063
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 5,
+					"x": 1.0313,
+					"y": -13.75,
+					"yaw": 90.0,
+					"z": -7.125
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 6,
+					"x": -1.0312,
+					"y": -13.75,
+					"yaw": 90.0,
+					"z": 7.125
+				},
+				{
+					"big": 2,
+					"buttons": true,
+					"code": "",
+					"keycard": -2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				},
+				{
+					"big": 1,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": -1.0625,
+					"y": -13.875,
+					"yaw": 90.0,
+					"z": 0.3828
+				},
+				{
+					"big": 2,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -11.6797,
+					"y": -13.75,
+					"yaw": 90.0,
+					"z": -7.125
+				},
+				{
+					"big": 2,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -3.5,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.5
+				}
+			],
+			"draws": 14,
+			"items": [
+				{
+					"draw": 8,
+					"name": "Document SCP-049",
+					"tempname": "paper",
+					"x": -2.375,
+					"y": -13.0156,
+					"z": 3.4219
+				},
+				{
+					"draw": 9,
+					"name": "Level 4 Key Card",
+					"tempname": "key4",
+					"x": -2.0,
+					"y": -13.3281,
+					"z": 3.375
+				},
+				{
+					"draw": 10,
+					"name": "First Aid Kit",
+					"tempname": "firstaid",
+					"x": 1.5039,
+					"y": -13.3281,
+					"z": 1.0586
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 2.5,
+					"y": 0.9375,
+					"z": 2.5625
+				},
+				"1": {
+					"x": 12.543,
+					"y": -12.8125,
+					"z": 7.125
+				},
+				"10": {
+					"x": -3.25,
+					"y": -13.6094,
+					"z": 6.1406
+				},
+				"11": {
+					"x": 10.3203,
+					"y": -13.7344,
+					"z": 7.1172
+				},
+				"12": {
+					"x": -10.4141,
+					"y": -13.7344,
+					"z": -7.0
+				},
+				"2": {
+					"x": -2.625,
+					"y": 0.9375,
+					"z": -0.3633
+				},
+				"3": {
+					"x": -10.8047,
+					"y": -12.8125,
+					"z": -4.9883
+				},
+				"4": {
+					"x": 2.0625,
+					"y": -13.4375,
+					"z": 0.375
+				},
+				"5": {
+					"x": 0.25,
+					"y": -13.4375,
+					"z": -3.9062
+				}
+			}
+		},
+		"room079": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": -0.9375,
+							"y": -0.9766,
+							"z": 5.3359
+						},
+						"1": {
+							"x": 0.875,
+							"y": -0.9766,
+							"z": 3.5859
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 1,
+					"keycard": 4,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": -1.75,
+					"yaw": 0.0,
+					"z": 4.4375
+				},
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": 6.875,
+							"y": -0.9375,
+							"z": 2.8906
+						},
+						"1": {
+							"x": 6.875,
+							"y": -0.9766,
+							"z": 4.8281
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 1,
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 5.6875,
+					"y": -1.75,
+					"yaw": 0.0,
+					"z": 3.8125
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": -1,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 4.4688,
+					"y": -1.75,
+					"yaw": 90.0,
+					"z": 2.75
+				}
+			],
+			"draws": 4,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 7.25,
+					"y": -2.1875,
+					"z": -2.625
+				},
+				"1": {
+					"x": 0.082,
+					"y": 0.119,
+					"z": 0.01
+				},
+				"2": {
+					"x": 4.625,
+					"y": -1.75,
+					"z": 7.0
+				}
+			}
+		},
+		"room106": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 315.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 45.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": -1.0625,
+						"y": -2.125,
+						"z": 11.7969
+					},
+					"screen_yaw": -10.0,
+					"turn": 20.0,
+					"x": 3.0,
+					"y": 5.4375,
+					"z": 6.625,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 4,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -3.7812,
+					"y": -2.9844,
+					"yaw": 0.0,
+					"z": 5.4375
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 4,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.8125
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 4,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.4375,
+					"y": -5.0,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": 6,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Level 5 Key Card",
+					"tempname": "key5",
+					"x": -2.9375,
+					"y": -2.3125,
+					"z": 11.8203
+				},
+				{
+					"draw": 1,
+					"name": "Dr. Allok's Note",
+					"tempname": "paper",
+					"x": -1.625,
+					"y": -2.25,
+					"z": 9.7344
+				},
+				{
+					"draw": 2,
+					"name": "Recall Protocol RP-106-N",
+					"tempname": "paper",
+					"x": 1.0469,
+					"y": -2.25,
+					"z": 10.1289
+				}
+			],
+			"objects": {
+				"10": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": -2.8125
+				},
+				"5": {
+					"x": 4.25,
+					"y": 4.3125,
+					"z": 7.375
+				},
+				"6": {
+					"x": 3.0625,
+					"y": -3.8281,
+					"z": 2.8125
+				},
+				"9": {
+					"x": -1.0625,
+					"y": -2.625,
+					"z": 10.6875
+				}
+			}
+		},
+		"room1123": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 3.7344,
+							"z": 1.375
+						},
+						"1": {
+							"x": 2.7852,
+							"z": 1.5
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": true,
+					"slot": -1,
+					"x": 3.25,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 1.4336
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.0938,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.3711
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 1.0938,
+					"y": 2.0,
+					"yaw": 90.0,
+					"z": -2.3711
+				}
+			],
+			"draws": 7,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Document SCP-1123",
+					"tempname": "paper",
+					"x": 1.9961,
+					"y": 0.4883,
+					"z": -3.6562
+				},
+				{
+					"draw": 1,
+					"name": "SCP-1123",
+					"tempname": "1123",
+					"x": 3.25,
+					"y": 0.6484,
+					"z": 3.0625
+				},
+				{
+					"draw": 2,
+					"name": "Leaflet",
+					"tempname": "paper",
+					"x": -3.1875,
+					"y": 2.75,
+					"z": 3.4688
+				},
+				{
+					"draw": 3,
+					"name": "Gas Mask",
+					"tempname": "gasmask",
+					"x": 1.7852,
+					"y": 0.5859,
+					"z": 3.75
+				}
+			],
+			"objects": {
+				"10": {
+					"x": -1.0625,
+					"y": 2.0,
+					"z": 2.875
+				},
+				"11": {
+					"x": -1.0625,
+					"y": 2.0,
+					"z": 2.6016
+				},
+				"12": {
+					"x": -2.3125,
+					"y": 2.0,
+					"z": -2.75
+				},
+				"13": {
+					"x": -2.5859,
+					"y": 2.0,
+					"z": -2.75
+				},
+				"3": {
+					"x": 3.25,
+					"y": 0.6484,
+					"z": 3.0625
+				},
+				"4": {
+					"x": -2.5312,
+					"y": 2.3125,
+					"z": 2.7031
+				},
+				"5": {
+					"x": 3.2344,
+					"y": 2.3125,
+					"z": 2.3125
+				},
+				"6": {
+					"x": -0.2969,
+					"y": 2.4219,
+					"z": 2.9063
+				},
+				"7": {
+					"x": -2.5,
+					"y": 2.4219,
+					"z": -3.375
+				},
+				"8": {
+					"x": -1.0625,
+					"y": 2.0,
+					"z": 1.125
+				},
+				"9": {
+					"x": -1.0625,
+					"y": 2.0,
+					"z": 0.8516
+				}
+			}
+		},
+		"room1162": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 225.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": -0.75,
+					"y": 2.75,
+					"z": 0.75,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.9688,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.875
+				}
+			],
+			"draws": 2,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Document SCP-1162",
+					"tempname": "paper",
+					"x": 3.372,
+					"y": 0.5938,
+					"z": -3.7236
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 3.9531,
+					"y": 0.5,
+					"z": -2.5
+				}
+			}
+		},
+		"room1archive": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 180.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": -1.0,
+					"y": 1.5,
+					"z": 2.5,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 6,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -2.0625
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {}
+		},
+		"room1lifts": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 45.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": true,
+					"turn": 45.0,
+					"x": 1.5,
+					"y": 1.5,
+					"z": -3.75,
+					"zoom": 0.8
+				}
+			],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {}
+		},
+		"room205": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 90.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": false,
+					"overlay": false,
+					"pitch": 0.0,
+					"render_interval": 0,
+					"screen": true,
+					"screen_at": {
+						"x": -6.7031,
+						"y": 0.625,
+						"z": 0.6875
+					},
+					"screen_yaw": 90.0,
+					"sprite_scale": {
+						"x": 1.75,
+						"y": 1.75
+					},
+					"turn": 0.0,
+					"x": -4.5,
+					"y": 3.5156,
+					"z": 0.6875,
+					"zoom": 1.5
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 0.5,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.5
+				},
+				{
+					"big": 0,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"hit_mesh": true,
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -5.4375,
+					"y": -0.5,
+					"yaw": 0.0,
+					"z": -1.5
+				}
+			],
+			"draws": 2,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -6.0,
+					"y": 2.8516,
+					"z": 0.75
+				}
+			}
+		},
+		"room2_2": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -0.9687,
+					"y": 2.0625,
+					"z": 0.0
+				}
+			}
+		},
+		"room2_3": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {}
+		},
+		"room2_4": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"6": {
+					"x": 2.5,
+					"y": 0.0313,
+					"z": -3.5
+				}
+			}
+		},
+		"room2cafeteria": {
+			"cams": [],
+			"doors": [],
+			"draws": 5,
+			"items": [
+				{
+					"draw": 0,
+					"name": "cup",
+					"tempname": "cup",
+					"x": -1.9844,
+					"y": -0.7305,
+					"z": 1.1094
+				},
+				{
+					"draw": 1,
+					"name": "cup",
+					"tempname": "cup",
+					"x": 5.5156,
+					"y": -0.7305,
+					"z": -2.7969
+				},
+				{
+					"draw": 2,
+					"name": "Empty Cup",
+					"tempname": "emptycup",
+					"x": -2.1094,
+					"y": -0.7305,
+					"z": 0.4844
+				},
+				{
+					"draw": 3,
+					"name": "Quarter",
+					"tempname": "25ct",
+					"x": -1.7461,
+					"y": -1.3047,
+					"z": 0.1406
+				},
+				{
+					"draw": 4,
+					"name": "Quarter",
+					"tempname": "25ct",
+					"x": 5.5039,
+					"y": -1.3047,
+					"z": -2.8594
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 7.2148,
+					"y": -0.9375,
+					"z": -1.2539
+				},
+				"1": {
+					"x": 6.9531,
+					"y": -0.9687,
+					"z": -1.0781
+				}
+			}
+		},
+		"room2ccont": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 45.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": -1.0352,
+					"y": 5.0,
+					"z": 0.4102,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.25,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": 1.4375
+				}
+			],
+			"draws": 2,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Note from Daniel",
+					"tempname": "paper",
+					"x": -1.5625,
+					"y": 4.0625,
+					"z": 0.4492
+				}
+			],
+			"objects": {}
+		},
+		"room2closets": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 180.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": 0.0,
+					"y": 2.75,
+					"z": 3.3711,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -0.8984
+						},
+						"1": {
+							"x": -0.9766
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -0.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": -1,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Document SCP-1048",
+					"tempname": "paper",
+					"x": 2.875,
+					"y": 0.6875,
+					"z": 2.875
+				},
+				{
+					"draw": 1,
+					"name": "Gas Mask",
+					"tempname": "gasmask",
+					"x": 2.875,
+					"y": 0.6875,
+					"z": 2.125
+				},
+				{
+					"draw": 2,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": 2.875,
+					"y": 0.6875,
+					"z": -1.75
+				},
+				{
+					"draw": 4,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": 2.8516,
+					"y": 0.6875,
+					"z": -1.9375
+				},
+				{
+					"draw": -1,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": 2.8906,
+					"y": 0.6875,
+					"z": -2.1875
+				},
+				{
+					"draw": -1,
+					"name": "Level 1 Key Card",
+					"tempname": "key1",
+					"x": 2.875,
+					"y": 0.9375,
+					"z": 2.9375
+				},
+				{
+					"draw": -1,
+					"name": "Clipboard",
+					"tempname": "clipboard",
+					"x": 2.875,
+					"y": 0.875,
+					"z": -1.875
+				},
+				{
+					"draw": -1,
+					"name": "Incident Report SCP-1048-A",
+					"tempname": "paper",
+					"x": 2.875,
+					"y": 0.875,
+					"z": -1.875
+				}
+			],
+			"objects": {
+				"0": {
+					"x": -4.375,
+					"y": -1.0,
+					"z": 3.5
+				},
+				"1": {
+					"x": -4.8125,
+					"y": -1.0,
+					"z": -0.625
+				}
+			}
+		},
+		"room2cpit": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 2,
+					"button_move": {
+						"0": {
+							"x": -0.9375
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -1.0,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.9375
+				}
+			],
+			"draws": 2,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Dr L's Note",
+					"tempname": "paper",
+					"x": -0.625,
+					"y": 0.125,
+					"z": -1.3789
+				}
+			],
+			"objects": {}
+		},
+		"room2doors": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -3.25,
+							"y": 0.7,
+							"z": 0.625
+						},
+						"1": {
+							"x": 0.625,
+							"y": 0.7,
+							"z": 2.0938
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 2.0625
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"1": {
+							"x": 0.625,
+							"y": 0.7,
+							"z": -2.0937
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"free_buttons": [
+						0
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": -2.0625
+				}
+			],
+			"draws": 2,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -3.25,
+					"y": 0.5,
+					"z": 0.0
+				}
+			}
+		},
+		"room2elevator": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 1.875,
+							"z": 0.7188
+						},
+						"1": {
+							"x": 1.625,
+							"z": -0.8125
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 1.75,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": 1,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 3.4688,
+					"y": 0.9375,
+					"z": 0.0
+				},
+				"1": {
+					"x": 3.99,
+					"y": 0.4688,
+					"z": 0.0
+				}
+			}
+		},
+		"room2gw": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.2688,
+							"z": -2.3698
+						},
+						"1": {
+							"x": 2.2688,
+							"z": -2.3698
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 0,
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 1.3125,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.4922
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.2688,
+							"z": -2.3698
+						},
+						"1": {
+							"x": 2.2688,
+							"z": -2.3698
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 0,
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 1,
+					"x": 1.3125,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": 1.8047
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 1.3438,
+					"y": 0.5,
+					"z": 0.0
+				},
+				"1": {
+					"x": 1.3125,
+					"y": 0.0,
+					"z": 1.8047
+				}
+			}
+		},
+		"room2gw_b": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.2688,
+							"z": -2.3698
+						},
+						"1": {
+							"x": 2.2688,
+							"z": -2.3698
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 0,
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 1.3125,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.4922
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.2688,
+							"z": -2.3698
+						},
+						"1": {
+							"x": 2.2688,
+							"z": -2.3698
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 0,
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 1,
+					"x": 1.3125,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": 1.8047
+				}
+			],
+			"draws": -1,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 1.0938,
+					"y": 1.3477,
+					"z": -1.3281
+				},
+				"2": {
+					"x": -0.6126,
+					"y": -0.1459,
+					"z": 0.4741
+				}
+			}
+		},
+		"room2nuke": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 90.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": 2.4375,
+					"y": 7.375,
+					"z": -1.2187,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.3516,
+							"z": 0.0781
+						},
+						"1": {
+							"x": 2.1484,
+							"z": 0.0781
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": true,
+					"slot": -1,
+					"x": 2.25,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.5938
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"z": 2.375
+						},
+						"1": {
+							"z": 2.375
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 5,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.125,
+					"y": 5.875,
+					"yaw": 90.0,
+					"z": 2.8828
+				},
+				{
+					"big": 3,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 4.6563,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				},
+				{
+					"big": 3,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 2.6563,
+					"y": 5.875,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": 6,
+			"items": [
+				{
+					"draw": 4,
+					"name": "Nuclear Device Document",
+					"tempname": "paper",
+					"x": -3.0,
+					"y": 6.5781,
+					"z": -3.0
+				},
+				{
+					"draw": 5,
+					"name": "Ballistic Vest",
+					"tempname": "vest",
+					"x": -3.6875,
+					"y": 6.4531,
+					"yaw": -90.0,
+					"z": -2.5625
+				}
+			],
+			"objects": {
+				"4": {
+					"x": 5.8438,
+					"y": 0.9375,
+					"z": 0.0
+				},
+				"5": {
+					"x": 3.8438,
+					"y": 6.8125,
+					"z": 0.0
+				},
+				"6": {
+					"x": 4.3359,
+					"y": 0.1406,
+					"z": -0.8125
+				}
+			}
+		},
+		"room2offices": {
+			"cams": [],
+			"doors": [],
+			"draws": 4,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Document SCP-106",
+					"tempname": "paper",
+					"x": 1.5781,
+					"y": 0.5664,
+					"z": 2.1836
+				},
+				{
+					"draw": 1,
+					"name": "Level 2 Key Card",
+					"tempname": "key2",
+					"x": -0.6094,
+					"y": 0.5898,
+					"z": 0.2813
+				},
+				{
+					"draw": 2,
+					"name": "S-NAV 300 Navigator",
+					"state": 20.0,
+					"tempname": "nav",
+					"x": 1.1914,
+					"y": 0.5977,
+					"z": 3.6875
+				},
+				{
+					"draw": 3,
+					"name": "Notification",
+					"tempname": "paper",
+					"x": -0.5352,
+					"y": 0.5977,
+					"z": 1.8125
+				}
+			],
+			"objects": {}
+		},
+		"room2offices2": {
+			"cams": [],
+			"doors": [],
+			"draws": -1,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Level 1 Key Card",
+					"tempname": "key1",
+					"x": -1.4375,
+					"y": -0.1875,
+					"z": 0.3125
+				},
+				{
+					"draw": 1,
+					"name": "Document SCP-895",
+					"tempname": "paper",
+					"x": -3.125,
+					"y": -0.1875,
+					"z": 1.4375
+				},
+				{
+					"draw": 3,
+					"name": "Document SCP-860",
+					"tempname": "paper",
+					"x": -3.125,
+					"y": -0.1875,
+					"z": -1.8125
+				},
+				{
+					"draw": -1,
+					"name": "SCP-093 Recovered Materials",
+					"tempname": "paper",
+					"x": -3.125,
+					"y": -0.1875,
+					"z": -1.8125
+				},
+				{
+					"draw": -1,
+					"name": "S-NAV 300 Navigator",
+					"state": 28.0,
+					"tempname": "nav",
+					"x": -1.3125,
+					"y": -0.1875,
+					"z": -1.875
+				}
+			],
+			"objects": {
+				"1": {
+					"x": -3.1562,
+					"y": -0.2812,
+					"z": -0.1562
+				},
+				"2": {
+					"x": -1.9062,
+					"y": 0.625,
+					"z": 2.7344
+				},
+				"3": {
+					"x": -1.9062,
+					"y": 0.625,
+					"z": -2.6094
+				},
+				"4": {
+					"x": -2.2344,
+					"y": 1.3672,
+					"z": -0.0156
+				}
+			}
+		},
+		"room2offices3": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"z": 0.6289
+						},
+						"1": {
+							"z": 0.6289
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": -4.125,
+					"y": 1.5,
+					"yaw": 90.0,
+					"z": 1.1328
+				}
+			],
+			"draws": -1,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Mobile Task Forces",
+					"tempname": "paper",
+					"x": 2.9063,
+					"y": 0.9375,
+					"z": 3.6875
+				},
+				{
+					"draw": -1,
+					"name": "Security Clearance Levels",
+					"tempname": "paper",
+					"x": 2.6563,
+					"y": 0.9375,
+					"z": 3.6875
+				},
+				{
+					"draw": -1,
+					"name": "Object Classes",
+					"tempname": "paper",
+					"x": 0.625,
+					"y": 0.9375,
+					"z": 2.2188
+				},
+				{
+					"draw": -1,
+					"name": "Document",
+					"tempname": "paper",
+					"x": -5.625,
+					"y": 2.4375,
+					"z": 0.5938
+				},
+				{
+					"draw": -1,
+					"name": "Radio Transceiver",
+					"tempname": "radio",
+					"x": -4.625,
+					"y": 1.875,
+					"z": -3.125
+				},
+				{
+					"draw": -1,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": -6.0352,
+					"y": 2.3555,
+					"z": -1.4531
+				},
+				{
+					"draw": -1,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": -6.0156,
+					"y": 2.3555,
+					"z": -1.3281
+				},
+				{
+					"draw": -1,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": -5.9727,
+					"y": 2.3555,
+					"z": -1.2031
+				}
+			],
+			"objects": {}
+		},
+		"room2offices4": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -0.8984
+						},
+						"1": {
+							"x": -0.9766
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -0.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": 2,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Sticky Note",
+					"tempname": "paper",
+					"x": -3.8711,
+					"y": -0.9453,
+					"z": 3.5313
+				}
+			],
+			"objects": {}
+		},
+		"room2pipes": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 1.4375,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"1": {
+					"x": -1.4375,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"2": {
+					"x": 0.87,
+					"y": 0.75,
+					"z": 0.0
+				},
+				"3": {
+					"x": -0.87,
+					"y": 0.75,
+					"z": 0.0
+				}
+			}
+		},
+		"room2pit": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"6": {
+					"x": 2.5,
+					"y": 0.0313,
+					"z": -3.5
+				},
+				"7": {
+					"x": -3.375,
+					"y": -1.5625,
+					"z": -2.4687
+				}
+			}
+		},
+		"room2poffices": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.9688
+						},
+						"1": {
+							"x": 0.9063
+						}
+					},
+					"buttons": true,
+					"code": "$ACCESS",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 1.75
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -1.9062
+						},
+						"1": {
+							"x": -1.9687
+						}
+					},
+					"buttons": true,
+					"code": "ABCD",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -1.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.9688
+						},
+						"1": {
+							"x": 0.9063
+						}
+					},
+					"buttons": true,
+					"code": "7816",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.25
+				}
+			],
+			"draws": 8,
+			"items": [
+				{
+					"draw": 3,
+					"name": "Mysterious Note",
+					"tempname": "paper",
+					"x": 2.875,
+					"y": 0.875,
+					"z": 2.125
+				},
+				{
+					"draw": 4,
+					"name": "Ballistic Vest",
+					"tempname": "vest",
+					"x": 2.375,
+					"y": 0.4375,
+					"yaw": 90.0,
+					"z": 0.125
+				},
+				{
+					"draw": 5,
+					"name": "Incident Report SCP-106-0204",
+					"tempname": "paper",
+					"x": 2.75,
+					"y": 0.7148,
+					"z": -2.25
+				},
+				{
+					"draw": 6,
+					"name": "Journal Page",
+					"tempname": "paper",
+					"x": 3.5625,
+					"y": 0.6875,
+					"z": -0.625
+				},
+				{
+					"draw": 7,
+					"name": "First Aid Kit",
+					"tempname": "firstaid",
+					"x": 3.5625,
+					"y": 0.4375,
+					"yaw": 90.0,
+					"z": -1.3125
+				}
+			],
+			"objects": {}
+		},
+		"room2poffices2": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.875,
+							"z": 0.6875
+						},
+						"1": {
+							"x": 1.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.9375,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.1875
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -1.625,
+							"z": 0.6875
+						}
+					},
+					"buttons": true,
+					"code": "1234",
+					"free_buttons": [
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -1.6875,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": 8,
+			"items": [
+				{
+					"draw": 5,
+					"name": "Dr. L's Burnt Note",
+					"tempname": "paper",
+					"x": -2.6875,
+					"y": 1.0,
+					"z": -0.0625
+				},
+				{
+					"draw": 6,
+					"name": "Dr L's Burnt Note",
+					"tempname": "paper",
+					"x": -3.1562,
+					"y": 1.0,
+					"z": -0.2812
+				},
+				{
+					"draw": 7,
+					"name": "The Modular Site Project",
+					"tempname": "paper",
+					"x": 2.4297,
+					"y": 0.4883,
+					"z": -0.2852
+				}
+			],
+			"objects": {
+				"0": {
+					"x": -3.1562,
+					"y": 1.0,
+					"z": -0.2812
+				}
+			}
+		},
+		"room2scps": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 180.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 30.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 30.0,
+					"x": 2.1875,
+					"y": 1.5078,
+					"z": -1.625,
+					"zoom": 0.8
+				},
+				{
+					"allow_saving": false,
+					"angle": 180.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 30.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 30.0,
+					"x": -2.1875,
+					"y": 1.5078,
+					"z": -1.625,
+					"zoom": 0.8
+				},
+				{
+					"allow_saving": false,
+					"angle": 0.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 30.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 30.0,
+					"x": 2.1875,
+					"y": 1.5078,
+					"z": 1.875,
+					"zoom": 0.8
+				},
+				{
+					"allow_saving": false,
+					"angle": 0.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 30.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 30.0,
+					"x": -2.1875,
+					"y": 1.5078,
+					"z": 1.875,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 1.25
+						},
+						"1": {
+							"x": 0.875
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.0313,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": -1.25
+						},
+						"1": {
+							"x": -0.875
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -1.0312,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": -2.1875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.0625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": 2.1875,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": -1.0625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": 2.1875,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": 1.0625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 4,
+					"x": -2.1875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 1.0625
+				}
+			],
+			"draws": -1,
+			"items": [
+				{
+					"draw": 6,
+					"name": "SCP-714",
+					"tempname": "scp714",
+					"x": -2.1562,
+					"y": 0.8594,
+					"z": -2.9687
+				},
+				{
+					"draw": 7,
+					"name": "SCP-1025",
+					"tempname": "scp1025",
+					"x": 2.1563,
+					"y": 0.875,
+					"z": -2.9609
+				},
+				{
+					"draw": 8,
+					"name": "SCP-860",
+					"tempname": "scp860",
+					"x": 2.2188,
+					"y": 0.6953,
+					"z": 2.9688
+				},
+				{
+					"draw": 9,
+					"name": "Document SCP-714",
+					"tempname": "paper",
+					"x": -2.8437,
+					"y": 1.125,
+					"z": -1.4062
+				},
+				{
+					"draw": 10,
+					"name": "Document SCP-427",
+					"tempname": "paper",
+					"x": -2.375,
+					"y": 0.2578,
+					"z": 2.4844
+				}
+			],
+			"objects": {}
+		},
+		"room2scps2": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 220.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 30.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 30.0,
+					"x": 3.3203,
+					"y": 1.3672,
+					"z": 3.4219,
+					"zoom": 0.8
+				},
+				{
+					"allow_saving": false,
+					"angle": 180.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 30.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 30.0,
+					"x": 2.3438,
+					"y": 2.0078,
+					"z": 0.5859,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 1.125,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.25
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 4,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 3.0352,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.6211
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 2.1719,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 1.1563
+				}
+			],
+			"draws": 7,
+			"items": [
+				{
+					"draw": 3,
+					"name": "SCP-1499",
+					"tempname": "scp1499",
+					"x": 2.3438,
+					"y": 0.6875,
+					"yaw": 0.0,
+					"z": -0.8906
+				},
+				{
+					"draw": 4,
+					"name": "Document SCP-1499",
+					"tempname": "paper",
+					"x": 3.2813,
+					"y": 1.0156,
+					"z": 0.875
+				},
+				{
+					"draw": 5,
+					"name": "Document SCP-500",
+					"tempname": "paper",
+					"x": 4.5,
+					"y": 0.875,
+					"z": 1.3125
+				},
+				{
+					"draw": 6,
+					"name": "Emily Ross' Badge",
+					"tempname": "badge",
+					"x": 1.4219,
+					"y": 0.0195,
+					"z": 2.7969
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 2.25,
+					"y": 0.625,
+					"z": 2.4688
+				}
+			}
+		},
+		"room2servers": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 2,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"hit_mesh": true,
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": -0.8125,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.875
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"hit_mesh": true,
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 1,
+					"x": -0.8125,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.875
+				},
+				{
+					"big": 0,
+					"buttons": false,
+					"code": "GEAR",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": -2.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -4.0
+				}
+			],
+			"draws": 4,
+			"items": [],
+			"objects": {
+				"6": {
+					"x": -1.25,
+					"y": 0.5,
+					"z": 0.0
+				},
+				"7": {
+					"x": -5.1875,
+					"y": 0.5,
+					"z": 2.0625
+				},
+				"8": {
+					"x": -5.375,
+					"y": 0.5,
+					"z": 0.125
+				},
+				"9": {
+					"x": -3.3125,
+					"y": 0.5,
+					"z": 2.25
+				}
+			}
+		},
+		"room2servers2": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 0.875,
+							"z": 1.9922
+						},
+						"1": {
+							"x": 1.1875,
+							"z": 3.2813
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.0313,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 2.625
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.0,
+					"y": -3.0,
+					"yaw": 0.0,
+					"z": -1.3125
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -1.9883,
+					"y": -3.0,
+					"yaw": 0.0,
+					"z": -4.0508
+				}
+			],
+			"draws": 5,
+			"items": [
+				{
+					"draw": 3,
+					"name": "Night Vision Goggles",
+					"state": 200.0,
+					"tempname": "nvgoggles",
+					"x": 0.2188,
+					"y": -2.5312,
+					"z": 2.9283
+				}
+			],
+			"objects": {}
+		},
+		"room2shaft": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"z": 2.0234
+						},
+						"1": {
+							"z": 2.2461
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 6.0625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 2.1563
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.0,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.9063
+				}
+			],
+			"draws": 8,
+			"items": [
+				{
+					"draw": 2,
+					"name": "Level 3 Key Card",
+					"tempname": "key3",
+					"x": 4.3711,
+					"y": 0.9102,
+					"z": 1.9297
+				},
+				{
+					"draw": 3,
+					"name": "First Aid Kit",
+					"tempname": "firstaid",
+					"x": 4.043,
+					"y": 0.5664,
+					"yaw": 90.0,
+					"z": 0.2188
+				},
+				{
+					"draw": 4,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": 7.5391,
+					"y": 0.3789,
+					"z": 1.0
+				},
+				{
+					"draw": 5,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": 4.1445,
+					"y": 0.6289,
+					"z": 1.9297
+				},
+				{
+					"draw": 6,
+					"name": "ReVision Eyedrops",
+					"tempname": "eyedrops",
+					"x": 7.5391,
+					"y": 0.8789,
+					"z": 0.5
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 6.0938,
+					"y": 0.0,
+					"z": 0.9766
+				},
+				"1": {
+					"x": 5.25,
+					"y": -2.9375,
+					"z": -1.5
+				}
+			}
+		},
+		"room2sl": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 315.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": -0.9043,
+						"y": 2.9688,
+						"z": 0.999
+					},
+					"screen_yaw": 90.0,
+					"turn": 0.0,
+					"x": -0.6211,
+					"y": 1.5,
+					"z": -3.6289,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.25,
+							"z": -1.875
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 1.875,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": true,
+					"slot": 1,
+					"x": 2.125,
+					"y": 1.875,
+					"yaw": 270.0,
+					"z": 1.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 5.875,
+					"y": 1.875,
+					"yaw": 0.0,
+					"z": 3.75
+				}
+			],
+			"draws": 3,
+			"items": [],
+			"objects": {
+				"15": {
+					"x": 2.7344,
+					"y": 2.7344,
+					"z": 1.0
+				},
+				"16": {
+					"x": -0.2344,
+					"y": 2.7344,
+					"z": 0.7813
+				},
+				"17": {
+					"x": -0.1875,
+					"y": 2.1094,
+					"z": 2.5625
+				},
+				"7": {
+					"x": 0.0,
+					"y": 0.3906,
+					"z": -3.125
+				}
+			}
+		},
+		"room2sroom": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 4,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 5.625,
+					"y": 0.875,
+					"yaw": 90.0,
+					"z": 0.125
+				}
+			],
+			"draws": 6,
+			"items": [
+				{
+					"draw": 1,
+					"name": "Some SCP-420-J",
+					"tempname": "420",
+					"x": 6.9375,
+					"y": 1.5625,
+					"z": 1.668
+				},
+				{
+					"draw": 2,
+					"name": "Some SCP-420-J",
+					"tempname": "420",
+					"x": 7.0625,
+					"y": 1.5625,
+					"z": 1.6992
+				},
+				{
+					"draw": 3,
+					"name": "Level 5 Key Card",
+					"tempname": "key5",
+					"x": 8.7188,
+					"y": 1.5313,
+					"yaw": 0.0,
+					"z": 1.5117
+				},
+				{
+					"draw": 4,
+					"name": "Nuclear Device Document",
+					"tempname": "paper",
+					"x": 8.7813,
+					"y": 1.7188,
+					"z": 1.4531
+				},
+				{
+					"draw": 5,
+					"name": "Radio Transceiver",
+					"tempname": "radio",
+					"x": 8.75,
+					"y": 1.25,
+					"z": 0.5
+				}
+			],
+			"objects": {}
+		},
+		"room2storage": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -5.0312,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": -2.9687,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": -1.0312,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": 1.0313,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 4,
+					"x": 2.9688,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"button_push": {
+						"0": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						},
+						"1": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": -8.0
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 5,
+					"x": 5.0313,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 0.0
+				}
+			],
+			"draws": 10,
+			"items": [
+				{
+					"draw": 6,
+					"name": "Document SCP-939",
+					"tempname": "paper",
+					"x": 1.375,
+					"y": 0.6875,
+					"yaw": 4.0,
+					"z": 1.0
+				},
+				{
+					"draw": 7,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": 1.375,
+					"y": 0.4375,
+					"z": 1.75
+				},
+				{
+					"draw": 8,
+					"name": "Empty Cup",
+					"tempname": "emptycup",
+					"x": -2.625,
+					"y": 0.9375,
+					"z": 1.125
+				},
+				{
+					"draw": 9,
+					"name": "Level 1 Key Card",
+					"tempname": "key1",
+					"x": -2.625,
+					"y": 0.9375,
+					"z": 0.875
+				}
+			],
+			"objects": {}
+		},
+		"room2tesla": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -0.4453,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"1": {
+					"x": 0.4453,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"2": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"3": {
+					"x": 0.0,
+					"y": 0.8,
+					"z": 0.0
+				},
+				"4": {
+					"x": -0.125,
+					"y": 2.2188,
+					"z": 0.0
+				},
+				"5": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": -3.125
+				},
+				"6": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 3.125
+				}
+			}
+		},
+		"room2tesla_hcz": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -0.4453,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"1": {
+					"x": 0.4453,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"2": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"3": {
+					"x": 0.0,
+					"y": 0.8,
+					"z": 0.0
+				},
+				"4": {
+					"x": -0.125,
+					"y": 2.2188,
+					"z": 0.0
+				},
+				"5": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": -3.125
+				},
+				"6": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 3.125
+				}
+			}
+		},
+		"room2tesla_lcz": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -0.4453,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"1": {
+					"x": 0.4453,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"2": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"3": {
+					"x": 0.0,
+					"y": 0.8,
+					"z": 0.0
+				},
+				"4": {
+					"x": -0.125,
+					"y": 2.2188,
+					"z": 0.0
+				},
+				"5": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": -3.125
+				},
+				"6": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 3.125
+				}
+			}
+		},
+		"room2test1074": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 1,
+					"x": 1.3125,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.6211
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 2,
+					"x": 1.3125,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -3.125
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": 2.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				}
+			],
+			"draws": 5,
+			"items": [
+				{
+					"draw": 4,
+					"name": "Document SCP-1074",
+					"tempname": "paper",
+					"x": 1.1719,
+					"y": 0.0781,
+					"z": 2.6211
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 3.2617,
+					"y": 0.6445,
+					"z": 2.1094
+				},
+				"1": {
+					"x": 3.2617,
+					"y": 0.0391,
+					"z": 1.1719
+				}
+			}
+		},
+		"room2testroom2": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 1,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 0,
+					"x": -0.9375,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 1.5
+				}
+			],
+			"draws": 4,
+			"items": [
+				{
+					"draw": 2,
+					"name": "Level 2 Key Card",
+					"tempname": "key2",
+					"x": -3.5703,
+					"y": 0.5352,
+					"z": 0.2383
+				},
+				{
+					"draw": 3,
+					"name": "S-NAV 300 Navigator",
+					"state": 20.0,
+					"tempname": "nav",
+					"x": -1.2187,
+					"y": 1.0313,
+					"z": 0.6875
+				}
+			],
+			"objects": {
+				"0": {
+					"x": -2.5,
+					"y": 0.5,
+					"z": -3.5625
+				},
+				"1": {
+					"x": -2.6133,
+					"y": 0.5,
+					"z": -0.0625
+				},
+				"2": {
+					"x": -2.4687,
+					"y": 0.875,
+					"z": -0.8125
+				}
+			}
+		},
+		"room2toilets": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 4.0625,
+					"y": 0.75,
+					"z": 0.0
+				},
+				"1": {
+					"x": 5.9766,
+					"y": 0.5,
+					"z": 2.0
+				},
+				"2": {
+					"x": 5.9961,
+					"y": 0.5859,
+					"z": 2.0
+				}
+			}
+		},
+		"room2tunnel": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 1.1875,
+							"y": 0.7,
+							"z": 3.25
+						},
+						"1": {
+							"x": 0.875,
+							"y": 0.7,
+							"z": 1.875
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 1.0313,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 2.5625
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": -0.875,
+							"y": 0.7,
+							"z": -1.875
+						},
+						"1": {
+							"x": -1.1875,
+							"y": 0.7,
+							"z": -3.25
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 2,
+					"x": -1.0312,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": -2.5625
+				},
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": 0.875,
+							"y": 0.7,
+							"yaw": -90.0,
+							"z": -1.5
+						},
+						"1": {
+							"x": -0.875,
+							"y": 0.7,
+							"yaw": 90.0,
+							"z": 1.5
+						}
+					},
+					"buttons": true,
+					"code": "$ACCESS3",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				}
+			],
+			"draws": 5,
+			"items": [
+				{
+					"draw": 4,
+					"name": "Scorched Note",
+					"tempname": "paper",
+					"x": 0.25,
+					"y": 0.5625,
+					"z": -1.5
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 10.3125,
+					"y": -9.75,
+					"z": 1.5625
+				},
+				"1": {
+					"x": -16.9375,
+					"y": -9.75,
+					"z": -9.8125
+				},
+				"2": {
+					"x": 2.1563,
+					"y": 0.9375,
+					"z": 2.5625
+				},
+				"4": {
+					"x": -2.1562,
+					"y": 0.9375,
+					"z": -2.5625
+				}
+			}
+		},
+		"room3_3": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {}
+		},
+		"room3gw": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.8437,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.7891
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -0.8711,
+					"y": 0.0,
+					"yaw": -90.0,
+					"z": -2.875
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.2688,
+							"z": -2.3698
+						},
+						"1": {
+							"x": 2.2688,
+							"z": -2.3698
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 0,
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": -1.793,
+					"y": 0.0,
+					"yaw": 90.0,
+					"z": 1.3242
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 2.2688,
+							"z": -2.3698
+						},
+						"1": {
+							"x": 2.2688,
+							"z": -2.3698
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"dir": 0,
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": true,
+					"slot": 1,
+					"x": 1.5039,
+					"y": 0.0,
+					"yaw": 270.0,
+					"z": 1.3242
+				}
+			],
+			"draws": 4,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -0.1875,
+					"y": 0.5,
+					"z": 1.25
+				}
+			}
+		},
+		"room3offices": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 3.4844,
+							"z": 0.875
+						},
+						"1": {
+							"x": 3.4844,
+							"z": 0.9961
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": true,
+					"slot": -1,
+					"x": 2.875,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.9375
+				}
+			],
+			"draws": 1,
+			"items": [],
+			"objects": {}
+		},
+		"room3pit": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 2.75,
+					"y": 0.4375,
+					"z": -1.625
+				}
+			}
+		},
+		"room3servers": {
+			"cams": [],
+			"doors": [],
+			"draws": -1,
+			"items": [
+				{
+					"draw": 0,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": -0.5156,
+					"y": -1.4375,
+					"z": -2.5312
+				},
+				{
+					"draw": 2,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": -0.2969,
+					"y": -1.4375,
+					"z": -2.5312
+				},
+				{
+					"draw": -1,
+					"name": "9V Battery",
+					"tempname": "bat",
+					"x": -0.7656,
+					"y": -1.4375,
+					"z": -2.5312
+				},
+				{
+					"draw": -1,
+					"name": "S-NAV 300 Navigator",
+					"state": 20.0,
+					"tempname": "nav",
+					"x": 0.4844,
+					"y": -1.4375,
+					"z": -2.5312
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 2.875,
+					"y": -2.0,
+					"z": -1.5625
+				},
+				"1": {
+					"x": -2.1562,
+					"y": -2.0,
+					"z": -2.0625
+				},
+				"2": {
+					"x": 2.875,
+					"y": -2.0,
+					"z": 1.0625
+				},
+				"3": {
+					"x": 3.625,
+					"y": -2.5,
+					"z": 2.75
+				}
+			}
+		},
+		"room3servers2": {
+			"cams": [],
+			"doors": [],
+			"draws": 2,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Document SCP-970",
+					"tempname": "paper",
+					"x": 3.75,
+					"y": -1.75,
+					"yaw": 0.0,
+					"z": 0.9805
+				},
+				{
+					"draw": 1,
+					"name": "Gas Mask",
+					"tempname": "gasmask",
+					"x": 3.7266,
+					"y": -1.9687,
+					"z": 0.918
+				}
+			],
+			"objects": {
+				"0": {
+					"x": -1.9687,
+					"y": -2.0,
+					"z": 1.0586
+				},
+				"1": {
+					"x": 2.4531,
+					"y": -2.0,
+					"z": 1.0586
+				},
+				"2": {
+					"x": -2.0781,
+					"y": -2.0,
+					"z": -3.4258
+				}
+			}
+		},
+		"room3storage": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 0.625,
+							"y": 0.7,
+							"z": 1.625
+						},
+						"1": {
+							"x": -0.625,
+							"y": 0.7,
+							"z": 1.875
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 0,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 1.75
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 23.4375,
+							"z": 3.9375
+						},
+						"1": {
+							"x": 22.1875,
+							"z": 4.25
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 1,
+					"x": 22.8125,
+					"y": -22.0,
+					"yaw": 0.0,
+					"z": 4.0938
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": 3.0,
+							"y": 0.7,
+							"z": -1.375
+						},
+						"1": {
+							"x": 1.75,
+							"y": 0.7,
+							"z": -1.0625
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 2,
+					"x": 2.375,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.2187
+				},
+				{
+					"big": 3,
+					"button_move": {
+						"0": {
+							"x": -1.0937,
+							"z": -3.375
+						},
+						"1": {
+							"x": -2.4687,
+							"z": -3.0625
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 3,
+					"x": -1.7812,
+					"y": -22.0,
+					"yaw": 0.0,
+					"z": -3.2187
+				},
+				{
+					"big": 2,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 4,
+					"x": 0.2188,
+					"y": -22.0,
+					"yaw": 90.0,
+					"z": 24.7813
+				},
+				{
+					"big": 2,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 4.5195,
+					"y": -22.0,
+					"yaw": 0.0,
+					"z": 2.5781
+				},
+				{
+					"big": 2,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.9141,
+					"y": -22.0,
+					"yaw": 90.0,
+					"z": 20.4648
+				},
+				{
+					"big": 2,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 13.4609,
+					"y": -22.0,
+					"yaw": 90.0,
+					"z": 24.8789
+				}
+			],
+			"draws": -1,
+			"items": [
+				{
+					"draw": -1,
+					"name": "Night Vision Goggles",
+					"state": 450.0,
+					"tempname": "nvgoggles",
+					"x": 7.5625,
+					"y": -21.4687,
+					"z": -3.6875
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 0.0,
+					"y": 0.9375,
+					"z": 2.9375
+				},
+				"1": {
+					"x": 22.8125,
+					"y": -21.0625,
+					"z": 5.3125
+				},
+				"10": {
+					"x": 11.4375,
+					"y": -21.6797,
+					"z": 24.8125
+				},
+				"11": {
+					"x": 11.4375,
+					"y": -21.6797,
+					"z": 20.3125
+				},
+				"12": {
+					"x": 2.3125,
+					"y": -21.6797,
+					"z": 20.3125
+				},
+				"13": {
+					"x": 4.4375,
+					"y": -21.6797,
+					"z": 11.5
+				},
+				"14": {
+					"x": 4.3125,
+					"y": -21.6797,
+					"z": 4.625
+				},
+				"15": {
+					"x": -1.8125,
+					"y": -21.6797,
+					"z": 4.75
+				},
+				"16": {
+					"x": -1.6875,
+					"y": -21.6797,
+					"z": 11.625
+				},
+				"2": {
+					"x": 2.375,
+					"y": 0.9375,
+					"z": -2.4375
+				},
+				"3": {
+					"x": -1.7812,
+					"y": -21.0625,
+					"z": -4.4375
+				},
+				"4": {
+					"x": 8.3125,
+					"y": -21.6797,
+					"z": 8.0
+				},
+				"5": {
+					"x": 8.3125,
+					"y": -21.6797,
+					"z": -4.4375
+				},
+				"6": {
+					"x": 14.9375,
+					"y": -21.6797,
+					"z": -4.5625
+				},
+				"7": {
+					"x": 14.6875,
+					"y": -21.6797,
+					"z": 8.0
+				},
+				"8": {
+					"x": 18.9375,
+					"y": -21.6797,
+					"z": 0.4375
+				},
+				"9": {
+					"x": 2.3125,
+					"y": -21.6797,
+					"z": 24.8125
+				}
+			}
+		},
+		"room3tunnel": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": -0.7422,
+					"y": 0.0156,
+					"z": 0.7422
+				}
+			}
+		},
+		"room3z2": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {}
+		},
+		"room3z3": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 225.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": -1.25,
+					"y": 1.5,
+					"z": 2.001,
+					"zoom": 0.8
+				}
+			],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {}
+		},
+		"room513": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 0.0,
+					"coffin": 0,
+					"follow": true,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 0.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 0.0,
+					"x": -1.2187,
+					"y": 1.6172,
+					"z": 2.5625,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"z": 1.125
+						},
+						"1": {
+							"z": 1.25
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.75,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 1.1875
+				}
+			],
+			"draws": 4,
+			"items": [
+				{
+					"draw": 1,
+					"name": "SCP-513",
+					"tempname": "scp513",
+					"x": -0.125,
+					"y": 0.7656,
+					"z": 2.6875
+				},
+				{
+					"draw": 2,
+					"name": "Blood-stained Note",
+					"tempname": "paper",
+					"x": 2.875,
+					"y": 1.0,
+					"z": 0.1875
+				},
+				{
+					"draw": 3,
+					"name": "Document SCP-513",
+					"tempname": "paper",
+					"x": -1.875,
+					"y": 0.4063,
+					"z": -0.6875
+				}
+			],
+			"objects": {}
+		},
+		"room860": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "ABCD",
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 3.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 2.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "ABCD",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": 3.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -2.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 1,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -2.5
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 1,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 1.625,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 2.5
+				}
+			],
+			"draws": 6,
+			"items": [
+				{
+					"draw": 4,
+					"name": "Document SCP-860-1",
+					"tempname": "paper",
+					"x": 2.625,
+					"y": 0.6875,
+					"yaw": 10.0,
+					"z": 1.3086
+				},
+				{
+					"draw": 5,
+					"name": "Document SCP-860",
+					"tempname": "paper",
+					"x": 4.5,
+					"y": 0.6875,
+					"yaw": 170.0,
+					"z": -1.5
+				}
+			],
+			"objects": {
+				"2": {
+					"x": 0.7188,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"3": {
+					"x": 0.4375,
+					"y": 0.0,
+					"z": 0.05
+				},
+				"4": {
+					"x": 1.0,
+					"y": 0.0,
+					"z": -0.05
+				}
+			}
+		},
+		"room966": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 225.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 45.0,
+					"x": -1.2187,
+					"y": 1.6172,
+					"z": 2.5625,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -1.5625,
+					"y": 0.0,
+					"yaw": -90.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 3,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 180.0,
+					"z": -1.875
+				}
+			],
+			"draws": 3,
+			"items": [
+				{
+					"draw": 2,
+					"name": "Night Vision Goggles",
+					"state": 300.0,
+					"tempname": "nvgoggles",
+					"x": 1.25,
+					"y": 0.5,
+					"z": 2.75
+				}
+			],
+			"objects": {
+				"0": {
+					"x": 0.0,
+					"y": 0.5,
+					"z": 2.0
+				},
+				"1": {
+					"x": 0.25,
+					"y": 0.5,
+					"z": -2.5
+				},
+				"2": {
+					"x": 0.0,
+					"y": 0.5,
+					"z": 0.0
+				},
+				"3": {
+					"x": 1.25,
+					"y": 0.5,
+					"z": 2.75
+				}
+			}
+		},
+		"roompj": {
+			"cams": [],
+			"doors": [
+				{
+					"big": 1,
+					"button_move": {
+						"0": {
+							"x": -1.9375,
+							"y": 0.7,
+							"z": -1.0625
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 2,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": -1.4375
+				}
+			],
+			"draws": 3,
+			"items": [
+				{
+					"draw": 0,
+					"name": "Document SCP-372",
+					"tempname": "paper",
+					"x": 3.125,
+					"y": 0.6875,
+					"yaw": 0.0,
+					"z": 4.3281
+				},
+				{
+					"draw": 1,
+					"name": "Radio Transceiver",
+					"state": 80.0,
+					"tempname": "radio",
+					"x": 3.125,
+					"y": 0.4375,
+					"z": 3.6875
+				}
+			],
+			"objects": {}
+		},
+		"start": {
+			"cams": [
+				{
+					"allow_saving": true,
+					"angle": 270.0,
+					"coffin": 0,
+					"follow": false,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 20.0,
+					"render_interval": 12,
+					"screen": true,
+					"screen_at": {
+						"x": 5.6875,
+						"y": 2.375,
+						"z": 1.375
+					},
+					"screen_yaw": 90.0,
+					"turn": 45.0,
+					"x": -1.3125,
+					"y": 1.375,
+					"z": 0.1875,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 1,
+					"buttons": false,
+					"code": "",
+					"dir": 1,
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": 1,
+					"x": 15.625,
+					"y": 1.5,
+					"yaw": 90.0,
+					"z": 6.625
+				},
+				{
+					"big": 0,
+					"buttons": false,
+					"code": "",
+					"free_buttons": [
+						0,
+						1
+					],
+					"keycard": 0,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": 2,
+					"x": 10.5625,
+					"y": 1.5,
+					"yaw": 90.0,
+					"z": 2.4375
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": 5.4375,
+					"y": 1.5,
+					"yaw": 90.0,
+					"z": 0.25
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": -2.5,
+					"y": 1.5,
+					"yaw": 90.0,
+					"z": 0.25
+				},
+				{
+					"big": 0,
+					"button_move": {
+						"0": {
+							"x": 4.375,
+							"z": 1.2813
+						},
+						"1": {
+							"x": 4.375,
+							"z": 1.1563
+						}
+					},
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": true,
+					"single": true,
+					"slot": -1,
+					"x": 5.0,
+					"y": 1.5,
+					"yaw": 180.0,
+					"z": 1.2188
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": true,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 0.0,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 4.625
+				}
+			],
+			"draws": 8,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 1.0625,
+					"y": 0.0,
+					"z": 1.5625
+				},
+				"1": {
+					"x": 1.75,
+					"y": 0.0,
+					"z": 0.75
+				}
+			}
+		},
+		"testroom": {
+			"cams": [
+				{
+					"allow_saving": false,
+					"angle": 0.0,
+					"coffin": 0,
+					"follow": true,
+					"monitor": true,
+					"overlay": true,
+					"pitch": 0.0,
+					"render_interval": 12,
+					"screen": false,
+					"turn": 0.0,
+					"x": 2.9063,
+					"y": -3.3437,
+					"z": 0.9219,
+					"zoom": 0.8
+				}
+			],
+			"doors": [
+				{
+					"big": 2,
+					"buttons": true,
+					"code": "",
+					"keycard": -1,
+					"locked": false,
+					"open": false,
+					"single": false,
+					"slot": -1,
+					"x": 2.8125,
+					"y": 0.0,
+					"yaw": 0.0,
+					"z": 0.0
+				},
+				{
+					"big": 0,
+					"buttons": true,
+					"code": "",
+					"keycard": 0,
+					"locked": false,
+					"open": true,
+					"single": false,
+					"slot": -1,
+					"x": -2.4375,
+					"y": -5.0,
+					"yaw": 90.0,
+					"z": 0.0
+				}
+			],
+			"draws": 3,
+			"items": [
+				{
+					"draw": 2,
+					"name": "Document SCP-682",
+					"tempname": "paper",
+					"x": 2.5625,
+					"y": -4.6875,
+					"z": -0.0625
+				}
+			],
+			"objects": {
+				"6": {
+					"x": 2.9453,
+					"y": -4.875,
+					"z": 0.0
+				}
+			}
+		},
+		"tunnel2": {
+			"cams": [],
+			"doors": [],
+			"draws": 0,
+			"items": [],
+			"objects": {
+				"0": {
+					"x": 0.0,
+					"y": 2.125,
+					"z": 2.0
+				},
+				"1": {
+					"x": 0.0,
+					"y": 2.125,
+					"z": -2.0
+				}
+			}
+		}
+	}
+}

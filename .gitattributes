@@ -1,0 +1,13 @@
+# Normalize line endings so Windows and Linux checkouts do not churn Godot text files.
+* text=auto eol=lf
+
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.ogg binary
+*.wav binary
+*.b3d binary
+*.rmesh binary
+*.zip binary

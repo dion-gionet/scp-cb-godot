@@ -1,0 +1,45 @@
+name: Check
+
+# On every push to main and every pull request: all scripts and scenes have to compile, and the tests that need no game
+# files have to pass. (The playtest bot needs the game files and is run by hand, see README.md.)
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  GODOT_VERSION: "4.7.2"
+
+jobs:
+  godot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: chickensoft-games/setup-godot@v2
+        with:
+          version: ${{ env.GODOT_VERSION }}
+          use-dotnet: false
+
+      - name: Import the project
+        run: godot --headless --import
+
+      - name: Scripts and scenes compile
+        run: godot --headless --path . -s tests/check_scripts.gd
+
+      - name: Unit tests
+        run: godot --headless --path . -s tests/test_units.gd
+
+  tools:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Asset tools
+        run: python3 tests/test_asset_tools.py

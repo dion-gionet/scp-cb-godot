@@ -23,3 +23,37 @@ mono_crash.*.json
 *.exe
 # Uncomment if your project does not version PCK files as runtime dependencies.
 # *.pck
+
+# Test output and local run files
+tests/shots/
+tests/reports/
+tests/bot_report.txt
+tests/hunt/
+tests/parity.json
+tests/dev_server.pid
+override.cfg
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Game files from tools/fetch_assets.py
+assets/*
+!assets/.gdignore
+
+# Local export folder
+build/*
+!build/.gdignore
+
+# Python caches
+__pycache__/
+
+# Scratch screenshots and logs from hunts
+/after*.png
+/after*.png.import
+/r2.txt
+tests/*.png
+tests/*.png.import

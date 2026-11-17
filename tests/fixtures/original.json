@@ -1,0 +1,11 @@
+{
+  "_about": "Numbers of the 1.3.11 original that the golden scenario measures in the port. source is 'derived' (worked out from the Blitz code at ref, at 70 Hz) or 'measured' (read from the running original: a trace or the origgame tools; give how in ref). A measured value replaces a derived one; keep the derived ref in the note.",
+  "walk_speed": {"value": 1.26, "tol": 0.02, "unit": "m/s", "source": "derived", "ref": "Main.bb MovePlayer: Speed 0.018 a frame, CurrSpeed = CurveValue(Speed * Sprint / (1 + CrouchState), CurrSpeed, 20)"},
+  "sprint_speed": {"value": 3.15, "tol": 0.04, "unit": "m/s", "source": "derived", "ref": "Main.bb MovePlayer: Sprint = 2.5 while the sprint key is held, Stamina > 0, not crouching"},
+  "crouch_speed": {"value": 0.63, "tol": 0.02, "unit": "m/s", "source": "derived", "ref": "Main.bb MovePlayer: / (1 + CrouchState), CrouchState curving to 1"},
+  "sprint_empty_seconds": {"value": 5.10, "tol": 0.12, "unit": "s", "source": "derived", "ref": "Main.bb MovePlayer: Stamina - 0.4 * StaminaEffect while sprinting, + 0.15 / 1.25 while CurrSpeed > 0: 100 / 0.28 frames"},
+  "stamina_regen_still": {"value": 13.125, "tol": 0.3, "unit": "per s", "source": "derived", "ref": "Main.bb MovePlayer: Stamina + 0.15 * 1.25 a frame while CurrSpeed = 0"},
+  "blink_drain": {"value": 42.0, "tol": 0.5, "unit": "per s", "source": "derived", "ref": "Main.bb 3072: BlinkTimer - FPSfactor * 0.6 * BlinkEffect"},
+  "door_open_frames": {"value": 90.0, "tol": 1.5, "unit": "frames", "source": "derived", "ref": "Main.bb UpdateDoors 2121: dir 0, openstate + 2 * (fastopen + 1) a frame up to 180"},
+  "big_door_open_frames": {"value": 225.0, "tol": 1.5, "unit": "frames", "source": "derived", "ref": "Main.bb UpdateDoors 2125: dir 1 (the big containment doors), openstate + 0.8 a frame up to 180"}
+}

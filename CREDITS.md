@@ -25,10 +25,10 @@ The source code here is a new implementation in GDScript, written by reading the
 
 ## Restrictions
 
-The SCP-173 statue model and textures (`GFX/npcs/173*`, `GFX/menu/173back.*`) are an exception to the CC BY-SA licence of
+The SCP-173 statue models and textures (`GFX/npcs/173*`, `GFX/map/173_2*`, `GFX/menu/173back.*`) are an exception to the CC BY-SA licence of
 this work. They resemble *Untitled 2004* by Izumi Kato and may be used for non-commercial purposes only. Remove or
 replace them before any commercial use.
 
 ## Not included
 
-The original DLLs and executables, and the game's startup videos, are not redistributed.
+The original DLLs and executables and the original `.avi` videos are not redistributed (the startup videos are included re-encoded as `.ogv`).

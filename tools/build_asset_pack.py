@@ -28,6 +28,12 @@ from pathlib import Path
 INCLUDE_DIRS = ["GFX", "SFX", "Data", "Loadingscreens"]
 INCLUDE_FILES = {"Credits.txt": "CREDITS.txt"}
 
+# Not covered by CC BY-SA 3.0 (see notice_text)
+EXCEPTIONS = {
+    "paths": ["GFX/npcs/173*", "GFX/map/173_2*", "GFX/menu/173back.*"],
+    "terms": "non-commercial use only; resembles \"Untitled 2004\" by Izumi Kato",
+}
+
 # Videos the game plays, re-encoded for Godot: source .avi -> the same path with .ogv
 CONVERT_VIDEOS = ["GFX/menu/startup_*.avi"]
 THEORA_QUALITY = "8"
@@ -51,7 +57,7 @@ Changes: {changes}
 Left out: {excluded} (the original .avi videos, binaries with their own licences,
 thumbnail caches).
 
-Exception: the SCP-173 statue model and textures (GFX/npcs/173*, GFX/menu/173back.*) are not covered by that
+Exception: the SCP-173 statue models and textures (GFX/npcs/173*, GFX/map/173_2*, GFX/menu/173back.*) are not covered by that
 license. They resemble "Untitled 2004" by Izumi Kato and may be used for non-commercial purposes only.
 
 Used by https://github.com/dion-gionet/scp-cb-godot, a port of the game to Godot.
@@ -100,6 +106,7 @@ def main() -> int:
     parser.add_argument("--out", required=True, type=Path)
     parser.add_argument("--version", required=True, help="pack version, e.g. 1")
     parser.add_argument("--base-url", action="append", default=[], help="where the zip will be published (repeat for mirrors)")
+    parser.add_argument("--commit", help="upstream commit to record when --source is not a git checkout")
     parser.add_argument("--no-videos", action="store_true", help="leave the startup videos out instead of re-encoding them (no ffmpeg needed; the game skips them)")
     args = parser.parse_args()
 
@@ -112,6 +119,8 @@ def main() -> int:
     archive = args.out / name
 
     commit = git_commit(source)
+    if commit == "unknown" and args.commit:
+        commit = args.commit
     count = 0
     skipped = []
     with tempfile.TemporaryDirectory() as work, zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as pack:
@@ -141,6 +150,7 @@ def main() -> int:
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
         "upstream": {"repository": "https://github.com/Regalis11/scpcb", "commit": commit},
+        "exceptions": EXCEPTIONS,
         "files": count,
         "archive": {
             "name": name,

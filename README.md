@@ -100,7 +100,7 @@ shows the errors of one script, with some harmless autoload messages).
 
 This is a non-commercial fan project. The code and the game files are licensed under CC BY-SA 3.0
 (SPDX: `CC-BY-SA-3.0`; see `LICENSE` and
-`CREDITS.md`), with one exception: the SCP-173 statue model and textures are not covered by that licence. They resemble
+`CREDITS.md`), with one exception: the SCP-173 statue models and textures (`GFX/npcs/173*`, `GFX/map/173_2*`, `GFX/menu/173back.*`) are not covered by that licence. They resemble
 *Untitled 2004* by Izumi Kato and may be used for non-commercial purposes only.
 
 ## Disclaimer

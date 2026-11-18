@@ -40,6 +40,16 @@ Open the folder in Godot and run the project, or from a terminal: `godot --path 
 The console takes the original's commands (`help` lists them, three pages), plus a few additions such as `culling`.
 Its debug menu and overlay show the player, NPCs, rooms and events.
 
+## Web version
+
+The game also runs in the browser, at https://dion-gionet.github.io/scp-cb-godot/. On the first visit it downloads the game
+files (about 210 MB) into the browser's own storage and keeps them, so later visits only compare versions. The page is
+rebuilt and deployed by `.github/workflows/pages.yml` when a release is published.
+
+This is the web version of the port. It runs on the browser's compatibility renderer, so some features, effects and shaders
+may be missing or look different from the desktop version. It is mostly here for fun, because why not. Private browsing
+may stop the browser from storing the game files.
+
 ## What is ported
 
 The facility generator and all three zones, rooms with their doors, items, lifts, levers and cameras, and the room events

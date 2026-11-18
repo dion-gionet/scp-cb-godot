@@ -1,7 +1,7 @@
 class_name GameVersion
 extends RefCounted
 # The port's own SemVer number lives in project.godot (application/config/version); ORIGINAL is the Blitz3D release it
-# follows, shown as SemVer build metadata ("1.0.0+cb1.3.11"). Saves have their own SaveGame.VERSION.
+# follows, shown as SemVer build metadata ("1.0.1+cb1.3.11"). Saves have their own SaveGame.VERSION.
 
 const ORIGINAL := "1.3.11"
 

@@ -88,6 +88,8 @@ jobs:
           body: |
             Godot port of SCP: Containment Breach ${{ env.BASE_VERSION }}. Unzip and run; the game files are in the `assets` folder.
 
+            Web version (runs in the browser, mostly for fun; some features and effects may be missing): https://dion-gionet.github.io/scp-cb-godot/
+
             macOS: the build is not signed. If it will not open, right-click the app and choose Open, or run `xattr -cr` on it.
             Linux: run `chmod +x scp-cb.x86_64` if the zip did not keep the executable bit.
 

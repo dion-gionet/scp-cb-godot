@@ -117,6 +117,7 @@ static func capture(main: Node) -> Dictionary:
 		"difficulty": GameState.difficulty,
 		"custom": [GameState.custom_perma_death, GameState.custom_save_anywhere, GameState.custom_aggressive_npcs, GameState.custom_other_factors],
 		"name": GameState.save_name,
+		"used_console": GameState.used_console,
 		"access_code": GameState.access_code,
 		"player": {
 			"pos": _vec(player.global_position), "yaw": player.rotation.y, "pitch": player.user_pitch,
@@ -316,6 +317,7 @@ static func apply_before_rooms(data: Dictionary) -> void:
 		GameState.custom_aggressive_npcs = bool(custom[2])
 		GameState.custom_other_factors = int(custom[3])
 	GameState.save_name = str(data.get("name", "untitled"))
+	GameState.used_console = bool(data.get("used_console", false))
 	GameState.access_code = str(data.get("access_code", GameState.access_code))
 	GameState.taken_items = {}
 	for key in data.get("taken_items", []):

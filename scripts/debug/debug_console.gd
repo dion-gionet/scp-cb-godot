@@ -96,7 +96,7 @@ func _open() -> void:
 	visible = true
 	_was_paused = get_tree().paused
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 	entry_box.clear()
 	entry_box.grab_focus.call_deferred()
 	_history_index = -1
@@ -104,11 +104,12 @@ func _open() -> void:
 func _close() -> void:
 	is_open = false
 	visible = false
+	GameState.used_console = true
 	entry_box.release_focus()
 	get_tree().paused = _was_paused
 	var player := GameState.player
 	if player != null and not player.dead and not _was_paused:
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		MouseCapture.capture()
 
 func _submit(line: String) -> void:
 	var text := line.strip_edges()

@@ -74,7 +74,7 @@ func open(for_machine: Node) -> void:
 	GameState.using_294 = true
 	_was_frozen = GameState.unable_to_move
 	GameState.unable_to_move = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 	_refresh()
 
 func close() -> void:
@@ -87,7 +87,7 @@ func close() -> void:
 	machine = null
 	var player: Node = GameState.player
 	if player and not player.dead and OS.get_environment("SCP_BOT") != "1" and OS.get_environment("SCP_PROBE") != "1":
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		MouseCapture.capture()
 
 func _layout() -> void:
 	var viewport_size := get_viewport().get_visible_rect().size

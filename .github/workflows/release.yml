@@ -1,18 +1,35 @@
 name: Release
 
-# On a version tag: export the game, put the game files next to it, publish one zip.
+# Run by hand (Actions > Release > Run workflow) with the tag to publish, e.g. v1.2.0: exports the game for Windows, Linux
+# and macOS, puts the game files next to each build, publishes one zip per platform, then deploys the web build.
 on:
-  push:
-    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (created if it does not exist), e.g. v1.2.0"
+        required: true
+        type: string
 
 env:
   GODOT_VERSION: "4.7.2"
+  BASE_VERSION: "1.3.11"
 
 jobs:
-  windows:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: windows
+            preset: "Windows Desktop"
+            binary: scp-cb.exe
+          - platform: linux
+            preset: "Linux"
+            binary: scp-cb.x86_64
+          - platform: macos
+            preset: "macOS"
+            binary: scp-cb-macos.zip
     steps:
       - uses: actions/checkout@v7
 
@@ -29,12 +46,53 @@ jobs:
       - name: Export
         run: |
           godot --headless --import || true
-          godot --headless --export-release "Windows Desktop" build/package/scp-cb.exe
+          if [ "${{ matrix.platform }}" = macos ]; then
+            godot --headless --export-release "${{ matrix.preset }}" "build/${{ matrix.binary }}"
+            unzip -q "build/${{ matrix.binary }}" -d build/package
+          else
+            godot --headless --export-release "${{ matrix.preset }}" "build/package/${{ matrix.binary }}"
+          fi
           cp CREDITS.md LICENSE build/package/
 
       - name: Zip
-        run: cd build/package && zip -r -q ../scp-cb-windows.zip .
+        run: |
+          if [ "${{ matrix.platform }}" = linux ]; then chmod +x build/package/${{ matrix.binary }}; fi
+          cd build/package && zip -r -q -y "../scp-cb-${BASE_VERSION}-${{ matrix.platform }}.zip" .
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scp-cb-${{ matrix.platform }}
+          path: build/scp-cb-*-${{ matrix.platform }}.zip
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: scp-cb-*
+          path: dist
+          merge-multiple: true
 
       - uses: softprops/action-gh-release@v3
         with:
-          files: build/scp-cb-windows.zip
+          tag_name: ${{ inputs.tag }}
+          target_commitish: ${{ github.sha }}
+          name: ${{ inputs.tag }} (SCP:CB ${{ env.BASE_VERSION }})
+          files: dist/*.zip
+          body: |
+            Godot port of SCP: Containment Breach ${{ env.BASE_VERSION }}. Unzip and run; the game files are in the `assets` folder.
+
+            macOS: the build is not signed. If it will not open, right-click the app and choose Open, or run `xattr -cr` on it.
+            Linux: run `chmod +x scp-cb.x86_64` if the zip did not keep the executable bit.
+
+  web:
+    needs: publish
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

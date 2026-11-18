@@ -1040,6 +1040,8 @@ func _scn_console() -> void:
 	console._submit("noclip off")
 	console._toggle()
 	check("F3 closes it and the game goes on", not console.is_open and not get_tree().paused, "")
+	check("closing the console marks the run as having used it, and the save keeps that", GameState.used_console and SaveGame.capture(main).get("used_console", false) == true, "")
+	GameState.used_console = false
 	overlay.panel.visible = true
 	overlay.run("injure 1.5")
 	check("the menu runs console commands", GameState.injuries == 1.5, "%.2f" % GameState.injuries)

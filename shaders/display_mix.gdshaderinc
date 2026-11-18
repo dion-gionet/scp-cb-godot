@@ -4,9 +4,15 @@
 // transparent pass has already drawn there. So the hardware still blends, with the cover that makes one layer over the
 // copy come out as the display-space mix. The colour stays the picture's own (corrected per channel so that one layer
 // is exact), so layers drawn over each other still end at the picture's colour, as they do in the original: a cover
-// that only depended on the alpha left dense smoke far too thin. Needs to_srgb and from_srgb.
+// that only depended on the alpha left dense smoke far too thin. Needs output_encode.gdshaderinc. On Compatibility the framebuffer is
+// already blended in display values, so the picture and its own alpha are handed over as they are.
 void display_mix(vec3 behind_linear, vec3 top_srgb, float alpha, out vec3 albedo, out float cover) {
 	alpha = clamp(alpha, 0.0, 1.0);
+	if (output_compat > 0.5) {
+		albedo = top_srgb;
+		cover = alpha;
+		return;
+	}
 	vec3 top_linear = from_srgb(clamp(top_srgb, vec3(0.0), vec3(1.0)));
 	vec3 wanted = from_srgb(mix(to_srgb(behind_linear), top_srgb, alpha));
 	vec3 span = behind_linear - top_linear;

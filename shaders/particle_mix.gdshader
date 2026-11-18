@@ -6,7 +6,7 @@ shader_type spatial;
 render_mode unshaded, cull_disabled, depth_draw_never, fog_disabled, blend_mix;
 
 #include "res://shaders/particle_billboard.gdshaderinc"
-#include "res://shaders/srgb.gdshaderinc"
+#include "res://shaders/output_encode.gdshaderinc"
 #include "res://shaders/display_mix.gdshaderinc"
 
 uniform sampler2D tex : source_color, filter_linear_mipmap, repeat_disable;
@@ -16,7 +16,7 @@ varying vec3 v_tint;
 
 void vertex() {
 	v_alpha = INSTANCE_CUSTOM.x;
-	v_tint = COLOR.rgb;
+	v_tint = to_srgb(COLOR.rgb);      // the instance colour is the same raw value on both renderers
 	upright_billboard(MODEL_MATRIX, INV_VIEW_MATRIX, VIEW_MATRIX, INSTANCE_CUSTOM.y, MODELVIEW_MATRIX);
 }
 
@@ -24,7 +24,7 @@ void fragment() {
 	vec4 c = texture(tex, UV);
 	float cover;
 	vec3 albedo;
-	display_mix(textureLod(screen_tex, SCREEN_UV, 0.0).rgb, to_srgb(c.rgb) * to_srgb(v_tint), c.a * v_alpha, albedo, cover);
+	display_mix(textureLod(screen_tex, SCREEN_UV, 0.0).rgb, as_display(c.rgb) * v_tint, c.a * v_alpha, albedo, cover);
 	ALBEDO = albedo;
 	ALPHA = cover;
 }

@@ -75,6 +75,8 @@ static func report(progress: Callable, percent: float) -> void:
 		await progress.call(percent)
 
 func _parse_meshes(order: Array[Dictionary]) -> void:
+	if OS.has_feature("web"):
+		return      # a room parses when it is built: parsing all of them first holds about 2 GB at once, over the browser's heap limit
 	var paths := {}
 	for record in order:
 		paths[mesh_path(record)] = true

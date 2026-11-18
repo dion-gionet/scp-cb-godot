@@ -3,19 +3,34 @@ extends Node
 var assets_root: String = ""
 var assets_found := false
 
-# The game files live in an `assets` folder next to the project (tools/fetch_assets.py puts them there) or next to
-# the exported executable.
+const WEB_ROOT := "user://assets"
+
 func _ready() -> void:
-	var project_dir := ProjectSettings.globalize_path("res://")
-	var exe_dir := OS.get_executable_path().get_base_dir()
-	var candidates: Array[String] = [project_dir.path_join("assets"), exe_dir.path_join("assets")]
-	assets_root = candidates[0]
-	for candidate in candidates:
-		if DirAccess.dir_exists_absolute(candidate.path_join("GFX")):
-			assets_root = candidate
-			break
-	assets_found = DirAccess.dir_exists_absolute(assets_root.path_join("GFX"))
+	refresh_assets()
 	_ensure_actions()
+
+func web_root() -> String:
+	return ProjectSettings.globalize_path(WEB_ROOT)
+
+# The game files live in an `assets` folder next to the project (tools/fetch_assets.py puts them there) or next to
+# the exported executable (in a macOS .app: next to the .app). The web build keeps them in the browser's storage
+# (scripts/io/web_assets.gd downloads them there).
+func refresh_assets() -> bool:
+	_resolved.clear()
+	if OS.has_feature("web"):
+		assets_root = web_root()
+	else:
+		var exe_dir := OS.get_executable_path().get_base_dir()
+		var candidates: Array[String] = [ProjectSettings.globalize_path("res://").path_join("assets"), exe_dir.path_join("assets")]
+		if OS.has_feature("macos"):
+			candidates.append(exe_dir.path_join("../../../assets").simplify_path())
+		assets_root = candidates[0]
+		for candidate in candidates:
+			if DirAccess.dir_exists_absolute(candidate.path_join("GFX")):
+				assets_root = candidate
+				break
+	assets_found = DirAccess.dir_exists_absolute(assets_root.path_join("GFX"))
+	return assets_found
 
 var _resolved := {}
 

@@ -253,7 +253,7 @@ func _process(delta: float) -> void:
 		_fade.color.a = minf(absf(player.kill_timer / 400.0), 1.0)
 		if player.kill_timer < -360.0 and not pause_menu.visible and not ending_active():
 			pause_menu.open(PauseMenuScript.Mode.DEAD)
-			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+			MouseCapture.release()
 	else:
 		# darkA: sanity below -200 (up to 0.6) and the fall that 106 starts (Abs(FallTimer / 400))
 		var dark := 0.0
@@ -352,7 +352,7 @@ func open_inventory() -> void:
 	_inventory.visible = true
 	_inventory.reset()
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 
 func close_inventory() -> void:
 	if not inventory_open:
@@ -363,7 +363,7 @@ func close_inventory() -> void:
 	_inventory.visible = false
 	_inventory.reset()
 	get_tree().paused = false
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	MouseCapture.capture()
 
 # A double click: the item is used (selected) and the inventory closes.
 func use_from_inventory(index: int) -> void:
@@ -594,13 +594,13 @@ func open_pause_menu() -> void:
 		return
 	pause_menu.open(PauseMenuScript.Mode.PAUSED)
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 
 func close_pause_menu() -> void:
 	pause_menu.close()
 	get_tree().paused = false
 	if GameState.player != null and not GameState.player.dead:
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		MouseCapture.capture()
 
 func _quit_to_menu(after_ending := false) -> void:
 	get_tree().paused = false
@@ -631,7 +631,8 @@ func start_ending(code: String) -> void:
 	GameState.give_achievement("055")
 	if GameState.difficulty == 2:
 		GameState.give_achievement("keter")
-	GameState.give_achievement("console")
+	if not GameState.used_console:
+		GameState.give_achievement("console")
 	close_inventory()
 	pause_menu.close()
 	ending_screen.start(code)
@@ -763,7 +764,7 @@ func show_screen(image_relative: String) -> void:
 	screen_open = true
 	_play_button()
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 	if GameState.save_type() == 1:
 		message("Press F5 to save.", 4.0)
 
@@ -773,12 +774,14 @@ func close_screen() -> void:
 	screen_open = false
 	_screen_rect.visible = false
 	get_tree().paused = false
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	MouseCapture.capture()
 
 func _play_button() -> void:
 	Sfx.play_global(self, "SFX/Interact/Button.ogg")
 
 func _update_blur(player: Node3D) -> void:
+	if OS.has_feature("web"):
+		return
 	if _dream_blur == null:
 		_dream_blur = DreamBlur.new()
 		var compositor := Compositor.new()
@@ -888,7 +891,7 @@ func open_container(index: int) -> void:
 	_inventory.visible = true
 	_inventory.reset()
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 
 # A double click on a pocket: the item is selected from where it lies (a document is read, a card shown) and stays there.
 func use_from_container(slot: int) -> void:

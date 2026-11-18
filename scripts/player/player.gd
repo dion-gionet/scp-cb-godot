@@ -60,9 +60,9 @@ func _ready() -> void:
 	collision_mask = 1 | HumanNpc.PLAYER_BLOCK_LAYER
 	floor_snap_length = 0.2
 	if OS.get_environment("SCP_PROBE") == "1" or OS.get_environment("SCP_BOT") == "1":
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		MouseCapture.release()
 	else:
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		MouseCapture.capture()
 
 func _unhandled_input(event: InputEvent) -> void:
 	if Input.mouse_mode != Input.MOUSE_MODE_CAPTURED:

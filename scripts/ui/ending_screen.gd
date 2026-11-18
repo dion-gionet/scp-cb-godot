@@ -60,7 +60,7 @@ func start(new_code: String) -> void:
 	_credits_timer = 0.0
 	GameState.selected_ending = code
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 
 func _process(delta: float) -> void:
 	if not active:

@@ -15,7 +15,10 @@ func _ready() -> void:
 	GameState.load_settings()
 	_make_gamma_layer()
 	if _interactive():
-		if GameState.launcher_enabled:
+		if OS.has_feature("web"):
+			if not await _install_web_assets():
+				return
+		elif GameState.launcher_enabled:
 			await _run_launcher()
 		WindowSetup.apply_game(get_window())
 		GameState.apply_settings()
@@ -42,6 +45,17 @@ func _interactive() -> bool:
 		if OS.get_environment(name) == "1":
 			return false
 	return true
+
+func _input(event: InputEvent) -> void:
+	MouseCapture.retry_on_gesture(event)
+
+func _install_web_assets() -> bool:
+	var installer := WebAssets.new()
+	add_child(installer)
+	var ok: bool = await installer.run()
+	if ok:
+		installer.queue_free()
+	return ok
 
 # Main.bb: UpdateLauncher runs before anything else is loaded; EXIT ends the program.
 func _run_launcher() -> void:
@@ -262,7 +276,7 @@ func _free_world() -> void:
 func return_to_menu(after_ending := false) -> void:
 	_free_world()
 	GameState.reset_run()
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	MouseCapture.release()
 	_show_menu()
 	menu.tab = 0
 	menu._rebuild()

@@ -40,6 +40,7 @@ func run(main_node: Node) -> void:
 	while not facility.active and waited < 20.0:
 		await get_tree().process_frame
 		waited += get_process_delta_time()
+	GameState.console_enabled = true
 	player = GameState.player
 	statue = GameState.scp173
 	if not facility.active:

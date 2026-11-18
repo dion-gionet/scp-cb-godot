@@ -29,7 +29,8 @@ var sound_volume: float = -1.0:
 var mouse_sensitivity: float = 0.5   # slider position; 0.5 is the original default (0)
 var mouse_smoothing: float = 1.0     # options.ini "mouse smoothing" 0..2 (the slider shows it as a percentage of 200); 1.0 is the default
 var invert_mouse: bool = false       # options.ini "invert mouse y"
-var console_enabled: bool = true      # options.ini "console enabled" (on here: the developer console opens with F3)
+var console_enabled: bool = false     # options.ini "console enabled" (off in the shipped options.ini)
+var used_console := false             # Main.bb UsedConsole: set when the console is closed; the "console" achievement needs it false at the ending
 # The rest of SaveOptionsINI (Main.bb), with options.ini's defaults.
 var vsync := true
 var anti_alias := true
@@ -205,6 +206,8 @@ func _ready() -> void:
 	RenderingServer.global_shader_parameter_add(&"room_ambient", RenderingServer.GLOBAL_VAR_TYPE_FLOAT, 0.0)
 	RenderingServer.global_shader_parameter_add(&"room_fog_range", RenderingServer.GLOBAL_VAR_TYPE_VEC2, Vector2(100000.0, 200000.0))
 	RenderingServer.global_shader_parameter_add(&"room_fog_color", RenderingServer.GLOBAL_VAR_TYPE_VEC3, Vector3.ZERO)
+	var compat := RenderingServer.get_current_rendering_method() == "gl_compatibility"
+	RenderingServer.global_shader_parameter_add(&"output_compat", RenderingServer.GLOBAL_VAR_TYPE_FLOAT, 1.0 if compat else 0.0)
 	# the models' AmbientLight and the room lights shown for them (shaders/entity.gdshaderinc)
 	RenderingServer.global_shader_parameter_add(&"entity_ambient", RenderingServer.GLOBAL_VAR_TYPE_VEC3, Vector3.ONE * 50.0 / 255.0)
 	for light_global in [&"entity_light_pos_a", &"entity_light_pos_b", &"entity_light_col_a", &"entity_light_col_b"]:
@@ -247,6 +250,7 @@ func clock_ms() -> float:
 func reset_run() -> void:
 	playing = false
 	selected_ending = ""
+	used_console = false
 	fog_override = Vector4(-1.0, 0.0, 0.0, 0.0)
 	ambient_override = -1.0
 	light_flash = 0.0

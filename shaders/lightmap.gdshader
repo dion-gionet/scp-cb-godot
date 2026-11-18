@@ -16,10 +16,7 @@ uniform bool fullbright = false;   // debug: albedo only, no lightmap, no light 
 uniform vec4 tint = vec4(1.0);
 global uniform float room_ambient;   // night vision lifts every lightmap by 15 / 255 (AmbientLightRooms)
 #include "res://shaders/room_fog.gdshaderinc"
-
-vec3 from_srgb(vec3 c) {
-	return mix(c / 12.92, pow((c + vec3(0.055)) / 1.055, vec3(2.4)), step(vec3(0.04045), c));
-}
+#include "res://shaders/output_encode.gdshaderinc"
 
 void fragment() {
 	vec4 alb = texture(albedo_tex, UV) * tint;
@@ -45,5 +42,5 @@ void fragment() {
 	col = clamp(col, vec3(0.0), vec3(1.0));
 	// The fade to the fog colour is done in linear light: measured on the original (the start room's walkway), the floor fades out over the CameraFogRange distances with this curve rather than with a fade of the display values.
 	float fog = room_fog_amount(VERTEX, CAMERA_VISIBLE_LAYERS);
-	ALBEDO = mix(from_srgb(col), from_srgb(room_fog_color), fog);
+	ALBEDO = output_encode(mix(from_srgb(col), from_srgb(room_fog_color), fog));
 }

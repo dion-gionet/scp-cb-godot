@@ -394,7 +394,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			panel.visible = not panel.visible
 			var player: Node = GameState.player
 			if player and not player.dead:
-				Input.mouse_mode = Input.MOUSE_MODE_VISIBLE if panel.visible else Input.MOUSE_MODE_CAPTURED
+				MouseCapture.set_captured(not panel.visible)
 		KEY_F2:
 			run("godmode", false)
 		KEY_F4:

@@ -10,15 +10,7 @@ uniform bool billboard = false;
 uniform bool single_sided = false;      // a Blitz sprite in free view mode has a front only
 uniform float billboard_roll = 0.0;      // radians a billboard is turned in its own plane (a Blitz sprite's roll)
 uniform vec2 uv_offset = vec2(0.0);      // PositionTexture: the picture slides (the tesla gate's arc)
-
-vec3 to_srgb(vec3 c) {
-	c = max(c, vec3(0.0));
-	return mix(c * 12.92, 1.055 * pow(c, vec3(1.0 / 2.4)) - vec3(0.055), step(vec3(0.0031308), c));
-}
-
-vec3 from_srgb(vec3 c) {
-	return mix(c / 12.92, pow((c + vec3(0.055)) / 1.055, vec3(2.4)), step(vec3(0.04045), c));
-}
+#include "res://shaders/output_encode.gdshaderinc"
 
 void vertex() {
 	if (billboard) {
@@ -34,7 +26,7 @@ void fragment() {
 		discard;
 	}
 	vec4 sample = texture(tex, UV + uv_offset);
-	vec3 top = to_srgb(sample.rgb) * to_srgb(color.rgb) * sample.a * color.a;
-	ALBEDO = from_srgb(clamp(top, vec3(0.0), vec3(1.0)));
+	vec3 top = as_display(sample.rgb) * as_display(color.rgb) * sample.a * color.a;
+	ALBEDO = output_display(clamp(top, vec3(0.0), vec3(1.0)));
 	ALPHA = 1.0;
 }

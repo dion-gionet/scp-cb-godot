@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 TOOLS = Path(__file__).resolve().parent.parent / "tools"
@@ -101,6 +102,25 @@ class AssetToolsTest(unittest.TestCase):
         result = self.fetch("--manifest", str(broken))
         self.assertEqual(result.returncode, 1)
         self.assertNotIn("Traceback", result.stderr)
+
+    def test_web_pack_splits_into_parts_with_a_manifest(self) -> None:
+        site = self.root / "site"
+        result = run("pack_web_assets.py", "--src", str(self.game), "--out", str(site), "--part-mb", "1", cwd=self.root)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        manifest = json.loads((site / "manifest.json").read_text())
+        names = set()
+        for part in manifest["parts"]:
+            with zipfile.ZipFile(site / part["name"]) as pack:
+                names.update(pack.namelist())
+        self.assertIn("GFX/menu/back.jpg", names)
+        self.assertIn("Data/rooms.ini", names)
+        self.assertEqual(len(names), manifest["files"])
+
+    def test_web_pack_refuses_a_folder_without_the_game_files(self) -> None:
+        empty = self.root / "empty"
+        empty.mkdir()
+        result = run("pack_web_assets.py", "--src", str(empty), "--out", str(self.root / "o"), cwd=self.root)
+        self.assertEqual(result.returncode, 1)
 
 
 if __name__ == "__main__":

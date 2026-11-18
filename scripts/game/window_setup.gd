@@ -38,7 +38,7 @@ static func apply_game(window: Window) -> void:
 static func _place(window: Window, screen: int, size: Vector2i, mode: Window.Mode) -> void:
 	window.content_scale_size = size
 	window.content_scale_aspect = Window.CONTENT_SCALE_ASPECT_KEEP
-	if DisplayServer.get_name() == "headless":
+	if DisplayServer.get_name() == "headless" or OS.has_feature("web"):
 		return
 	window.mode = Window.MODE_WINDOWED
 	window.unresizable = true

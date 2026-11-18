@@ -4,6 +4,7 @@
 // All of it is display (gamma) arithmetic, like shaders/lightmap.gdshader: the texture is read raw and the product converted
 // to linear for the output. The lights and the fog are in entity_light.gdshaderinc.
 #include "res://shaders/entity_light.gdshaderinc"
+#include "res://shaders/output_encode.gdshaderinc"
 uniform sampler2D albedo_tex : filter_linear_mipmap, repeat_enable;
 uniform vec4 tint = vec4(1.0);              // EntityColor / EntityAlpha (albedo_color)
 uniform bool fullbright = false;           // EntityFX 1
@@ -11,10 +12,6 @@ uniform bool use_vertex_color = false;
 uniform float alpha_scissor = 0.5;
 
 varying vec3 lit;
-
-vec3 from_srgb(vec3 c) {
-	return mix(c / 12.92, pow((c + vec3(0.055)) / 1.055, vec3(2.4)), step(vec3(0.04045), c));
-}
 
 void vertex() {
 	if (fullbright) {
@@ -34,7 +31,7 @@ void vertex() {
 void fragment() {
 	vec4 alb = texture(albedo_tex, UV);
 	vec3 col = clamp(alb.rgb * lit, vec3(0.0), vec3(1.0));
-	ALBEDO = mix(from_srgb(col), from_srgb(room_fog_color), room_fog_amount(VERTEX, CAMERA_VISIBLE_LAYERS));
+	ALBEDO = output_encode(mix(from_srgb(col), from_srgb(room_fog_color), room_fog_amount(VERTEX, CAMERA_VISIBLE_LAYERS)));
 #ifdef ENTITY_ALPHA
 	ALPHA = alb.a * tint.a;
 #endif

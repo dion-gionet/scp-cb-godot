@@ -449,7 +449,7 @@ func _revive() -> void:
 	if hud != null:
 		hud.cancel_death()
 	if not host.get_tree().paused:      # from the open console the game stays stopped until it closes
-		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+		MouseCapture.capture()
 
 func _kill() -> void:
 	var messages := [

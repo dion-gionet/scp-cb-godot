@@ -1160,7 +1160,15 @@ func _scn_ending() -> void:
 	await secs(0.5)
 	var hud: Node = get_tree().get_first_node_in_group("hud")
 	GameState.give_achievement("096")
+	GameState.achievements.erase("console")
+	GameState.used_console = true
 	hud.start_ending("b3")
+	check("an ending after using the console does not give the console achievement", not GameState.achievements.has("console"), "")
+	hud.ending_screen.queue_free()
+	hud.ending_screen = null
+	GameState.used_console = false
+	hud.start_ending("b3")
+	check("an ending without it does", GameState.achievements.has("console"), "")
 	check("the ending starts and stops the game", hud.ending_active() and get_tree().paused, "")
 	await secs(1.0)
 	var screen: Control = hud.ending_screen

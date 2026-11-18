@@ -15,15 +15,7 @@ uniform bool entity_lit = false;
 
 varying vec3 lit;
 
-vec3 to_srgb(vec3 c) {
-	c = max(c, vec3(0.0));
-	return mix(c * 12.92, 1.055 * pow(c, vec3(1.0 / 2.4)) - vec3(0.055), step(vec3(0.0031308), c));
-}
-
-vec3 from_srgb(vec3 c) {
-	return mix(c / 12.92, pow((c + vec3(0.055)) / 1.055, vec3(2.4)), step(vec3(0.04045), c));
-}
-
+#include "res://shaders/output_encode.gdshaderinc"
 #include "res://shaders/display_mix.gdshaderinc"
 
 void vertex() {
@@ -43,22 +35,22 @@ void fragment() {
 	if (src.a <= 0.003 && !additive && !multiply) {
 		discard;
 	}
-	vec3 behind_linear = textureLod(screen_tex, SCREEN_UV, 0.0).rgb;
-	vec3 behind = to_srgb(behind_linear);
+	vec3 screen_value = textureLod(screen_tex, SCREEN_UV, 0.0).rgb;
+	vec3 behind = as_display(screen_value);
 	// the picture's own raw value: the product of two raw values is what Blitz multiplies
-	vec3 top = to_srgb(texture(tex, UV + uv_offset).rgb) * to_srgb(color.rgb) * lit;
+	vec3 top = as_display(texture(tex, UV + uv_offset).rgb) * as_display(color.rgb) * lit;
 #ifdef ROOM_FOG
 	// the picture's own colour is fogged like the rooms', never what is behind it: that was fogged when it was drawn, and
 	// fogging the blended result again left a darker square round every decal
 	top = to_srgb(mix(from_srgb(clamp(top, vec3(0.0), vec3(1.0))), from_srgb(room_fog_color), room_fog_amount(VERTEX, CAMERA_VISIBLE_LAYERS)));
 #endif
 	if (additive || multiply) {
-		ALBEDO = from_srgb(additive ? min(behind + top * src.a, vec3(1.0)) : behind * top);
+		ALBEDO = output_display(additive ? min(behind + top * src.a, vec3(1.0)) : behind * top);
 		ALPHA = 1.0;
 	} else {
 		float cover;
 		vec3 albedo;
-		display_mix(behind_linear, top, src.a, albedo, cover);
+		display_mix(screen_value, top, src.a, albedo, cover);
 		ALBEDO = albedo;
 		ALPHA = cover;
 	}

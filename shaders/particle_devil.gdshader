@@ -4,7 +4,7 @@ shader_type spatial;
 // and have no normals, so of the lights only AmbientLight reaches them. The blend is on display values like the other smoke.
 render_mode unshaded, cull_disabled, depth_draw_never, fog_disabled, blend_mix;
 
-#include "res://shaders/srgb.gdshaderinc"
+#include "res://shaders/output_encode.gdshaderinc"
 #include "res://shaders/display_mix.gdshaderinc"
 #include "res://shaders/room_fog.gdshaderinc"
 
@@ -21,7 +21,7 @@ void vertex() {
 
 void fragment() {
 	vec4 c = texture(tex, UV);
-	vec3 top = to_srgb(c.rgb) * entity_ambient;
+	vec3 top = as_display(c.rgb) * entity_ambient;
 	top = to_srgb(mix(from_srgb(clamp(top, vec3(0.0), vec3(1.0))), from_srgb(room_fog_color), room_fog_amount(VERTEX, CAMERA_VISIBLE_LAYERS)));
 	float cover;
 	vec3 albedo;

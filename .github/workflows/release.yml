@@ -85,6 +85,7 @@ jobs:
           name: ${{ inputs.tag }} (SCP:CB ${{ env.BASE_VERSION }})
           files: dist/*.zip
           discussion_category_name: Announcements
+          generate_release_notes: true
           body: |
             Godot port of SCP: Containment Breach ${{ env.BASE_VERSION }}. Unzip and run; the game files are in the `assets` folder.
 

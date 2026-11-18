@@ -70,6 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      discussions: write
     steps:
       - uses: actions/download-artifact@v4
         with:

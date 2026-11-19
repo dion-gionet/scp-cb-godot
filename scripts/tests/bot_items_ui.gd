@@ -252,6 +252,45 @@ func _scn_keypad() -> void:
 	check("right click puts the keypad away", not pad.is_open() and not get_tree().paused, "")
 	arena.queue_free()
 
+func _right_click() -> void:
+	for pressed in [true, false]:
+		var click := InputEventMouseButton.new()
+		click.button_index = MOUSE_BUTTON_RIGHT
+		click.pressed = pressed
+		Input.parse_input_event(click)
+		await get_tree().process_frame
+		await get_tree().process_frame
+
+func _scn_putaway() -> void:
+	log_line("== right click puts the held item away (Main.bb 7062)")
+	statue.active = false
+	var hud := get_tree().get_first_node_in_group("hud")
+	var s := GameState
+	for i in hud.items.size():
+		hud.items[i] = ""
+		hud.item_data[i] = {}
+	s.wearing_vest = 0
+	s.wearing_hazmat = 0
+	var nav := _give(hud, "S-NAV Navigator", "nav")
+	hud.set_selected(nav)
+	check("the navigator is in the hand", hud.selected == nav, "")
+	await _right_click()
+	check("right click puts the navigator away and keeps it", hud.selected == -1 and hud.items[nav] == "S-NAV Navigator", "selected %d" % hud.selected)
+	var vest := _give(hud, "Ballistic Vest", "vest")
+	hud.set_selected(vest)
+	await get_tree().physics_frame
+	await _right_click()
+	check("right click while putting on a vest drops it", hud.selected == -1 and hud.items[vest] == "" and s.wearing_vest == 0, "slot '%s' wearing %d" % [hud.items[vest], s.wearing_vest])
+	var doc := _give(hud, "Document SCP-173", "paper")
+	hud.set_selected(doc)
+	hud.open_inventory()
+	await get_tree().physics_frame
+	await _right_click()
+	check("right click in the open inventory leaves the hand alone", hud.selected == doc, "selected %d" % hud.selected)
+	hud.close_inventory()
+	await _right_click()
+	check("right click puts the document away", hud.selected == -1 and hud.items[doc] == "Document SCP-173", "selected %d" % hud.selected)
+
 func _scn_uishots() -> void:
 	log_line("== UI screenshots")
 	statue.active = false

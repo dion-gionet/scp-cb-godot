@@ -409,6 +409,19 @@ func drop_from_inventory(index: int) -> void:
 	if previous != index and previous >= 0 and not items[previous].is_empty():
 		selected = previous
 
+# Right click with an item in the hand (Main.bb 7062): a vest or hazmat suit that is not on yet is dropped silently.
+func put_away_selected() -> void:
+	var index := selected
+	if items[index].is_empty():
+		return
+	_item_sound(items[index])
+	var tempname := selected_tempname()
+	var unworn_suit: bool = (tempname in ["vest", "finevest"] and GameState.wearing_vest == 0) or (tempname.begins_with("hazmatsuit") and GameState.wearing_hazmat == 0)
+	if unworn_suit and GameState.player != null:
+		drop_selected(GameState.player, false)
+	else:
+		deselect()
+
 func selected_tempname() -> String:
 	if selected < 0 or items[selected].is_empty():
 		return ""
@@ -477,14 +490,15 @@ func _pickup_achievement(tempname: String, item_name: String) -> void:
 
 # DropItem: the item appears at the camera, 0.1 down and 0.1 ahead, with a random yaw
 # (camera yaw +- 110), and then falls like any other world item.
-func drop_selected(player: Node3D) -> void:
+func drop_selected(player: Node3D, play_sound := true) -> void:
 	if selected < 0 or items[selected].is_empty():
 		return
 	if GameState.wearing_hazmat > 0:
 		message("You cannot drop any items while wearing a hazmat suit.")
 		return
 	var data: Dictionary = item_data[selected]
-	_item_sound(items[selected])
+	if play_sound:
+		_item_sound(items[selected])
 	var pickup := RoomFill.make_pickup(items[selected], str(data.tempname), data)
 	pickup.set_meta("dropped", true)        # it\Dropped = 1
 	player.get_parent().add_child(pickup)
@@ -683,6 +697,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		get_viewport().set_input_as_handled()
 		return
 	if inventory_open or pause_menu.visible:
+		return
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_RIGHT and selected >= 0 and not get_tree().paused:
+		put_away_selected()
 		return
 	# the original has no item hotkeys: the number keys only change the radio's channel while it is held
 	if event is InputEventKey and event.pressed and not event.echo:

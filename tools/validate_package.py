@@ -3,7 +3,7 @@
 does not embed the game files, and an `assets` folder with GFX, SFX and Data sits next to the executable
 (ContentPaths looks there). Pass --copy-assets to copy ./assets next to the build first.
 
-  godot --headless --path . --export-release "Windows Desktop" build/scp-cb.exe
+  godot --headless --path . --export-release "Windows Desktop" build/scp-cb-godot-port.exe
   python3 tools/validate_package.py build --copy-assets
 """
 import argparse

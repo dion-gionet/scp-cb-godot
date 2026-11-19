@@ -23,13 +23,13 @@ jobs:
         include:
           - platform: windows
             preset: "Windows Desktop"
-            binary: scp-cb.exe
+            binary: scp-cb-godot-port.exe
           - platform: linux
             preset: "Linux"
-            binary: scp-cb.x86_64
+            binary: scp-cb-godot-port.x86_64
           - platform: macos
             preset: "macOS"
-            binary: scp-cb-macos.zip
+            binary: scp-cb-godot-port-macos.zip
     steps:
       - uses: actions/checkout@v7
 
@@ -57,12 +57,12 @@ jobs:
       - name: Zip
         run: |
           if [ "${{ matrix.platform }}" = linux ]; then chmod +x build/package/${{ matrix.binary }}; fi
-          cd build/package && zip -r -q -y "../scp-cb-${BASE_VERSION}-${{ matrix.platform }}.zip" .
+          cd build/package && zip -r -q -y "../scp-cb-godot-port-${BASE_VERSION}-${{ matrix.platform }}.zip" .
 
       - uses: actions/upload-artifact@v4
         with:
-          name: scp-cb-${{ matrix.platform }}
-          path: build/scp-cb-*-${{ matrix.platform }}.zip
+          name: scp-cb-godot-port-${{ matrix.platform }}
+          path: build/scp-cb-godot-port-*-${{ matrix.platform }}.zip
           if-no-files-found: error
 
   publish:
@@ -74,7 +74,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: scp-cb-*
+          pattern: scp-cb-godot-port-*
           path: dist
           merge-multiple: true
 
@@ -87,12 +87,12 @@ jobs:
           discussion_category_name: Announcements
           generate_release_notes: true
           body: |
-            Godot port of SCP: Containment Breach ${{ env.BASE_VERSION }}. Unzip and run; the game files are in the `assets` folder.
+            SCP: Containment Breach – Godot Port, based on SCP:CB ${{ env.BASE_VERSION }}. Unzip and run; the game files are in the `assets` folder.
 
             Web version (runs in the browser, mostly for fun; some features and effects may be missing): https://dion-gionet.github.io/scp-cb-godot/
 
             macOS: the build is not signed. If it will not open, right-click the app and choose Open, or run `xattr -cr` on it.
-            Linux: run `chmod +x scp-cb.x86_64` if the zip did not keep the executable bit.
+            Linux: run `chmod +x scp-cb-godot-port.x86_64` if the zip did not keep the executable bit.
 
   web:
     needs: publish

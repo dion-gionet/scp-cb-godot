@@ -21,7 +21,7 @@ static func screen_name(screen: int) -> String:
 	return "Display %d (%dx%d)" % [screen + 1, size.x, size.y]
 
 static func show_launcher(window: Window) -> void:
-	window.title = "SCP - Containment Breach Launcher"
+	window.title = "SCP: Containment Breach – Godot Port Launcher"
 	_place(window, DisplayServer.get_primary_screen(), Vector2i(GameState.launcher_width, GameState.launcher_height), Window.MODE_WINDOWED)
 
 static func apply_game(window: Window) -> void:

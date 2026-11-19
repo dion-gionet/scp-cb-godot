@@ -1,4 +1,4 @@
-# SCP - Containment Breach (Godot port)
+# SCP: Containment Breach – Godot Port
 
 A port of [SCP: Containment Breach](https://github.com/Regalis11/scpcb) 1.3.11 from Blitz3D to Godot 4.7. The aim is to match the original: the same map
 generator, rooms, events, NPCs, items, timings and numbers, read from the Blitz source rather than guessed.
@@ -75,7 +75,7 @@ infection, sanity and the blink system; saving and loading.
 
 ## Tests
 
-To package a build: `godot --headless --path . --export-release "Windows Desktop" build/scp-cb.exe`, then
+To package a build: `godot --headless --path . --export-release "Windows Desktop" build/scp-cb-godot-port.exe`, then
 `python3 tools/validate_package.py build --copy-assets` copies `assets/` next to the executable and checks the build (the pck
 must not embed the game files, which the preset's `exclude_filter` keeps out).
 

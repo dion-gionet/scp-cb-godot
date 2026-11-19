@@ -1418,6 +1418,30 @@ func _scn_soak() -> void:
 			check("soak %s: %s finite" % [kind, npc.name], is_finite(at.x) and is_finite(at.y) and is_finite(at.z)))
 	log_line("soak visited %d room kinds" % kinds)
 
+func _scn_spawnheight() -> void:
+	log_line("== NPCs from room events start at most 0.3 above the floor (the original's 0.5 collider centre over a 0.2 radius)")
+	var gaps := {}
+	var on_added := func(node: Node) -> void:
+		if node is CharacterBody3D and node != player:
+			(func() -> void:
+				if not is_instance_valid(node):
+					return
+				var from: Vector3 = node.global_position
+				var hit := get_viewport().world_3d.direct_space_state.intersect_ray(PhysicsRayQueryParameters3D.create(from + Vector3(0.0, 0.05, 0.0), from - Vector3(0.0, 4.0, 0.0), 1))
+				if not hit.is_empty():
+					gaps[node.name] = from.y - hit.position.y).call_deferred()
+	get_tree().node_added.connect(on_added)
+	await _visit_room_kinds(func(_kind: String, _node: Node3D) -> void:
+		await secs(3.0))
+	get_tree().node_added.disconnect(on_added)
+	var tested := 0
+	for npc_name: String in gaps:
+		if npc_name.begins_with("SCP096"):
+			continue      # its origin is the centre of its sphere, so the gap is not a fall
+		tested += 1
+		check("%s starts %.2f above the floor" % [npc_name, gaps[npc_name]], gaps[npc_name] <= 0.31)
+	check("some NPCs were spawned by room events", tested > 0, "")
+
 # Puts the player in the middle of the first room of each kind (god mode, 173 parked away) and awaits `per_room(kind, node)`
 # there; a death is undone before the next room. Returns the number of kinds visited.
 func _visit_room_kinds(per_room: Callable) -> int:

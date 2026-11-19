@@ -21,6 +21,6 @@ func _physics_process(delta: float) -> void:
 		_timer = 0.0
 	_timer += delta * 70.0
 	if _timer > 30.0:
-		facility.spawn_scp966(room.object_point(0))
-		facility.spawn_scp966(room.object_point(2))
+		facility.spawn_scp966(NpcGravity.feet(room.object_point(0)))
+		facility.spawn_scp966(NpcGravity.feet(room.object_point(2)))
 		facility.events.room966.state = 2

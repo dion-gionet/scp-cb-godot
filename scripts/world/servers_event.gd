@@ -85,7 +85,7 @@ func _begin(facility: FacilityMap) -> void:
 	shy.state2 = 70.0 * 10.0
 	_speak("SFX/Character/Guard/096ServerRoom1.ogg")
 	var guard_spot: Vector3 = room.object_point(7)
-	facility.events.servers.guard = facility.spawn_human(HumanNpc.Kind.GUARD, guard_spot, -1)
+	facility.events.servers.guard = facility.spawn_human(HumanNpc.Kind.GUARD, NpcGravity.feet(guard_spot), -1)
 	facility.events.servers.state = 1.0
 
 func _scene(fps: float, inside: bool, player: CharacterBody3D, facility: FacilityMap) -> void:

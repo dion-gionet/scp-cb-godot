@@ -167,7 +167,7 @@ func _count(facility: FacilityMap, player: CharacterBody3D, count: int) -> void:
 			note.global_position = room.to_global(Vector3(-344.0 * RS, 176.0 * RS, -272.0 * RS))
 		25:
 			var at := _along(room.rotation_degrees.y - 90.0, 760.0)
-			corpse = facility.spawn_human(HumanNpc.Kind.CLASS_D, Vector3(at.x, room.global_position.y + 0.1, at.z), 1)
+			corpse = facility.spawn_human(HumanNpc.Kind.CLASS_D, NpcGravity.feet(Vector3(at.x, room.global_position.y + 0.35, at.z), NpcGravity.CLASS_D_RADIUS), 1)
 			corpse.rotation.y = deg_to_rad(room.rotation_degrees.y - 200.0)
 			corpse.set_frame(80.0)
 			corpse.state = 10
@@ -187,7 +187,7 @@ func _count(facility: FacilityMap, player: CharacterBody3D, count: int) -> void:
 				GameState.scp173.set_skin(true)        # only the picture changes; the console's halloween flag is untouched
 		50:
 			var behind := _along(room.rotation_degrees.y + 90.0, 600.0)
-			guard = facility.spawn_human(HumanNpc.Kind.GUARD, Vector3(behind.x, room.global_position.y + 0.1, behind.z))
+			guard = facility.spawn_human(HumanNpc.Kind.GUARD, NpcGravity.feet(Vector3(behind.x, room.global_position.y + 0.35, behind.z)))
 			guard.state = 7
 			guard.set_meta("role", "guard")
 		52:

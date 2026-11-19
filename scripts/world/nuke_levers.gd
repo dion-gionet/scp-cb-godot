@@ -27,7 +27,7 @@ func build(room_node: FacilityRoom) -> void:
 # EventState3 = 0: on the first pass a dead Class D lies at Objects[6] (body2.jpg, state 3, frame 40).
 func _spawn_body(facility: FacilityMap) -> void:
 	body_spawned = true
-	var at := room.to_global(Vector3(1110.0 * RS, 0.5, 208.0 * RS))
+	var at := NpcGravity.feet(room.to_global(Vector3(1110.0 * RS, 0.5, 208.0 * RS)), NpcGravity.CLASS_D_RADIUS)
 	var body := facility.spawn_human(HumanNpc.Kind.CLASS_D, at, HumanNpc.BODY2_TEXTURE)
 	body.rotation.y = room.rotation.y + deg_to_rad(90.0)
 	body.state = 3

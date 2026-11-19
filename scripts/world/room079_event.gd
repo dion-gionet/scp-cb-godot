@@ -113,7 +113,7 @@ func _place_guard(facility: FacilityMap) -> void:
 	var at: Vector3 = room.object_point(2)
 	if at == Vector3.INF:
 		return
-	guard = facility.spawn_human(HumanNpc.Kind.GUARD, at + Vector3(0.0, 0.5, 0.0), -1)
+	guard = facility.spawn_human(HumanNpc.Kind.GUARD, NpcGravity.feet(at + Vector3(0.0, 0.5, 0.0)), -1)
 	var to_room: Vector3 = room.global_position - guard.global_position
 	guard.rotation.y = atan2(-to_room.x, -to_room.z)
 	guard.state = 8

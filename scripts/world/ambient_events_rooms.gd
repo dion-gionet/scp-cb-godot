@@ -153,7 +153,7 @@ func _ev_room2elevator(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 	var player: CharacterBody3D = c.player
 	if st.s == 0.0:
 		if c.dist < 8.0 and c.dist > 0.0:
-			guard = host.facility.spawn_human(HumanNpc.Kind.GUARD, Vector3(rec.position.x, rec.position.y + 0.2, rec.position.z))
+			guard = host.facility.spawn_human(HumanNpc.Kind.GUARD, rec.position)
 			guard.rotation.y = host._yaw_toward(guard.global_position, player.global_position)
 			nodes["guard"] = guard
 			host._nodes[c.key] = nodes

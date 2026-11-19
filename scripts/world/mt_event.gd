@@ -174,7 +174,7 @@ func _first_entry(player: CharacterBody3D) -> void:
 				break
 			index += 1
 		if spot >= 0:
-			sleepers.append(facility.spawn_scp966(_at((spot % MtGrid.SIZE) * 2.0, 8.2, (spot / MtGrid.SIZE) * 2.0)))
+			sleepers.append(facility.spawn_scp966(NpcGravity.feet(_at((spot % MtGrid.SIZE) * 2.0, 8.2, (spot / MtGrid.SIZE) * 2.0))))
 
 func _generate() -> void:
 	_origin = Vector3(room.global_position.x, 0.0, room.global_position.z)

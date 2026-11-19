@@ -129,7 +129,7 @@ func _setup(facility: FacilityMap, player: CharacterBody3D) -> void:
 		apaches.append(heli)
 	_build_sky()
 	for i in 2:
-		var guard: Node = facility.spawn_human(HumanNpc.Kind.GUARD, room.object_point(5 + i), -1)
+		var guard: Node = facility.spawn_human(HumanNpc.Kind.GUARD, NpcGravity.feet(room.object_point(5 + i)), -1)
 		guard.state = 0
 		guard.rotation.y = atan2(-(centre.x - guard.global_position.x), -(centre.z - guard.global_position.z))
 		guards.append(guard)

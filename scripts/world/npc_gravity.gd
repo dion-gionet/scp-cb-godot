@@ -8,6 +8,7 @@ enum { NO_MOVE, FALL, HOLD }
 
 const HIDE_DISTANCE := 15.0
 const FLOOR_PRESS := -0.2
+const CLASS_D_RADIUS := 0.3
 
 # CheckForNPCInFacility (NPCs.bb 7323) and CheckForPlayerInFacility (Main.bb 11558): 0 outside (the 1499 dimension), 1 the
 # facility, 2 the tunnels.
@@ -17,6 +18,11 @@ static func in_facility(y: float) -> int:
 	if y < -10.0 or y > 7.0:
 		return 2
 	return 1
+
+# CreateNPC puts the collider's centre at the given point and the collider rests with its centre one radius above the floor.
+# The port's NPCs stand on their origin, so a spawn point from the Blitz code becomes the origin one radius lower.
+static func feet(centre: Vector3, radius: float = 0.2) -> Vector3:
+	return centre - Vector3(0.0, radius, 0.0)
 
 # NO_MOVE: DropSpeed 0 and no TranslateEntity. FALL: DropSpeed grows. HOLD: DropSpeed 0 (FallingPickDistance > 0 off the
 # visible rooms). `always_near` is NPCtype1499, which skips the distance test (5002).

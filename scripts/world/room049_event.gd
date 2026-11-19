@@ -133,7 +133,7 @@ func _first_visit(player: CharacterBody3D, facility: FacilityMap) -> void:
 	# the two zombies, lying where the cells are, one turned 190 degrees from the room's centre and one 20
 	for i in 2:
 		var at: Vector3 = room.object_point(4 + i)
-		var zombie: Node = facility.spawn_zombie049(at, 0)
+		var zombie: Node = facility.spawn_zombie049(NpcGravity.feet(at), 0)
 		var toward: Vector3 = room.global_position - at
 		zombie.rotation.y = atan2(-toward.x, -toward.z) + deg_to_rad(190.0 if i == 0 else 20.0)
 	if facility.scp049 == null or not is_instance_valid(facility.scp049):

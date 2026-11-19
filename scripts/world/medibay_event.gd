@@ -50,7 +50,7 @@ func _physics_process(delta: float) -> void:
 			facility.events.medibay.entered = true
 			var spot: Vector3 = room.object_point(3)
 			if spot != Vector3.INF:
-				var zombie: Node = facility.spawn_zombie008(spot + Vector3(0.0, 0.05, 0.0), 0)
+				var zombie: Node = facility.spawn_zombie008(NpcGravity.feet(Vector3(spot.x, room.global_position.y + 0.5, spot.z)), 0)
 				zombie.rotation.y = room.rotation.y - PI * 0.5
 				facility.events.medibay.zombie = zombie
 		var zombie: Node = facility.events.medibay.zombie

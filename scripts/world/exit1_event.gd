@@ -83,7 +83,7 @@ func _setup(facility: FacilityMap, player: CharacterBody3D) -> void:
 	facility.exit1_centre = room.object_point(3)
 	var heli := _apache(0, room.global_position + Vector3(0.0, 100.0, 0.0), 1)
 	heli.gate_name = "B"
-	guard = facility.spawn_human(HumanNpc.Kind.GUARD, room.object_point(4) + Vector3(0.0, 0.2, 0.0), -1)
+	guard = facility.spawn_human(HumanNpc.Kind.GUARD, room.object_point(4), -1)
 	guard.state = 0
 	guard.state2 = 10.0
 	_build_terrain()

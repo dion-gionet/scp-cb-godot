@@ -120,14 +120,10 @@ func _statue_in_view(player: CharacterBody3D) -> bool:
 	var s := _statue()
 	return s != null and _in_view(player, s.global_position + Vector3(0.0, 0.8, 0.0))
 
-# PositionEntity / ResetEntity on 173
-func _put_173(at: Vector3) -> void:
+func _put_173(centre: Vector3) -> void:
 	var s := _statue()
-	if s == null:
-		return
-	s.global_position = at
-	s.velocity = Vector3.ZERO
-	s.floor_y = at.y
+	if s != null:
+		s.put_at_collider(centre)
 
 func _valid(node: Variant) -> Node3D:
 	return node as Node3D if node != null and is_instance_valid(node) else null
@@ -233,7 +229,7 @@ func _ev_lockroom173(rec: Dictionary, _st: Dictionary, c: Dictionary) -> void:
 		_remove(c.key)
 	elif not _statue_in_view(c.player) or s.global_position.distance_to(c.player.global_position) > 15.0:
 		var a := deg_to_rad(225.0 - 90.0 + float(rec.angle))
-		_put_173(Vector3(rec.position.x + cos(a) * 2.0, rec.position.y + 0.31, rec.position.z - sin(a) * 2.0))
+		_put_173(Vector3(rec.position.x + cos(a) * 2.0, rec.position.y + 0.6, rec.position.z - sin(a) * 2.0))
 		_remove(c.key)
 
 # "room2doors173": 173 waits at Objects[0] the first time the player is in the room and it is not in view
@@ -244,7 +240,7 @@ func _ev_room2doors173(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 	if s != null and st.s == 0.0 and s.idle == 0 and not _statue_in_view(c.player):
 		st.s = 1.0
 		var spot: Vector3 = c.room.object_point(0)
-		_put_173(Vector3(spot.x, rec.position.y + 0.31, spot.z))
+		_put_173(Vector3(spot.x, rec.position.y + 0.5, spot.z))
 		_remove(c.key)
 
 # "tunnel2": a light scare. Within 3.5 of the middle the lights flicker, the eyes shut, and 173 is put in the middle of the room
@@ -270,7 +266,7 @@ func _ev_tunnel2(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 		if st.s - c.fps <= 100.0 and st.s > 100.0:
 			Sfx.play_global(self, "SFX/Ambient/General/ambient6.ogg")
 			if s != null:
-				_put_173(Vector3(rec.position.x, rec.position.y + 0.31, rec.position.z))
+				_put_173(Vector3(rec.position.x, rec.position.y + 0.6, rec.position.z))
 				s.idle = 1
 		GameState.light_blink = 1.0
 		st.s += c.fps
@@ -480,7 +476,7 @@ func _ev_room2pit(rec: Dictionary, _st: Dictionary, c: Dictionary) -> void:
 	var eye: Vector3 = c.player.camera.global_position
 	if _visible_between(eye, s.global_position + Vector3(0.0, 0.5, 0.0)) or _visible_between(eye, spot + Vector3(0.0, 0.1, 0.0)):
 		return
-	_put_173(Vector3(spot.x, rec.position.y + 0.31, spot.z))
+	_put_173(Vector3(spot.x, rec.position.y + 0.5, spot.z))
 	_remove(c.key)
 
 const PARTICLE_AMOUNT := 2        # options.ini "particle amount"

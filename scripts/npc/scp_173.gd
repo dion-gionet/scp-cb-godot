@@ -1,4 +1,5 @@
 extends CharacterBody3D
+class_name Scp173
 # SCP-173 (NPCs.bb UpdateNPCs, NPCtype173). Rules, in the original's order:
 #  - inside 15 units it freezes whenever it is in the camera frustum with the eyes open
 #    (EntityInView ignores walls); while frozen it only plays its scare cues
@@ -17,6 +18,7 @@ const HIDE_DISTANCE := 15.0
 const FAR_DISTANCE := 50.0
 const GRAVITY := 0.005 * 70.0 * 70.0
 const MAX_FALL := 0.2 * 70.0
+const COLLIDER_RADIUS := 0.32                # EntityRadius 0.23, 0.32: the collider's centre is this far above the feet
 
 var active := false
 # Idle: 0 normal, 1 held still by an MTF unit that is watching it, 2 boxed by the MTF leader, 3 back in its chamber
@@ -201,6 +203,11 @@ func _chase(player: CharacterBody3D, dist: float, seen: bool, delta: float) -> v
 	move_and_slide()
 	_try_open_doors()   # only reached while it is free to move: in the chase branch, unseen, within 12
 
+# PositionEntity + ResetEntity on the collider: `centre` is the Blitz collider point, which stands this far above the feet.
+func put_at_collider(centre: Vector3) -> void:
+	global_position = NpcGravity.feet(centre, COLLIDER_RADIUS)
+	velocity = Vector3.ZERO
+
 # PointEntity: turn so the face (node forward, -Z) points at the target.
 func _face(target: Vector3) -> void:
 	var flat := Vector3(target.x - global_position.x, 0.0, target.z - global_position.z)
@@ -217,7 +224,7 @@ func _line_of_sight(player: Node3D) -> bool:
 
 # EntityVisible(n\Collider, Collider): from the centre of 173's collider to the centre of the player's
 func _collider_sight(player: Node3D) -> bool:
-	var from := global_position + Vector3(0.0, 0.32, 0.0)
+	var from := global_position + Vector3(0.0, COLLIDER_RADIUS, 0.0)
 	var to: Vector3 = player.global_position + Vector3(0.0, 0.3, 0.0)
 	var query := PhysicsRayQueryParameters3D.create(from, to)
 	query.collision_mask = 1

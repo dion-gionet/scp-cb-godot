@@ -2879,8 +2879,8 @@ func _scn_ambient4() -> void:
 	var store: Dictionary = await _event_room([], used)
 	used.append(store.key)
 	var store_node: Node3D = facility.rooms.get_room(store)
-	store_node.fill_objects[0] = Vector3(-1.5, 0.0, 1.5)
-	store_node.fill_objects[1] = Vector3(-1.5, 0.0, -1.5)
+	store_node.fill_objects[0] = Vector3(-1.5, 0.32, 1.5)
+	store_node.fill_objects[1] = Vector3(-1.5, 0.32, -1.5)
 	place_player(store.position + Vector3(1.0, 1.0, 0.0))
 	await secs(0.6)
 	humans_before = facility.humans.size()
@@ -2919,8 +2919,8 @@ func _scn_ambient4() -> void:
 	check("both are dead", janitor.state == 8 and janitor.frame >= 59.0 and scientist.state == 6 and scientist.frame >= 18.0, "janitor %d %.0f, scientist %d %.0f" % [janitor.state, janitor.frame, scientist.state, scientist.frame])
 	store_state.s = 70.0 * 8.5 + 1.0
 	await secs(0.3)
-	var between: Vector3 = (janitor.global_position + scientist.global_position) * 0.5
-	check("at 8.5 s 173 stands between them and the event is over", Vector2(statue.global_position.x - between.x, statue.global_position.z - between.z).length() < 0.3 and ambient.removed.has(store.key), "")
+	var between: Vector3 = (store_node.object_point(0) + store_node.object_point(1)) * 0.5
+	check("at 8.5 s 173 stands between Objects[0] and [1] and the event is over", Vector2(statue.global_position.x - between.x, statue.global_position.z - between.z).length() < 0.3 and ambient.removed.has(store.key), "")
 	if wallet != null:
 		wallet.queue_free()
 	place_statue(Vector3(0.0, -80.0, 0.0))

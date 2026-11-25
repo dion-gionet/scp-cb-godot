@@ -153,7 +153,7 @@ func _ev_room2elevator(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 	var player: CharacterBody3D = c.player
 	if st.s == 0.0:
 		if c.dist < 8.0 and c.dist > 0.0:
-			guard = host.facility.spawn_human(HumanNpc.Kind.GUARD, rec.position)
+			guard = host.facility.spawn_human(HumanNpc.Kind.GUARD, NpcGravity.feet(Vector3(rec.position.x, rec.position.y + 0.5, rec.position.z)))
 			guard.rotation.y = host._yaw_toward(guard.global_position, player.global_position)
 			nodes["guard"] = guard
 			host._nodes[c.key] = nodes
@@ -273,7 +273,7 @@ func _ev_testroom173(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 	if st.s == 0.0:
 		var door: Node3D = room.door_slots.get(0)
 		if door != null and door.open:
-			host._put_173(Vector3(behind.x, rec.position.y + 0.31, behind.z))
+			host._put_173(Vector3(behind.x, rec.position.y + 0.5, behind.z))
 			st.s = 1.0
 		return
 	if not nodes.has("glass") or not is_instance_valid(nodes["glass"]):
@@ -300,7 +300,7 @@ func _ev_testroom173(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 				Sfx.play_at(statue, "SFX/General/GlassBreak.ogg", 10.0)
 				(nodes["glass"] as Node).queue_free()
 				nodes.erase("glass")
-				host._put_173(Vector3(window.x, rec.position.y + 0.31, window.z))
+				host._put_173(Vector3(window.x, rec.position.y + 0.5, window.z))
 				host._remove(c.key)
 
 # "room2closets": the first time the player is in the room (and 173 is free) a janitor and a scientist are in the storeroom's two
@@ -320,8 +320,8 @@ func _ev_room2closets(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 			if first == Vector3.INF or second == Vector3.INF:
 				host._remove(c.key)
 				return
-			janitor = host.facility.spawn_human(HumanNpc.Kind.CLASS_D, Vector3(first.x, rec.position.y + 0.2, first.z), 4)
-			scientist = host.facility.spawn_human(HumanNpc.Kind.CLASS_D, Vector3(second.x, rec.position.y + 0.2, second.z), 2)
+			janitor = host.facility.spawn_human(HumanNpc.Kind.CLASS_D, NpcGravity.feet(first, NpcGravity.CLASS_D_RADIUS), 4)
+			scientist = host.facility.spawn_human(HumanNpc.Kind.CLASS_D, NpcGravity.feet(second, NpcGravity.CLASS_D_RADIUS), 2)
 			janitor.rotation.y = host._yaw_toward(janitor.global_position, scientist.global_position)
 			scientist.rotation.y = host._yaw_toward(scientist.global_position, janitor.global_position)
 			nodes["janitor"] = janitor
@@ -346,7 +346,7 @@ func _ev_room2closets(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 			Sfx.play_at(scientist, "SFX/Room/Storeroom/Escape2.ogg", 12.0)
 		if st.s > 70.0 * 4.5:
 			janitor.rotation.y = lerp_angle(janitor.rotation.y, host._yaw_toward(janitor.global_position, centre), minf(c.fps / 30.0, 1.0))
-		var aim: float = host._yaw_toward(scientist.global_position, centre) + deg_to_rad(sin(st.s) * 25.0)
+		var aim: float = host._yaw_toward(scientist.global_position, centre) + deg_to_rad(sin(deg_to_rad(st.s)) * 25.0)
 		scientist.rotation.y = lerp_angle(scientist.rotation.y, aim, minf(c.fps / 30.0, 1.0))
 	else:
 		if st.s - c.fps < 70.0 * 6.5:
@@ -378,8 +378,9 @@ func _ev_room2closets(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 			scientist.set_frame(19.0)
 			scientist.state = 6
 		if st.s > 70.0 * 8.5 and statue != null:
-			var between: Vector3 = (janitor.global_position + scientist.global_position) * 0.5
-			host._put_173(Vector3(between.x, rec.position.y + 0.31, between.z))
+			var first: Vector3 = c.room.object_point(0)
+			var between: Vector3 = (first + c.room.object_point(1)) * 0.5
+			host._put_173(Vector3(between.x, first.y, between.z))
 			statue.rotation.y = host._yaw_toward(statue.global_position, player.global_position)
 			host._remove(c.key)
 

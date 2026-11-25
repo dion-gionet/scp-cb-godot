@@ -387,14 +387,14 @@ func _scn_sparks() -> void:
 	check("0.05 above the light", is_equal_approx(spark.position.y, lamp.position.y + 0.05), "%.3f" % spark.position.y)
 	check("and is not a camera billboard", not (spark.material_override as ShaderMaterial).get_shader_parameter("billboard"), "")
 	check("the glow has its own roll", (lamp.get_meta("glow").material_override as ShaderMaterial).get_shader_parameter("billboard_roll") != null, "")
-	var particles: Node = facility.particles
-	var before: int = particles.count()
+	var before := _particles_of(Particles.SPARK_PICTURE).size()
 	LightSprites._throw_spark(lamp, spark, 1.0)
 	check("the flash shows", spark.visible and lamp.get_meta("spark_frames") > 0.0, "")
 	for i in 12:
 		await get_tree().physics_frame
 		LightSprites._update_cone(lamp, lamp.get_meta("cone"), true, false)
-	check("a burst of 7 x 6 sparks flew", particles.count() >= before + 42, "%d -> %d" % [before, particles.count()])
+	var after := _particles_of(Particles.SPARK_PICTURE).size()
+	check("a burst of 7 x 6 sparks flew", after >= before + 42, "%d -> %d" % [before, after])
 	check("the flash is over after 10 frames", not spark.visible, "")
 	var rolls := 0
 	var trials := 40000

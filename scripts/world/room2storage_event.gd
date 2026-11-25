@@ -198,7 +198,7 @@ func _count(facility: FacilityMap, player: CharacterBody3D, count: int) -> void:
 # no step this frame: the corpse unsettles anyone who sees it; the guard turns to the player
 func _unease(player: CharacterBody3D, fps: float) -> void:
 	if corpse != null and is_instance_valid(corpse) and corpse.global_position.distance_to(player.global_position) < 3.0:
-		if player.camera.is_position_in_frustum(corpse.global_position + Vector3(0.0, 0.5, 0.0)):
+		if corpse.in_view(player.camera):
 			player.add_camera_zoom((sin(deg_to_rad(GameState.clock_ms() / 20.0)) + 1.0) * 15.0)
 			var audio := get_tree().get_first_node_in_group("audio")
 			if audio != null:

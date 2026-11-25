@@ -2921,7 +2921,7 @@ func _scn_room035() -> void:
 	for step in range(0, 360):
 		player.camera.rotation.x = deg_to_rad(float(step) * 0.25)
 		await get_tree().process_frame
-		if not player.camera.is_position_in_frustum(eye_spot) and event._host_in_view(player.camera):
+		if not player.camera.is_position_in_frustum(eye_spot) and event.host.in_view(player.camera):
 			edge_yaw = base_yaw
 			break
 	check("a view with only the host's edge in it exists", edge_yaw != INF, "")

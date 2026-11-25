@@ -80,9 +80,9 @@ func _yaw_to(point: Vector3) -> float:
 	return atan2(-(point.x - global_position.x), -(point.z - global_position.z))
 
 func _noticed(player: CharacterBody3D) -> bool:
-	if not player.camera.is_position_in_frustum(global_position + Vector3(0.0, 0.8, 0.0)):
+	if not player.camera.is_position_in_frustum(global_position):
 		return false
-	var query := PhysicsRayQueryParameters3D.create(player.camera.global_position, global_position + Vector3(0.0, 0.8, 0.0))
+	var query := PhysicsRayQueryParameters3D.create(player.camera.global_position, global_position)
 	query.collision_mask = 1
 	return get_world_3d().direct_space_state.intersect_ray(query).is_empty()
 

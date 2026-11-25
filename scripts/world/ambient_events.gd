@@ -116,10 +116,6 @@ func _statue() -> Node3D:
 func _in_view(player: CharacterBody3D, point: Vector3) -> bool:
 	return player.camera.is_position_in_frustum(point)
 
-func _statue_in_view(player: CharacterBody3D) -> bool:
-	var s := _statue()
-	return s != null and _in_view(player, s.global_position + Vector3(0.0, 0.8, 0.0))
-
 func _put_173(centre: Vector3) -> void:
 	var s := _statue()
 	if s != null:
@@ -227,7 +223,7 @@ func _ev_lockroom173(rec: Dictionary, _st: Dictionary, c: Dictionary) -> void:
 		return
 	if s.idle > 1:
 		_remove(c.key)
-	elif not _statue_in_view(c.player) or s.global_position.distance_to(c.player.global_position) > 15.0:
+	elif not _in_view(c.player, s.global_position + Vector3(0.0, Scp173.COLLIDER_RADIUS, 0.0)) or s.global_position.distance_to(c.player.global_position) > 15.0:
 		var a := deg_to_rad(225.0 - 90.0 + float(rec.angle))
 		_put_173(Vector3(rec.position.x + cos(a) * 2.0, rec.position.y + 0.6, rec.position.z - sin(a) * 2.0))
 		_remove(c.key)
@@ -237,7 +233,7 @@ func _ev_room2doors173(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 	if not c.in_room:
 		return
 	var s := _statue()
-	if s != null and st.s == 0.0 and s.idle == 0 and not _statue_in_view(c.player):
+	if s != null and st.s == 0.0 and s.idle == 0 and not s.in_view(c.player.camera):
 		st.s = 1.0
 		var spot: Vector3 = c.room.object_point(0)
 		_put_173(Vector3(spot.x, rec.position.y + 0.5, spot.z))

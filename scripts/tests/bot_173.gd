@@ -247,7 +247,7 @@ func _scn_173_rules() -> void:
 		yaw += 0.5
 		player.rotation.y = deg_to_rad(yaw)
 		player.camera.force_update_transform()
-	var edge_in_view: bool = statue._in_view(player.camera)
+	var edge_in_view: bool = statue.in_view(player.camera)
 	player.blink_timer = 450.0
 	statue.has_enemy = false
 	statue.active = true

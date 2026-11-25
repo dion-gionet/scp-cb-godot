@@ -69,7 +69,7 @@ func _physics_process(delta: float) -> void:
 				Sfx.play_at(self, RUSTLES[randi_range(0, 2)], 8.0, randf_range(0.0, 0.2))
 		return
 	var lift := _pose(fps, 0.005)
-	if player.camera.is_position_in_frustum(global_position + Vector3(0.0, lift, 0.0)):
+	if EntityInView.mesh(player.camera, _visual.mesh_instance):
 		GameState.give_achievement("372")
 		if randf() < fps / 30.0 and (_voice == null or not is_instance_valid(_voice) or not _voice.playing) and _in_line_of_sight(player, lift):
 			_voice = Sfx.play_at(self, RUSTLES[randi_range(0, 2)], 8.0, 0.3)

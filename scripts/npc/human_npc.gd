@@ -520,3 +520,6 @@ func set_frame(value: float) -> void:
 		return
 	frame = value
 	_visual.set_frame(frame)
+
+func in_view(camera: Camera3D) -> bool:
+	return EntityInView.mesh(camera, _visual.mesh_instance)

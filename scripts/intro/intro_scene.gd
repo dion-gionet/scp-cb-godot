@@ -590,7 +590,7 @@ func _guard_handover(fps: float) -> void:
 			ulgrin.animate(483.0, 607.0, 0.2, fps, true)
 			if player.global_position.distance_to(ulgrin.global_position) < 1.5:
 				var camera: Camera3D = player.camera
-				if camera.is_position_in_frustum(ulgrin.global_position + Vector3(0.0, 0.9, 0.0)):
+				if ulgrin.in_view(camera):
 					GameState.hand_icon = true
 					if Input.is_action_just_pressed("interact") or test_interact:
 						test_interact = false
@@ -670,7 +670,7 @@ func _approach(fps: float) -> void:
 	elif _voices.has(6 * 10 + 1):
 		franklin.animate(328.0, 320.0, -0.02, fps, false)
 	if not _see_173_played:
-		if statue._line_of_sight(player) and player.camera.is_position_in_frustum(statue.global_position + Vector3(0.0, 0.8, 0.0)):
+		if statue._line_of_sight(player) and statue.in_view(player.camera):
 			message("Press %s to blink." % _key_name("blink"), 4.0)
 			intro_sfx(17)
 			_see_173_played = true

@@ -43,7 +43,7 @@ func _ev_tunnel106(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 		if c.dist < 5.0 and c.dist > 0.0:
 			if old.state >= 0.0:
 				st.s = 1.0
-			elif old.state <= -10.0 and old.global_position.distance_to(player.global_position) > 5.0 and not host._in_view(player, old.global_position + Vector3(0.0, 0.8, 0.0)):
+			elif old.state <= -10.0 and old.global_position.distance_to(player.global_position) > 5.0 and not old.in_view(player.camera):
 				st.s = 1.0
 				st.s2 = 1.0
 		elif _contained():

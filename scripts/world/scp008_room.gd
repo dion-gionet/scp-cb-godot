@@ -168,7 +168,7 @@ func _try_break_window(player: CharacterBody3D, statue: Node3D) -> void:
 	var attack: Vector3 = room.to_global(room.fill_objects.get(4, Vector3.ZERO))
 	if statue.global_position.distance_to(attack) >= 3.0:
 		return
-	var unseen: bool = player.blink_timer < -10.0 or not player.camera.is_position_in_frustum(statue.global_position + Vector3(0.0, 0.5, 0.0))
+	var unseen: bool = player.blink_timer < -10.0 or not statue.in_view(player.camera)
 	if unseen and statue.idle == 0:
 		statue.put_at_collider(Vector3(attack.x, room.global_position.y + 0.5, attack.z))
 		_window.visible = false

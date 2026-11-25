@@ -164,7 +164,7 @@ func _host_phase(facility: FacilityMap, player: CharacterBody3D, st: Dictionary,
 	var before: float = st.s
 	if st.s == 1.0:
 		var spot := _object(3)
-		if player.global_position.distance_to(spot) < 1.2 and _host_in_view(player.camera):
+		if player.global_position.distance_to(spot) < 1.2 and host.in_view(player.camera):
 			s.give_achievement("035")
 			Sfx.play_global(self, "SFX/SCP/035/GetUp.ogg")
 			st.s = 1.5
@@ -179,19 +179,6 @@ func _host_phase(facility: FacilityMap, player: CharacterBody3D, st: Dictionary,
 		_closed(player, st, fps, gas_lever.is_on(), before)
 	else:
 		_opened(facility, player, st, fps)
-
-# EntityInView on a mesh tests its bounding box, not one point
-func _host_in_view(camera: Camera3D) -> bool:
-	var mesh_node: MeshInstance3D = host._visual.mesh_instance
-	var box: AABB = mesh_node.global_transform * mesh_node.get_aabb()
-	for plane in camera.get_frustum():
-		var corner := Vector3(
-			box.position.x if plane.normal.x > 0.0 else box.end.x,
-			box.position.y if plane.normal.y > 0.0 else box.end.y,
-			box.position.z if plane.normal.z > 0.0 else box.end.z)
-		if plane.is_point_over(corner):
-			return false
-	return true
 
 func _closed(player: CharacterBody3D, st: Dictionary, fps: float, valves: bool, before: float) -> void:
 	var s := GameState

@@ -237,15 +237,8 @@ func _restore_view(player: Node3D) -> void:
 	if player != null and player.camera != null:
 		player.camera.far = _previous_far
 
-# EntityInView tests the entity's bounding sphere, not just its pivot at the foot: here the sphere of the door's mesh against the frustum.
 func _in_view(camera: Camera3D, door: Node3D) -> bool:
 	var visual := door.get_child(0) as MeshInstance3D
 	if visual == null or visual.mesh == null:
 		return camera.is_position_in_frustum(door.global_position)
-	var box: AABB = visual.mesh.get_aabb()
-	var centre: Vector3 = visual.global_transform * box.get_center()
-	var radius: float = (box.size * visual.global_transform.basis.get_scale()).length() * 0.5
-	for plane in camera.get_frustum():
-		if plane.distance_to(centre) > radius:
-			return false
-	return true
+	return EntityInView.mesh(camera, visual)

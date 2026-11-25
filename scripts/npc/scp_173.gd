@@ -107,7 +107,7 @@ func _physics_process(delta: float) -> void:
 			seen = true
 			enemy_pos = player.global_position
 			has_enemy = true
-		observed = not GameState.no_target_mode() and not player.eyes_closed() and not GameState.nvg_blinking and _in_view(player.camera)
+		observed = not GameState.no_target_mode() and not player.eyes_closed() and not GameState.nvg_blinking and in_view(player.camera)
 	if GameState.no_target_mode():
 		seen = false
 		has_enemy = false
@@ -215,19 +215,9 @@ func _face(target: Vector3) -> void:
 	if flat.length() > 0.01:
 		rotation.y = atan2(-flat.x, -flat.z)
 
-# EntityInView(n\obj, Camera): Blitz3D culls the mesh's bounding box against the view frustum, with no occlusion test, so any
-# corner on screen holds 173 still, even through a wall.
-func _in_view(camera: Camera3D) -> bool:
-	var box := visual.global_transform * visual.get_aabb()
-	for plane in camera.get_frustum():
-		var outside := true
-		for i in 8:
-			if not plane.is_point_over(box.get_endpoint(i)):
-				outside = false
-				break
-		if outside:
-			return false
-	return true
+# EntityInView(n\obj, Camera): any corner of the mesh on screen holds 173 still, even through a wall.
+func in_view(camera: Camera3D) -> bool:
+	return EntityInView.mesh(camera, visual)
 
 func _line_of_sight(player: Node3D) -> bool:
 	var from := global_position + Vector3(0.0, 0.8, 0.0)

@@ -171,7 +171,7 @@ func _attack(fps: float, delta: float, dist: float, player: CharacterBody3D) -> 
 	if GameState.no_target:
 		visible_now = false
 	if visible_now:
-		if _in_view(player):
+		if player.camera.is_position_in_frustum(global_position + Vector3(0.0, 0.15, 0.0)):
 			GameState.give_achievement("106")
 			GameState.blur_volume = maxf(maxf(minf((4.0 - dist) / 6.0, 0.9), 0.1), GameState.blur_volume)
 			var pinch: float = (sin(deg_to_rad(GameState.clock_ms() / 20.0)) + 1.0) * 20.0 * maxf((4.0 - dist) / 4.0, 0.0)
@@ -192,13 +192,13 @@ func _attack(fps: float, delta: float, dist: float, player: CharacterBody3D) -> 
 	elif not in_gate_a and not GameState.no_target:
 		_grab(fps, dist, player, in_pocket)
 	global_position += -global_transform.basis.z * curr_speed * delta
-	if state <= randf_range(-3500.0, -3000.0) and not _in_view(player) and dist > 5.0:
+	if state <= randf_range(-3500.0, -3000.0) and not in_view(player.camera) and dist > 5.0:
 		state = randf_range(22000.0, 27000.0)   # he goes back where he came from
 		global_position = Vector3(player.global_position.x, player.global_position.y - 30.0, player.global_position.z)
 	if player.fall_timer < -250.0:
 		_take_player(player)
 	reload = maxf(reload - fps, 0.0)
-	if reload == 0.0 and dist > 10.0 and state < -5.0 and not in_pocket and not in_gate_a and not _in_view(player):
+	if reload == 0.0 and dist > 10.0 and state < -5.0 and not in_pocket and not in_gate_a and not in_view(player.camera):
 		_reappear_behind(player)
 
 # Frames 110..259 at 0.15: he climbs out of the floor, turning slowly to face the player.
@@ -320,8 +320,8 @@ func _line_to(player: Node3D) -> bool:
 	query.collision_mask = 1
 	return get_world_3d().direct_space_state.intersect_ray(query).is_empty()
 
-func _in_view(player: CharacterBody3D) -> bool:
-	return player.camera.is_position_in_frustum(global_position + Vector3(0.0, 0.6, 0.0))
+func in_view(camera: Camera3D) -> bool:
+	return EntityInView.mesh(camera, _visual.mesh_instance)
 
 func _turn_toward(point: Vector3, fps: float, smooth: float) -> void:
 	var flat := Vector3(point.x - global_position.x, 0.0, point.z - global_position.z)

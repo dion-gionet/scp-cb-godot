@@ -201,7 +201,7 @@ func _ev_room2elevator(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 func _ev_room4tunnels(rec: Dictionary, _st: Dictionary, c: Dictionary) -> void:
 	if c.dist >= 10.0 or c.dist <= 0.0:
 		return
-	var body: Node3D = host.facility.spawn_human(HumanNpc.Kind.CLASS_D, Vector3(rec.position.x + 1.0, rec.position.y + 0.5, rec.position.z - 1.0), 8)
+	var body: Node3D = host.facility.spawn_human(HumanNpc.Kind.CLASS_D, NpcGravity.feet(Vector3(rec.position.x + 1.0, rec.position.y + 0.5, rec.position.z - 1.0), NpcGravity.CLASS_D_RADIUS), 8)
 	body.rotation.y = deg_to_rad(float(rec.angle) - randi_range(20, 60))
 	body.set_frame(19.0)
 	body.state = 8
@@ -649,7 +649,7 @@ func _ev_room2shaft(rec: Dictionary, st: Dictionary, c: Dictionary) -> void:
 	var spot: Vector3 = c.room.object_point(1)
 	if spot == Vector3.INF:
 		return
-	var guard: Node3D = host.facility.spawn_human(HumanNpc.Kind.GUARD, Vector3(spot.x, spot.y + 0.1, spot.z))
+	var guard: Node3D = host.facility.spawn_human(HumanNpc.Kind.GUARD, NpcGravity.feet(spot + Vector3(0.0, 0.5, 0.0)))
 	guard.rotation.y = deg_to_rad(float(rec.angle) + 180.0)
 	guard.set_frame(286.0)
 	guard.state = 8

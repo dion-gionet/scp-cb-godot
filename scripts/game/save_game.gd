@@ -499,7 +499,6 @@ static func _restore_npcs(main: Node, facility: FacilityMap, data: Dictionary) -
 	if statue != null and data.has("scp173"):
 		statue.velocity = Vector3.ZERO
 		statue.global_position = _unvec(data.scp173.pos)
-		statue.floor_y = statue.global_position.y
 		statue.active = bool(data.scp173.active)
 		statue.idle = int(data.scp173.get("idle", 0))
 		statue.contained = bool(data.scp173.get("contained", false))

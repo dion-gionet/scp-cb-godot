@@ -39,13 +39,12 @@ func _physics_process(delta: float) -> void:
 	if str(facility.record_at(player.global_position).get("key", "")) != room.room_key:
 		return
 	var fps := delta * 70.0
-	var statue: Node3D = GameState.scp173
+	var statue := GameState.scp173 as Scp173
 	var moved: Dictionary = facility.events.room3servers.moved_173     # EventState3, kept for a save
 	if not moved.has(room.room_key) and statue != null and statue.idle == 0 and player.blink_timer < -10.0:
 		var spot: Vector3 = room.object_point(randi_range(0, 2))
 		if spot != Vector3.INF:
-			statue.velocity = Vector3.ZERO
-			statue.global_position = Vector3(spot.x, spot.y + statue.floor_y, spot.z)
+			statue.put_at_collider(spot)
 		moved[room.room_key] = true
 	if duck == null:
 		return

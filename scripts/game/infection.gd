@@ -122,7 +122,7 @@ func _carry_to_chamber(player: CharacterBody3D, facility: FacilityMap) -> void:
 	facility.after_teleport()
 	if scientist != null and is_instance_valid(scientist):
 		facility.remove_human(scientist)
-	scientist = facility.spawn_human(HumanNpc.Kind.CLASS_D, scientist_spot + Vector3(0.0, 0.2, 0.0), 3)
+	scientist = facility.spawn_human(HumanNpc.Kind.CLASS_D, NpcGravity.feet(scientist_spot + Vector3(0.0, 0.2, 0.0), NpcGravity.CLASS_D_RADIUS), 3)
 	scientist.state = 6
 	Sfx.play_at(scientist, "SFX/SCP/008/KillScientist1.ogg", 14.0)
 	teleported = true

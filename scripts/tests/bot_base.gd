@@ -289,7 +289,6 @@ func place_player(pos: Vector3) -> void:
 func place_statue(pos: Vector3) -> void:
 	statue.velocity = Vector3.ZERO
 	statue.global_position = pos
-	statue.floor_y = pos.y
 
 func flat_dist(a: Vector3, b: Vector3) -> float:
 	return Vector2(a.x - b.x, a.z - b.z).length()

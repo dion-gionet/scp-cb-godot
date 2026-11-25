@@ -116,7 +116,6 @@ func enter_after_breach(player: Node3D, statue: Node, intro_room: Node, place_ac
 			statue.velocity = Vector3.ZERO
 			statue.global_position = start_node.to_global(statue_local)
 			statue.rotation.y = start_node.rotation.y + deg_to_rad(-190.0)
-			statue.floor_y = statue.global_position.y
 			statue.active = true
 			var to_statue: Vector3 = statue.global_position - player.global_position
 			player.rotation.y = atan2(-to_statue.x, -to_statue.z)

@@ -234,7 +234,6 @@ func start_game(progress: Callable = Callable()) -> void:
 	var statue_pos := Vector3(32.0 * MeshLoader.ROOM_SCALE, 0.0, -1072.0 * MeshLoader.ROOM_SCALE)
 	statue_pos.y = room.floor_height(statue_pos.x, statue_pos.z) + 0.05
 	statue.position = statue_pos
-	statue.floor_y = statue_pos.y
 	statue.rotation.y = deg_to_rad(-190.0)
 	world.add_child(statue)
 	GameState.scp173 = statue

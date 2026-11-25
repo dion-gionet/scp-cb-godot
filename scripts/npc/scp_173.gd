@@ -25,7 +25,6 @@ var active := false
 var idle := 0
 var contained := false
 var target_node: Node = null
-var floor_y := 0.31
 var mesh_depth := 1.0
 var enemy_pos := Vector3.ZERO
 var has_enemy := false

@@ -3281,9 +3281,9 @@ func _scn_room3servers() -> void:
 	var near := false
 	for i in 3:
 		var spot: Vector3 = room.object_point(i)
-		if Vector2(statue.global_position.x - spot.x, statue.global_position.z - spot.z).length() < 0.5:
+		if Vector2(statue.global_position.x - spot.x, statue.global_position.z - spot.z).length() < 0.5 and absf(statue.global_position.y - (spot.y - Scp173.COLLIDER_RADIUS)) < 0.3:
 			near = true
-	check("173 is put at one of Objects[0..2] at the first blink", near, str(statue.global_position))
+	check("173 is put at one of Objects[0..2] (its collider centre on the pivot) at the first blink", near, str(statue.global_position))
 	var facing: Vector3 = -event.duck.global_transform.basis.z
 	var toward: Vector3 = player.camera.global_position - event.duck.global_position
 	check("the duck turns to the camera during the blink", Vector2(facing.x, facing.z).normalized().dot(Vector2(toward.x, toward.z).normalized()) > 0.98, "")

@@ -151,7 +151,6 @@ func neck_snap(at_node: Node3D, file_index: int = 0, range_: float = 8.0) -> voi
 func _statue_pin(spot: Vector3) -> void:
 	statue.velocity = Vector3.ZERO
 	statue.global_position = spot
-	statue.floor_y = spot.y
 
 func _physics_process(delta: float) -> void:
 	if not started or done or player == null or not is_instance_valid(room):

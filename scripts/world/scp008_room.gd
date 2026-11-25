@@ -121,8 +121,8 @@ func _physics_process(delta: float) -> void:
 	var statue: Node3D = GameState.scp173
 	if event_state == 0:
 		if statue != null and statue.idle < 2 and statue.global_position.distance_to(player.global_position) > 15.0:
-			statue.global_position = room.to_global(room.fill_objects.get(3, Vector3.ZERO)) + Vector3(0.0, 0.05, 0.0)
-			statue.velocity = Vector3.ZERO
+			var spot: Vector3 = room.to_global(room.fill_objects.get(3, Vector3.ZERO))
+			statue.put_at_collider(Vector3(spot.x, room.global_position.y + 0.5, spot.z))
 		event_state = 1
 	elif event_state == 1:
 		if not _alarm.playing:
@@ -170,8 +170,7 @@ func _try_break_window(player: CharacterBody3D, statue: Node3D) -> void:
 		return
 	var unseen: bool = player.blink_timer < -10.0 or not player.camera.is_position_in_frustum(statue.global_position + Vector3(0.0, 0.5, 0.0))
 	if unseen and statue.idle == 0:
-		statue.global_position = attack + Vector3(0.0, 0.05, 0.0)
-		statue.velocity = Vector3.ZERO
+		statue.put_at_collider(Vector3(attack.x, room.global_position.y + 0.5, attack.z))
 		_window.visible = false
 		window_broken = true
 		if GameState.wearing_hazmat == 0:

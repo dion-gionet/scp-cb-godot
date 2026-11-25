@@ -233,7 +233,6 @@ func _pin_173(statue: CharacterBody3D, spot: Vector3, yaw: float, shown: bool) -
 	statue.active = false
 	statue.velocity = Vector3.ZERO
 	statue.global_position = spot + Vector3(0.0, 0.01, 0.0)
-	statue.floor_y = statue.global_position.y
 	statue.visible = shown
 	if yaw != 0.0:
 		statue.rotation.y = room.rotation.y + deg_to_rad(yaw)

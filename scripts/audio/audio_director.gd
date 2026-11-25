@@ -196,6 +196,11 @@ func heartbeat(volume: float, rate: float) -> void:
 	_heart_volume = maxf(_heart_volume, volume)
 	_heart_rate = maxf(_heart_rate, rate)
 
+# HeartBeatRate = Max(rate, current), HeartBeatVolume = volume.
+func heartbeat_set_volume(volume: float, rate: float) -> void:
+	_heart_volume = volume
+	_heart_rate = maxf(_heart_rate, rate)
+
 # HeartBeatVolume = CurveValue(volume, HeartBeatVolume, vol_smooth), HeartBeatRate likewise.
 func heartbeat_curve(volume: float, rate: float, vol_smooth: float, rate_smooth: float, fps: float) -> void:
 	_heart_volume += (volume - _heart_volume) / maxf(vol_smooth / fps, 1.0)

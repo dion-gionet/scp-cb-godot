@@ -226,6 +226,49 @@ func _scn_173_rules() -> void:
 	var start := statue.global_position
 	await secs(1.0)
 	check("173 behind a wall cannot see or kill, and wanders", not player.dead and statue.global_position.distance_to(start) > 0.1, "dead=%s moved %.1f" % [str(player.dead), statue.global_position.distance_to(start)])
+	# --- EntityInView has no occlusion test: facing it through the wall still holds it
+	statue.active = false
+	place_statue(o + Vector3(0.0, 0.05, -2.5))
+	player.rotation.y = 0.0
+	player.blink_timer = 450.0
+	statue.has_enemy = false
+	statue.active = true
+	start = statue.global_position
+	await secs(0.6)
+	var moved := flat_dist(statue.global_position, start)
+	check("173 behind a wall the player faces stays put", moved < 0.02, "moved %.2f" % moved)
+	wall.position = Vector3(0.0, -50.0, 0.0)
+	# --- EntityInView culls the whole bounding box: an edge of it on screen holds it
+	statue.active = false
+	place_statue(o + Vector3(0.0, 0.05, -3.0))
+	await get_tree().physics_frame
+	var yaw := 0.0
+	while yaw < 90.0 and player.camera.is_position_in_frustum(statue.global_position + Vector3(0.0, 0.8, 0.0)):
+		yaw += 0.5
+		player.rotation.y = deg_to_rad(yaw)
+		player.camera.force_update_transform()
+	var edge_in_view: bool = statue._in_view(player.camera)
+	player.blink_timer = 450.0
+	statue.has_enemy = false
+	statue.active = true
+	start = statue.global_position
+	await secs(0.6)
+	moved = flat_dist(statue.global_position, start)
+	check("173 with its middle off screen but an edge on it stays put", edge_in_view and not player.dead and moved < 0.02, "yaw %.1f in_view=%s moved %.2f" % [yaw, str(edge_in_view), moved])
+	# --- notarget: it moves even while watched
+	statue.active = false
+	place_statue(o + Vector3(0.0, 0.05, -4.0))
+	player.rotation.y = 0.0
+	player.blink_timer = 450.0
+	s.no_target = true
+	statue.active = true
+	start = statue.global_position
+	await secs(0.6)
+	s.no_target = false
+	statue.active = false
+	wall.position = Vector3(0.0, 1.5, -1.0)
+	await get_tree().physics_frame
+	check("with notarget a watched 173 still moves and does not kill", not player.dead and statue.global_position.distance_to(start) > 0.1, "moved %.2f" % statue.global_position.distance_to(start))
 	# --- it walks to where it last saw you
 	statue.active = false
 	place_statue(o + Vector3(-6.0, 0.05, -5.0))

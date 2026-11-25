@@ -108,8 +108,10 @@ func _physics_process(delta: float) -> void:
 			seen = true
 			enemy_pos = player.global_position
 			has_enemy = true
-		if not player.eyes_closed() and not GameState.nvg_blinking and player.camera.is_position_in_frustum(global_position + Vector3(0.0, 0.8, 0.0)):
-			observed = true
+		observed = not GameState.no_target_mode() and not player.eyes_closed() and not GameState.nvg_blinking and _in_view(player.camera)
+	if GameState.no_target_mode():
+		seen = false
+		has_enemy = false
 	var here := Vector2(global_position.x, global_position.z)
 	var moved_volume := clampf(here.distance_to(_prev_xz) / maxf(fps, 0.001) * 2.5, 0.0, 1.0)
 	_prev_xz = here
@@ -214,6 +216,20 @@ func _face(target: Vector3) -> void:
 	if flat.length() > 0.01:
 		rotation.y = atan2(-flat.x, -flat.z)
 
+# EntityInView(n\obj, Camera): Blitz3D culls the mesh's bounding box against the view frustum, with no occlusion test, so any
+# corner on screen holds 173 still, even through a wall.
+func _in_view(camera: Camera3D) -> bool:
+	var box := visual.global_transform * visual.get_aabb()
+	for plane in camera.get_frustum():
+		var outside := true
+		for i in 8:
+			if not plane.is_point_over(box.get_endpoint(i)):
+				outside = false
+				break
+		if outside:
+			return false
+	return true
+
 func _line_of_sight(player: Node3D) -> bool:
 	var from := global_position + Vector3(0.0, 0.8, 0.0)
 	var to: Vector3 = player.camera.global_position
@@ -256,7 +272,7 @@ func _scare_cues(player: Node, dist: float, seen: bool) -> void:
 		player.add_camera_zoom(40.0)
 		var audio := get_tree().get_first_node_in_group("audio")
 		if audio:
-			audio.heartbeat(0.5, 140.0)
+			audio.heartbeat_set_volume(0.5, 140.0)
 		_play_global("SFX/Horror/Horror%d.ogg" % [1, 2, 9, 10, 14][randi() % 5])
 
 func _play_global(relative: String) -> void:
